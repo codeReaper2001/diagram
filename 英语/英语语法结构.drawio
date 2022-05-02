@@ -31,7 +31,7 @@
                     <mxGeometry x="359" y="65" width="171" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="37" value="" style="swimlane;startSize=20;horizontal=1;containerType=tree;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="135" width="840" height="310" as="geometry"/>
+                    <mxGeometry x="40" y="135" width="870" height="310" as="geometry"/>
                 </mxCell>
                 <mxCell id="40" value="简单句" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};fillColor=#f8cecc;strokeColor=#b85450;" parent="37" vertex="1">
                     <mxGeometry x="10" y="133.5" width="100" height="40" as="geometry"/>
@@ -170,8 +170,8 @@
                 <mxCell id="92" value="这种情况是主语+动词+直接宾语其实就是完整的句子成分了，中间加上间接宾语可以理解为动词+直接宾语这个动作施加到的对象，可以将teaches English看成是一个新的动作，而间接宾语是这个动作的承受者" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="37">
                     <mxGeometry x="560" y="90" width="280" height="70.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="93" value="宾语补语即用于补充承受者信息的成分" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="37">
-                    <mxGeometry x="610" y="188.5" width="210" height="27.5" as="geometry"/>
+                <mxCell id="93" value="宾语补语即用于补充动作给予承受者信息的成分" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="37">
+                    <mxGeometry x="610" y="188.5" width="260" height="31.5" as="geometry"/>
                 </mxCell>
                 <mxCell id="98" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#98E848;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="94" target="22">
                     <mxGeometry relative="1" as="geometry"/>
