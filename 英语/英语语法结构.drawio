@@ -294,7 +294,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="148" value="&lt;div style=&quot;text-align: left&quot;&gt;复杂句（从属关系）&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="223" y="1005" width="120" height="40" as="geometry"/>
+                    <mxGeometry x="238" y="1005" width="120" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="150" value="&lt;div style=&quot;text-align: left&quot;&gt;例如使用and单纯连接两个简单句&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
                     <mxGeometry x="376" y="850" width="198" height="30" as="geometry"/>
@@ -703,7 +703,7 @@
                         <mxPoint x="214" y="2615" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="309" value="&lt;div style=&quot;text-align: left&quot;&gt;谓语动词都是由动词来充当的，但动词并不只是作为谓语动词这个句子成分，它还可以通过变形充当多个句子成分：&lt;/div&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="309" value="&lt;div style=&quot;text-align: left&quot;&gt;谓语动词都是由动词来充当的，但动词并不只是作为谓语动词这个句子成分，它还可以通过变形并和其他部分组合为非谓语来充当多个句子成分：&lt;/div&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
                     <mxGeometry x="74" y="2515" width="280" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="312" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=#98E848;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="311" target="314">
@@ -741,8 +741,8 @@
                 <mxCell id="318" value="&lt;div style=&quot;text-align: left&quot;&gt;定语&lt;/div&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
                     <mxGeometry x="380" y="2735" width="100" height="29" as="geometry"/>
                 </mxCell>
-                <mxCell id="323" value="正是由于动词通过变形之后可以充当各种句子成分（此时称为非谓语动词），因此动词也可以替代几乎所有的从句：从句是使用简单句来作为句子成分，而非谓语动词则是使用动词来充当句子成分，它们的功能是相同的。" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="499.46" y="2615" width="310" height="79" as="geometry"/>
+                <mxCell id="323" value="正是由于动词通过变形之后组合成非谓语可以充当各种句子成分（此时称为非谓语动词），因此动词也可以替代几乎所有的从句：从句是使用简单句来作为句子成分，而非谓语动词则是使用动词来充当句子成分，它们的功能是相同的。" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="499.46" y="2615" width="310.54" height="85" as="geometry"/>
                 </mxCell>
                 <mxCell id="330" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#98E848;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;" edge="1" parent="1" source="324" target="325">
                     <mxGeometry relative="1" as="geometry"/>
