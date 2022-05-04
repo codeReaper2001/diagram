@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="VYkaQC0O6ov0rh20eUJT" name="第 1 页">
-        <mxGraphModel dx="527" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="637" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -19,8 +19,8 @@
                 <mxCell id="20" value="- size: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="18">
                     <mxGeometry y="52" width="140" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="可以看到ArrayList中只有两个属性，elementData和size，其中elementData为数据信息，size为当前数组大小" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#A87ED8;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="80" width="140" height="70" as="geometry"/>
+                <mxCell id="22" value="可以看到ArrayList中只有两个属性(还有modCount等父类的属性)，elementData和size，其中elementData为数据信息，size为当前数组大小" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#A87ED8;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="80" width="160" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" value="ArrayList重要的静态属性" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=0;align=center;pointerEvents=1;" vertex="1" parent="1">
                     <mxGeometry x="140" y="180" width="430" height="150" as="geometry"/>
