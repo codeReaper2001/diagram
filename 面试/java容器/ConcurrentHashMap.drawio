@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="vDI8rdkjuRQJPy-rQnWN" name="第 1 页">
-        <mxGraphModel dx="929" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1290" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -11,7 +11,7 @@
                     <mxGeometry x="240" y="2946" width="390" height="205" as="geometry"/>
                 </mxCell>
                 <mxCell id="341" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
-                    <mxGeometry x="530" y="2702.25" width="320" height="298.75" as="geometry"/>
+                    <mxGeometry x="530" y="2702.25" width="320" height="297.75" as="geometry"/>
                 </mxCell>
                 <mxCell id="142" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="1" vertex="1">
                     <mxGeometry x="234" y="1410" width="520" height="800" as="geometry"/>
@@ -940,7 +940,7 @@
                 <mxCell id="317" style="rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="313" target="316">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="313" value="通过cas+自旋的方式设置&lt;br&gt;第一次：i=transferIndex，bound=transferIndex-stride，&lt;br&gt;最后transfer-=stride&lt;br&gt;后面：判断--i==bound?，若为true则表示迁移任务完成" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
+                <mxCell id="313" value="第一次：cas+自旋的方式设置&lt;br&gt;i=transferIndex，bound=transferIndex-stride，&lt;br&gt;transfer-=stride&lt;br&gt;后面：判断--i==bound?，若为true则表示迁移任务完成" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
                     <mxGeometry x="231.53" y="2630" width="157.16" height="91" as="geometry"/>
                 </mxCell>
                 <mxCell id="315" value="&lt;span style=&quot;font-size: 10px&quot;&gt;transferIndex也是成员变量，用于控制当前迁移的起始位置&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#A87ED8;align=left;" vertex="1" parent="1">
@@ -1165,7 +1165,7 @@
                     <mxGeometry x="278.52000000000004" y="3111" width="64.65" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="380" value="&lt;span style=&quot;font-size: 10px&quot;&gt;代码中的while(advance)部分，即第一次是分配任务，迁移范围为(bound, i]，后面每完成一个任务则--i，直到任务全部完成&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#A87ED8;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="394.46" y="2610" width="145.54" height="60" as="geometry"/>
+                    <mxGeometry x="404.43999999999994" y="2600" width="145.54" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
