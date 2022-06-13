@@ -1,17 +1,20 @@
 <mxfile host="65bd71144e">
     <diagram id="Zg5PwccDcSvucMKCE4wA" name="第 1 页">
-        <mxGraphModel dx="825" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1042" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="188" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;strokeColor=default;rounded=0;" edge="1" parent="1" source="185" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="146" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;fillStyle=solid;align=center;" parent="1" vertex="1">
-                    <mxGeometry x="34" y="1430" width="1146" height="490" as="geometry"/>
+                    <mxGeometry x="30" y="1533.3899999999999" width="1146" height="490" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="29" target="32" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="147" value="initializeBean 初始化对象" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillStyle=solid;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
-                    <mxGeometry x="34" y="1429" width="156" height="20" as="geometry"/>
+                    <mxGeometry x="30" y="1532.3899999999999" width="156" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="108" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillStyle=solid;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" parent="1" vertex="1">
                     <mxGeometry x="30" y="585" width="570" height="155" as="geometry"/>
@@ -27,7 +30,7 @@
                         <mxPoint x="117" y="190" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=15;" edge="1" parent="1" source="5" target="176">
+                <mxCell id="177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=15;" parent="1" source="5" target="176" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot; color=&quot;#33001a&quot;&gt;refresh&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillStyle=dots;sketch=1;shadow=0;strokeColor=#CC0000;fillColor=#FFCCCC;" parent="1" vertex="1">
@@ -69,7 +72,7 @@
                 <mxCell id="15" value="&lt;b&gt;resolveBeforeInstantiation&lt;br&gt;InstantiationAwareBeanPostProcessor&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" parent="1" vertex="1">
                     <mxGeometry x="47" y="1044" width="320" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="17" target="20" edge="1">
+                <mxCell id="16" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="17" target="179" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" value="&lt;b&gt;Bean 实例化&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" parent="1" vertex="1">
@@ -82,63 +85,63 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="20" value="&lt;b&gt;InstantiationAwareBeanPostProcessor&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=1;fillStyle=solid;strokeColor=#36393d;fillColor=#ffcc99;" parent="1" vertex="1">
-                    <mxGeometry x="47" y="1204" width="320" height="40" as="geometry"/>
+                    <mxGeometry x="43" y="1307.3899999999999" width="320" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="130" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="21" target="129" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="postProcessAfterInstantiation" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fillColor=none;gradientDirection=south;strokeColor=#333333;" parent="1" vertex="1">
-                    <mxGeometry x="417" y="1204" width="230" height="40" as="geometry"/>
+                    <mxGeometry x="413" y="1307.3899999999999" width="230" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" value="&lt;pre style=&quot;font-family: 宋体; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;在 Bean 对象执行初始化方法之后，执行此方法&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="417" y="1164" width="320" height="35" as="geometry"/>
+                    <mxGeometry x="413" y="1270.39" width="320" height="35" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="25" target="152" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="420" y="1304" as="targetPoint"/>
+                        <mxPoint x="416" y="1407.3899999999999" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="24" style="edgeStyle=none;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;rounded=0;" parent="1" source="25" target="29" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" value="&lt;b&gt;InstantiationAwareBeanPostProcessor&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=1;fillStyle=solid;strokeColor=#36393d;fillColor=#ffcc99;" parent="1" vertex="1">
-                    <mxGeometry x="47" y="1284" width="320" height="40" as="geometry"/>
+                    <mxGeometry x="43" y="1387.3899999999999" width="320" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="132" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="152" target="131" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="647" y="1304.0000000000002" as="sourcePoint"/>
+                        <mxPoint x="643" y="1407.39" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="143" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="29" target="142" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" value="&lt;b&gt;设置属性&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" parent="1" vertex="1">
-                    <mxGeometry x="47" y="1364" width="140" height="40" as="geometry"/>
+                    <mxGeometry x="43" y="1467.3899999999999" width="140" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;dashed=1;" parent="1" source="32" target="148" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="247" y="1484.0000000000002" as="targetPoint"/>
+                        <mxPoint x="243" y="1587.39" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="31" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FFFFFF;" parent="1" source="32" target="38" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="32" value="&lt;b&gt;感知对象&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" parent="1" vertex="1">
-                    <mxGeometry x="47" y="1464" width="140" height="40" as="geometry"/>
+                    <mxGeometry x="43" y="1567.3899999999999" width="140" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="34" value="&lt;pre style=&quot;font-family: 宋体; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;实现此接口，既能感知到所属的 BeanFactory&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="247" y="1420" width="310" height="60" as="geometry"/>
+                    <mxGeometry x="243" y="1523.3899999999999" width="310" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="35" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontColor=#FFFFFF;" parent="1" source="38" target="150" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="247" y="1564" as="targetPoint"/>
+                        <mxPoint x="243" y="1667.3899999999999" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="37" style="rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="38" target="42" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="38" value="&lt;span style=&quot;text-align: left;&quot;&gt;BeanPostProcessor&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f0a30a;sketch=1;fillStyle=solid;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="47" y="1570" width="140" height="40" as="geometry"/>
+                    <mxGeometry x="43" y="1673.3899999999999" width="140" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="40" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="42" target="45" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -147,71 +150,71 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="42" value="&lt;div&gt;&lt;span&gt;初始化方法&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;invokeInitMethods&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fillStyle=solid;strokeColor=#006EAF;fontColor=#FFFFFF;" parent="1" vertex="1">
-                    <mxGeometry x="47" y="1684" width="140" height="40" as="geometry"/>
+                    <mxGeometry x="43" y="1787.3899999999999" width="140" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="43" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;dashed=1;" parent="1" source="45" target="46" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="44" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="165" target="162" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="338" y="2136.94" as="sourcePoint"/>
-                        <mxPoint x="286.4999999999999" y="2156.9399999999996" as="targetPoint"/>
+                        <mxPoint x="334" y="2240.33" as="sourcePoint"/>
+                        <mxPoint x="282.4999999999999" y="2260.3299999999995" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="167" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="44">
+                <mxCell id="167" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="44" vertex="1" connectable="0">
                     <mxGeometry x="-0.443" relative="1" as="geometry">
                         <mxPoint x="7" y="8" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="166" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="45" target="58">
+                <mxCell id="166" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="45" target="58" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="140" y="1960" as="targetPoint"/>
+                        <mxPoint x="136" y="2063.39" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="45" value="&lt;span style=&quot;text-align: left;&quot;&gt;BeanPostProcessor&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f0a30a;sketch=1;fillStyle=solid;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="47" y="1834" width="140" height="40" as="geometry"/>
+                    <mxGeometry x="43" y="1937.3899999999999" width="140" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="159" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="46" target="158">
+                <mxCell id="159" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="46" target="158" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="46" value="&lt;pre style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px&quot;&gt;后置处理 | BeanPostProcessor#postProcessAfterInitialization&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;gradientDirection=south;" parent="1" vertex="1">
-                    <mxGeometry x="247" y="1834" width="373" height="40" as="geometry"/>
+                    <mxGeometry x="243" y="1937.3899999999999" width="373" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="49" value="&lt;pre style=&quot;font-family: 宋体; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;在 Bean 对象执行初始化方法之前，执行此方法&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="240" y="1530" width="320" height="60" as="geometry"/>
+                    <mxGeometry x="236" y="1633.3899999999999" width="320" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="50" value="&lt;pre style=&quot;font-family: 宋体; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;在 Bean 对象执行初始化方法之后，执行此方法&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="254" y="1793" width="320" height="60" as="geometry"/>
+                    <mxGeometry x="250" y="1896.3899999999999" width="320" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="51" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;dashed=1;" parent="1" source="52" target="54" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="52" value="&lt;pre style=&quot;font-size: 14px&quot;&gt;&lt;pre style=&quot;text-align: left ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-size: 10.5pt&quot;&gt;InitializingBean&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;gradientDirection=south;" parent="1" vertex="1">
-                    <mxGeometry x="247" y="1684" width="144" height="40" as="geometry"/>
+                    <mxGeometry x="243" y="1787.3899999999999" width="144" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="53" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;dashed=1;" parent="1" source="54" target="42" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="54" value="&lt;pre style=&quot;font-size: 14px&quot;&gt;&lt;pre style=&quot;text-align: left ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-size: 10.5pt&quot;&gt;init-method&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;gradientDirection=south;" parent="1" vertex="1">
-                    <mxGeometry x="247" y="1753" width="144" height="40" as="geometry"/>
+                    <mxGeometry x="243" y="1856.3899999999999" width="144" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="55" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;shadow=0;labelBackgroundColor=none;sketch=1;fontColor=#000000;strokeColor=#333333;fillColor=#009999;gradientDirection=south;" parent="1" vertex="1">
-                    <mxGeometry x="619.5" y="1684" width="20" height="110" as="geometry"/>
+                    <mxGeometry x="615.5" y="1787.3899999999999" width="20" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="56" value="Bean 处理了属性填充后调用，初始化执行方法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="639.5" y="1729" width="260" height="20" as="geometry"/>
+                    <mxGeometry x="635.5" y="1832.3899999999999" width="260" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="57" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="58" target="165" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="158.4999999999999" y="2130" as="sourcePoint"/>
-                        <mxPoint x="116.99999999999989" y="2164" as="targetPoint"/>
+                        <mxPoint x="154.4999999999999" y="2233.39" as="sourcePoint"/>
+                        <mxPoint x="112.99999999999989" y="2267.39" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="161" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="58" target="160">
+                <mxCell id="161" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="58" target="160" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="58" value="&lt;div style=&quot;text-align: left&quot;&gt;registerDisposableBeanIfNecessary&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;注册bean到DisposableBean集合&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fillStyle=solid;strokeColor=#006EAF;fontColor=#FFFFFF;" parent="1" vertex="1">
-                    <mxGeometry x="47" y="1965.95" width="223" height="46" as="geometry"/>
+                    <mxGeometry x="43" y="2069.34" width="223" height="46" as="geometry"/>
                 </mxCell>
                 <mxCell id="73" value="主要信息有：bean的Class对象，属性值键值对&lt;br&gt;（当值为其他bean引用时为BeanReference类型）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fillColor=none;gradientDirection=south;strokeColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="437" y="230" width="296" height="50" as="geometry"/>
@@ -317,6 +320,9 @@
                 <mxCell id="107" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="103" target="106" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
+                <mxCell id="178" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="103" target="109">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="103" value="&lt;b&gt;创建事件发布对象，放到IoC容器中&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" parent="1" vertex="1">
                     <mxGeometry x="47" y="617" width="223" height="40" as="geometry"/>
                 </mxCell>
@@ -380,13 +386,13 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="131" value="这个方法的作用是提供在使用BeanDefinition中的PropertyValues给对象填充值前最后一次修改PropertyValues内容的机会，在此可以修改pvs的内容" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=center;" parent="1" vertex="1">
-                    <mxGeometry x="710" y="1269.9999999999998" width="220" height="83.63" as="geometry"/>
+                    <mxGeometry x="706" y="1373.3899999999996" width="220" height="83.63" as="geometry"/>
                 </mxCell>
                 <mxCell id="129" value="在small spring中的对应接口的实现类中这个方法中的逻辑均为空" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=center;" parent="1" vertex="1">
-                    <mxGeometry x="710" y="1196.38" width="182" height="55.25" as="geometry"/>
+                    <mxGeometry x="706" y="1299.77" width="182" height="55.25" as="geometry"/>
                 </mxCell>
                 <mxCell id="27" value="&lt;pre style=&quot;font-family: 宋体; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;在 Bean 对象实例化完成后，设置属性操作之前执行此方法&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="417" y="1244" width="390" height="40" as="geometry"/>
+                    <mxGeometry x="413" y="1347.3899999999999" width="390" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="136" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="133" target="135" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -395,13 +401,13 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="133" value="AutowiredAnnotationBeanPostProcessor&lt;br&gt;#postProcessPropertyValues实现了读取并解析beanClass中@Value、@Autowired和@Qualifier注解的逻辑，最后根据读取到的内容修改pvs中的内容，实现了通过注解实现依赖注入" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=hachure;align=center;" parent="1" vertex="1">
-                    <mxGeometry x="980" y="1261.81" width="220" height="100" as="geometry"/>
+                    <mxGeometry x="976" y="1365.1999999999998" width="220" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="135" value="读取@Autowired和@Qualifier注解后会根据beanClass或beanName进行getBean，即转为提前创建对应bean在将其注入进来" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fillStyle=hachure;align=center;" parent="1" vertex="1">
-                    <mxGeometry x="1250" y="1320" width="220" height="74" as="geometry"/>
+                    <mxGeometry x="1246" y="1423.3899999999999" width="220" height="74" as="geometry"/>
                 </mxCell>
                 <mxCell id="137" value="读取@Value后会使用前面&lt;span style=&quot;text-align: left&quot;&gt;PropertyPlaceholderConfigurer这个BeanFactoryProcessor存到工厂的&lt;/span&gt;&lt;br&gt;StringValueResolver先对字符串进行解析（解析${value}），后填充到String对象中" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fillStyle=hachure;align=center;" parent="1" vertex="1">
-                    <mxGeometry x="1250" y="1227.5" width="240" height="73" as="geometry"/>
+                    <mxGeometry x="1246" y="1330.8899999999999" width="240" height="73" as="geometry"/>
                 </mxCell>
                 <mxCell id="140" value="small spring中的唯一实现类为PropertyPlaceholderConfigurer，它的postProcessBeanFactory方法的主要逻辑如下：&lt;br&gt;① 加载配置文件&lt;br&gt;② 遍历所有BeanDefinition，对元素的所有pv的String类型的v进行替换操作（替换${value}）&lt;br&gt;③ 封装出PlaceholderResolvingStringValueResolver对象挂载到BeanFactory中供解析@Value时使用" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=hachure;align=left;" parent="1" vertex="1">
                     <mxGeometry x="1180" y="391.25" width="300" height="127.5" as="geometry"/>
@@ -410,76 +416,112 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="142" value="遍历当前BeanDefinition的pvs，根据k-&amp;gt;v将v通过反射填充到对象属性中" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fillColor=none;gradientDirection=south;strokeColor=#333333;" parent="1" vertex="1">
-                    <mxGeometry x="247" y="1358.5" width="226" height="51" as="geometry"/>
+                    <mxGeometry x="243" y="1461.8899999999999" width="226" height="51" as="geometry"/>
                 </mxCell>
                 <mxCell id="144" value="当k-&amp;gt;v的value为BeanReference类型时则转为先调用getBean获取这个依赖的bean（创建或从缓存获取，参数为beanName）" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=center;" parent="1" vertex="1">
-                    <mxGeometry x="519.5" y="1351.09" width="203" height="65.82" as="geometry"/>
+                    <mxGeometry x="515.5" y="1454.4799999999998" width="203" height="65.82" as="geometry"/>
                 </mxCell>
                 <mxCell id="148" value="回调实现了BeanFactoryAware、BeanClassLoaderAware、BeanNameAware这三个接口的bean的对应方法，可以感知对应的对象" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;gradientDirection=south;" parent="1" vertex="1">
-                    <mxGeometry x="247" y="1459.5" width="393" height="49" as="geometry"/>
+                    <mxGeometry x="243" y="1562.8899999999999" width="393" height="49" as="geometry"/>
                 </mxCell>
-                <mxCell id="154" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;sketch=1;" edge="1" parent="1" source="150" target="153">
+                <mxCell id="154" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;sketch=1;" parent="1" source="150" target="153" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="150" value="前置处理 | BeanPostProcessor#postProcessBeforeInitialization" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;gradientDirection=south;" parent="1" vertex="1">
-                    <mxGeometry x="240" y="1572.37" width="380" height="37.63" as="geometry"/>
+                    <mxGeometry x="236" y="1675.7599999999998" width="380" height="37.63" as="geometry"/>
                 </mxCell>
                 <mxCell id="152" value="postProcessPropertyValues" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fillColor=none;gradientDirection=south;strokeColor=#333333;" parent="1" vertex="1">
-                    <mxGeometry x="417" y="1284" width="230" height="40" as="geometry"/>
+                    <mxGeometry x="413" y="1387.3899999999999" width="230" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="156" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="153" target="155">
+                <mxCell id="156" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="153" target="155" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="153" value="ApplicationContextAwareProcessor实现了BeanPostProcessor接口，在postProcessBeforeInitialization方法中实现了bean对ApplicationContext的感知功能" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=center;" vertex="1" parent="1">
-                    <mxGeometry x="664" y="1549.0900000000001" width="228" height="81.81" as="geometry"/>
+                <mxCell id="153" value="ApplicationContextAwareProcessor实现了BeanPostProcessor接口，在postProcessBeforeInitialization方法中实现了bean对ApplicationContext的感知功能" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="1652.48" width="228" height="81.81" as="geometry"/>
                 </mxCell>
-                <mxCell id="157" value="步骤：&lt;br&gt;① 如果是InitializingBean，则先执行它的afterPropertiesSet()方法&lt;br&gt;② 从BeanDefinition中取出initMethod，通过反射找到对应Method然后反射执行" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="402.5" y="1689.05" width="217" height="99.9" as="geometry"/>
+                <mxCell id="157" value="步骤：&lt;br&gt;① 如果是InitializingBean，则先执行它的afterPropertiesSet()方法&lt;br&gt;② 从BeanDefinition中取出initMethod，通过反射找到对应Method然后反射执行" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="398.5" y="1792.4399999999998" width="217" height="99.9" as="geometry"/>
                 </mxCell>
-                <mxCell id="155" value="small spring的其余BeanPostProcessor这个方法的实现均为空" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=hachure;align=center;" vertex="1" parent="1">
-                    <mxGeometry x="934" y="1563.64" width="216" height="52.71" as="geometry"/>
+                <mxCell id="155" value="small spring的其余BeanPostProcessor这个方法的实现均为空" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=hachure;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="930" y="1667.03" width="216" height="52.71" as="geometry"/>
                 </mxCell>
-                <mxCell id="158" value="DefaultAdvisorAutoProxyCreator是small spring中唯一该方法实现不为空的类，此方法内的逻辑为：&lt;br&gt;① 判断bean是否存在于二级缓存，如存在则返回&lt;br&gt;② 返回对应的代理对象（动态代理）&lt;br&gt;&amp;lt;&amp;lt;bean&amp;gt;&amp;gt; -&amp;gt; &amp;lt;&amp;lt;bean代理对象&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="664" y="1801.02" width="219" height="105.95" as="geometry"/>
+                <mxCell id="158" value="DefaultAdvisorAutoProxyCreator是small spring中唯一该方法实现不为空的类，此方法内的逻辑为：&lt;br&gt;① 判断bean是否存在于二级缓存，如存在则返回&lt;br&gt;② 返回对应的代理对象（动态代理）&lt;br&gt;&amp;lt;&amp;lt;bean&amp;gt;&amp;gt; -&amp;gt; &amp;lt;&amp;lt;bean代理对象&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="1904.4099999999999" width="219" height="105.95" as="geometry"/>
                 </mxCell>
-                <mxCell id="160" value="内部逻辑：&lt;br&gt;判断&lt;br&gt;① bean是单例模式&lt;br&gt;② 实现了DisposableBean接口 || 存在destroy-method&lt;br&gt;符合则注册到disposableBeans集合中供后面销毁时回调" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="322" y="1940" width="219" height="105.95" as="geometry"/>
+                <mxCell id="160" value="内部逻辑：&lt;br&gt;判断&lt;br&gt;① bean是单例模式&lt;br&gt;② 实现了DisposableBean接口 || 存在destroy-method&lt;br&gt;符合则注册到disposableBeans集合中供后面销毁时回调" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="318" y="2043.3899999999999" width="219" height="105.95" as="geometry"/>
                 </mxCell>
-                <mxCell id="164" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="162" target="163">
+                <mxCell id="164" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="162" target="163" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="169" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="162" target="168">
+                <mxCell id="169" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="162" target="168" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="162" value="&lt;div style=&quot;text-align: left&quot;&gt;bean=getSingleton(beanName)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fillStyle=solid;strokeColor=#006EAF;fontColor=#FFFFFF;" vertex="1" parent="1">
-                    <mxGeometry x="47" y="2150" width="200" height="40" as="geometry"/>
+                <mxCell id="162" value="&lt;div style=&quot;text-align: left&quot;&gt;bean=getSingleton(beanName)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fillStyle=solid;strokeColor=#006EAF;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="43" y="2253.39" width="200" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="163" value="获取可能原来存储在二级缓存中的代理对象作为最终bean" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="322" y="2140" width="176" height="60" as="geometry"/>
+                <mxCell id="163" value="获取可能原来存储在二级缓存中的代理对象作为最终bean" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="318" y="2243.39" width="176" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="174" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=15;" edge="1" parent="1" source="165" target="173">
+                <mxCell id="174" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=15;" parent="1" source="165" target="173" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="165" value="判断是否是单例" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=-1;hachureGap=8;fillStyle=solid;sketch=1;shadow=0;labelBackgroundColor=none;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
-                    <mxGeometry x="98.5" y="2050" width="120" height="50" as="geometry"/>
+                <mxCell id="165" value="判断是否是单例" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=-1;hachureGap=8;fillStyle=solid;sketch=1;shadow=0;labelBackgroundColor=none;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="94.5" y="2153.39" width="120" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="171" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="168" target="170">
+                <mxCell id="171" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="168" target="170" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="168" value="&lt;div style=&quot;text-align: left&quot;&gt;registerSingleton&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fillStyle=solid;strokeColor=#006EAF;fontColor=#FFFFFF;" vertex="1" parent="1">
-                    <mxGeometry x="47" y="2230" width="143" height="40" as="geometry"/>
+                <mxCell id="168" value="&lt;div style=&quot;text-align: left&quot;&gt;registerSingleton&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fillStyle=solid;strokeColor=#006EAF;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="43" y="2333.39" width="143" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="175" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fontSize=15;rounded=0;" edge="1" parent="1" source="170" target="173">
+                <mxCell id="175" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fontSize=15;rounded=0;" parent="1" source="170" target="173" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="170" value="① 注册bean到一级缓存中&lt;br&gt;② 二级缓存和三级缓存中删除bean" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="298.5" y="2220" width="203" height="60" as="geometry"/>
+                <mxCell id="170" value="① 注册bean到一级缓存中&lt;br&gt;② 二级缓存和三级缓存中删除bean" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="294.5" y="2323.39" width="203" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="173" value="&lt;b&gt;&lt;font color=&quot;#33001a&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;结束&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillStyle=dots;sketch=1;shadow=0;strokeColor=#CC0000;fillColor=#FFCCCC;" vertex="1" parent="1">
-                    <mxGeometry x="613" y="2050" width="97" height="50" as="geometry"/>
+                <mxCell id="173" value="&lt;b&gt;&lt;font color=&quot;#33001a&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;结束&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillStyle=dots;sketch=1;shadow=0;strokeColor=#CC0000;fillColor=#FFCCCC;" parent="1" vertex="1">
+                    <mxGeometry x="609" y="2153.39" width="97" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="176" value="AbstractApplicationContext#refresh" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=center;" vertex="1" parent="1">
+                <mxCell id="176" value="AbstractApplicationContext#refresh" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=center;" parent="1" vertex="1">
                     <mxGeometry x="249" y="60" width="211" height="42.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="180" style="edgeStyle=none;sketch=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="179" target="20">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="280" y="1230" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="183" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="180">
+                    <mxGeometry x="-0.5234" relative="1" as="geometry">
+                        <mxPoint y="8" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="186" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="179" target="185">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="187" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="186">
+                    <mxGeometry x="0.3979" y="1" relative="1" as="geometry">
+                        <mxPoint x="-14" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="179" value="判断是否是单例" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=-1;hachureGap=8;fillStyle=solid;sketch=1;shadow=0;labelBackgroundColor=none;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="143" y="1195" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="190" style="rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;strokeColor=default;dashed=1;" edge="1" parent="1" source="185" target="189">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="185" value="&lt;b&gt;addSingletonFactory&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="322" y="1202.5" width="185.5" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="192" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=12;strokeColor=default;" edge="1" parent="1" source="189" target="191">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="189" value="将bean封装成ObjectFactory（函数式接口）添加到三级缓存，这个函数回调时会调用InstantiationAwareBeanPostProcessor #getEarlyBeanReference，其中DefaultAdvisorAutoProxyCreator的这个方法会将bean封装成代理对象，并存储到二级缓存中" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="1182.5" width="353" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="191" value="相当于在&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;BeanPostProcessor# postProcessAfterInitialization之前提前将bean封装为代理对象，这是为了解决循环依赖的依赖注入问题（注入的对象需要是最终的对象——&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;如果切面表达式匹配时封装为代理对象&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=hachure;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="976" y="1170.3899999999999" width="220" height="100" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
