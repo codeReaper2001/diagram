@@ -1,0 +1,487 @@
+<mxfile host="65bd71144e">
+    <diagram id="Zg5PwccDcSvucMKCE4wA" name="第 1 页">
+        <mxGraphModel dx="825" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="146" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;fillStyle=solid;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="34" y="1430" width="1146" height="490" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="29" target="32" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="147" value="initializeBean 初始化对象" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillStyle=solid;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+                    <mxGeometry x="34" y="1429" width="156" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillStyle=solid;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="585" width="570" height="155" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="初始化事件处理" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillStyle=solid;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="585" width="120" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;b&gt;加载XML或扫描Class&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="47" y="234.25" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;" parent="1" source="80" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="117" y="190" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=15;" edge="1" parent="1" source="5" target="176">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot; color=&quot;#33001a&quot;&gt;refresh&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillStyle=dots;sketch=1;shadow=0;strokeColor=#CC0000;fillColor=#FFCCCC;" parent="1" vertex="1">
+                    <mxGeometry x="57" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;b&gt;得到BeanDefinition集合&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#ffe6cc;sketch=1;fillStyle=solid;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="252.5" y="235.75" width="150" height="38.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="10" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="10" target="96" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="230" y="500" as="targetPoint"/>
+                        <mxPoint x="207" y="475" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="&lt;b&gt;BeanFactoryPostProcessor update BeanDefinition&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="47" y="435" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="在所有的 BeanDefinition 加载完成后，实例化 Bean 对象之前，提供修改 BeanDefinition 属性的机制。" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="437" y="433" width="280" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;pre style=&quot;color: rgb(0 , 0 , 0) ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(128 , 128 , 0)&quot;&gt;@Value&lt;/span&gt;(&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;&quot;${token}&quot;&lt;/span&gt;)&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="427" y="395" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="13" target="94" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fillColor=none;gradientDirection=south;strokeColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="427" y="435" width="300" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="15" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="15" target="125" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;b&gt;resolveBeforeInstantiation&lt;br&gt;InstantiationAwareBeanPostProcessor&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="47" y="1044" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="17" target="20" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;b&gt;Bean 实例化&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="47" y="1124" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="20" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="20" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;b&gt;InstantiationAwareBeanPostProcessor&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=1;fillStyle=solid;strokeColor=#36393d;fillColor=#ffcc99;" parent="1" vertex="1">
+                    <mxGeometry x="47" y="1204" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="21" target="129" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="postProcessAfterInstantiation" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fillColor=none;gradientDirection=south;strokeColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="417" y="1204" width="230" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;pre style=&quot;font-family: 宋体; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;在 Bean 对象执行初始化方法之后，执行此方法&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="417" y="1164" width="320" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="25" target="152" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="420" y="1304" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;rounded=0;" parent="1" source="25" target="29" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;b&gt;InstantiationAwareBeanPostProcessor&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=1;fillStyle=solid;strokeColor=#36393d;fillColor=#ffcc99;" parent="1" vertex="1">
+                    <mxGeometry x="47" y="1284" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="132" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="152" target="131" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="647" y="1304.0000000000002" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="143" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="29" target="142" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;b&gt;设置属性&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="47" y="1364" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;dashed=1;" parent="1" source="32" target="148" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="247" y="1484.0000000000002" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FFFFFF;" parent="1" source="32" target="38" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;b&gt;感知对象&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="47" y="1464" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;pre style=&quot;font-family: 宋体; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;实现此接口，既能感知到所属的 BeanFactory&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="247" y="1420" width="310" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontColor=#FFFFFF;" parent="1" source="38" target="150" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="247" y="1564" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" style="rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="38" target="42" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;span style=&quot;text-align: left;&quot;&gt;BeanPostProcessor&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f0a30a;sketch=1;fillStyle=solid;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="47" y="1570" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="42" target="45" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;dashed=1;" parent="1" source="42" target="52" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;div&gt;&lt;span&gt;初始化方法&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;invokeInitMethods&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fillStyle=solid;strokeColor=#006EAF;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="47" y="1684" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;dashed=1;" parent="1" source="45" target="46" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="165" target="162" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="338" y="2136.94" as="sourcePoint"/>
+                        <mxPoint x="286.4999999999999" y="2156.9399999999996" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="167" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="44">
+                    <mxGeometry x="-0.443" relative="1" as="geometry">
+                        <mxPoint x="7" y="8" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="166" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="45" target="58">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="140" y="1960" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="&lt;span style=&quot;text-align: left;&quot;&gt;BeanPostProcessor&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f0a30a;sketch=1;fillStyle=solid;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="47" y="1834" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="159" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="46" target="158">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;pre style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px&quot;&gt;后置处理 | BeanPostProcessor#postProcessAfterInitialization&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;gradientDirection=south;" parent="1" vertex="1">
+                    <mxGeometry x="247" y="1834" width="373" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="&lt;pre style=&quot;font-family: 宋体; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;在 Bean 对象执行初始化方法之前，执行此方法&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="1530" width="320" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="&lt;pre style=&quot;font-family: 宋体; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;在 Bean 对象执行初始化方法之后，执行此方法&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="254" y="1793" width="320" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;dashed=1;" parent="1" source="52" target="54" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="&lt;pre style=&quot;font-size: 14px&quot;&gt;&lt;pre style=&quot;text-align: left ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-size: 10.5pt&quot;&gt;InitializingBean&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;gradientDirection=south;" parent="1" vertex="1">
+                    <mxGeometry x="247" y="1684" width="144" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;dashed=1;" parent="1" source="54" target="42" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="&lt;pre style=&quot;font-size: 14px&quot;&gt;&lt;pre style=&quot;text-align: left ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-size: 10.5pt&quot;&gt;init-method&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;gradientDirection=south;" parent="1" vertex="1">
+                    <mxGeometry x="247" y="1753" width="144" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;shadow=0;labelBackgroundColor=none;sketch=1;fontColor=#000000;strokeColor=#333333;fillColor=#009999;gradientDirection=south;" parent="1" vertex="1">
+                    <mxGeometry x="619.5" y="1684" width="20" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="Bean 处理了属性填充后调用，初始化执行方法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="639.5" y="1729" width="260" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="58" target="165" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="158.4999999999999" y="2130" as="sourcePoint"/>
+                        <mxPoint x="116.99999999999989" y="2164" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="161" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="58" target="160">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="&lt;div style=&quot;text-align: left&quot;&gt;registerDisposableBeanIfNecessary&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;注册bean到DisposableBean集合&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fillStyle=solid;strokeColor=#006EAF;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="47" y="1965.95" width="223" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="主要信息有：bean的Class对象，属性值键值对&lt;br&gt;（当值为其他bean引用时为BeanReference类型）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fillColor=none;gradientDirection=south;strokeColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="437" y="230" width="296" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;imageBorder=default;" parent="1" vertex="1">
+                    <mxGeometry x="764" y="170.75" width="189.47" height="167" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" style="rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="73" target="75" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="380" y="318.5" as="sourcePoint"/>
+                        <mxPoint x="693" y="218.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="78" value="作用域&lt;br&gt;是否单例模式&lt;br&gt;是否原型模式&lt;br&gt;bean的Class对象&lt;br&gt;属性值键值对" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;" parent="1" vertex="1">
+                    <mxGeometry x="1010" y="214.25" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="75" target="78" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="743" y="318.5" as="sourcePoint"/>
+                        <mxPoint x="774" y="260.5" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="80" value="&lt;b&gt;创建Bean工厂&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="47" y="150" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;" parent="1" source="5" target="80" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="127" y="230" as="sourcePoint"/>
+                        <mxPoint x="127" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="83" style="rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="80" target="84" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="377" y="430" as="sourcePoint"/>
+                        <mxPoint x="437" y="430" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="84" value="工厂中添加ApplicationContextAwareProcessor这个BeanPostProcessor（实际的Spring中还有其他的）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fillColor=none;gradientDirection=south;strokeColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="252.5" y="140" width="299" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" style="rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="7" target="73" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="197" y="180" as="sourcePoint"/>
+                        <mxPoint x="264" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="89" style="rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="3" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="197" y="180" as="sourcePoint"/>
+                        <mxPoint x="264" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="93" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;" parent="1" source="90" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="90" target="99" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="&lt;b&gt;创建系统中的一些实现了BeanPostProcessor的实例添加到BeanPostProcessor集合中&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="47" y="330" width="253" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="90" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="127" y="110" as="sourcePoint"/>
+                        <mxPoint x="127" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="141" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="94" target="140" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="实际操作是：&lt;br&gt;① 先实例化BeanDefinition集合中所有实现了BeanFactoryPostProcessor接口的bean，即放入容器中&lt;br&gt;② 遍历这些BeanFactoryPostProcessor对象，使用每个后置处理器对BeanFactory进行相应的后置处理操作" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="761" y="410" width="389" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="96" target="97" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="96" target="103" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="&lt;b&gt;registerBeanPostProcessors 注册Bean后置处理器&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="47" y="520" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="" style="edgeStyle=none;sketch=1;html=1;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="97" target="101" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="720" y="530" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="97" value="提前实例化BeanDefinition集合中的实现了BeanPostProcessor接口的bean，&lt;b&gt;添加到BeanPostProcessor集合中&lt;/b&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fillColor=none;gradientDirection=south;strokeColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="427" y="510" width="299" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="这里是ApplicationContextAwareProcessor，但Spring源码中还有其他的处理器" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fillColor=none;gradientDirection=south;strokeColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="385" y="330" width="296" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="供后面实例化bean后进行相应的后置处理" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="761" y="520" width="236" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" style="edgeStyle=none;sketch=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="115" target="15" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="186" y="1020" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="107" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="103" target="106" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="&lt;b&gt;创建事件发布对象，放到IoC容器中&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="47" y="617" width="223" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="这里是SimpleApplicationEventMulticaster" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="347" y="617" width="236" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="109" target="110" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="109" target="113" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="&lt;b&gt;registerListeners 注册事件监听者&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="47" y="677" width="223" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="提前实例化BeanDefinition集合中实现了ApplicationListener接口的bean，一一添加到事件发布者的Listener集合中" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="345" y="670.5" width="233" height="53" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="113" target="116" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="113" target="120" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="&lt;b&gt;preInstantiateSingletons 提前实例化单例bean对象&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="47" y="770" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="115" target="123" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="325.75" y="980" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="115" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot; color=&quot;#33001a&quot;&gt;Bean的创建&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillStyle=dots;sketch=1;shadow=0;strokeColor=#CC0000;fillColor=#FFCCCC;" parent="1" vertex="1">
+                    <mxGeometry x="147" y="950" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="&lt;b&gt;finishRefresh 发布容器刷新完成事件&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="47" y="840" width="243" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="即遍历beanName依次getBean" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="424" y="770" width="186" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" value="AbstractAutowireCapableBeanFactory#createBean" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="551.5" y="958" width="292" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="123" target="122" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="&lt;span&gt;包括实例化和初始化，主要是createBean方法的内部逻辑&lt;/span&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fillColor=none;gradientDirection=south;strokeColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="322" y="955" width="183" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="125" target="127" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" value="&lt;span&gt;遍历BeanPostProcessor集合元素，取其中的&lt;/span&gt;InstantiationAwareBeanPostProcessor，调用其postProcessBeforeInstantiation方法对beanClass进行相应处理" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fillColor=none;gradientDirection=south;strokeColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="424" y="1028.5" width="263" height="71" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="在small spring中的InstantiationAwareBeanPostProcessor&lt;br&gt;#postProcessBeforeInstantiation方法实现均为空" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="718" y="1034.75" width="292" height="58.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="134" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="131" target="133" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="131" value="这个方法的作用是提供在使用BeanDefinition中的PropertyValues给对象填充值前最后一次修改PropertyValues内容的机会，在此可以修改pvs的内容" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="1269.9999999999998" width="220" height="83.63" as="geometry"/>
+                </mxCell>
+                <mxCell id="129" value="在small spring中的对应接口的实现类中这个方法中的逻辑均为空" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="1196.38" width="182" height="55.25" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;pre style=&quot;font-family: 宋体; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;在 Bean 对象实例化完成后，设置属性操作之前执行此方法&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="417" y="1244" width="390" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="133" target="135" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="133" target="137" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" value="AutowiredAnnotationBeanPostProcessor&lt;br&gt;#postProcessPropertyValues实现了读取并解析beanClass中@Value、@Autowired和@Qualifier注解的逻辑，最后根据读取到的内容修改pvs中的内容，实现了通过注解实现依赖注入" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=hachure;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="980" y="1261.81" width="220" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" value="读取@Autowired和@Qualifier注解后会根据beanClass或beanName进行getBean，即转为提前创建对应bean在将其注入进来" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fillStyle=hachure;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="1250" y="1320" width="220" height="74" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="读取@Value后会使用前面&lt;span style=&quot;text-align: left&quot;&gt;PropertyPlaceholderConfigurer这个BeanFactoryProcessor存到工厂的&lt;/span&gt;&lt;br&gt;StringValueResolver先对字符串进行解析（解析${value}），后填充到String对象中" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fillStyle=hachure;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="1250" y="1227.5" width="240" height="73" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="small spring中的唯一实现类为PropertyPlaceholderConfigurer，它的postProcessBeanFactory方法的主要逻辑如下：&lt;br&gt;① 加载配置文件&lt;br&gt;② 遍历所有BeanDefinition，对元素的所有pv的String类型的v进行替换操作（替换${value}）&lt;br&gt;③ 封装出PlaceholderResolvingStringValueResolver对象挂载到BeanFactory中供解析@Value时使用" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=hachure;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="1180" y="391.25" width="300" height="127.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="142" target="144" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="142" value="遍历当前BeanDefinition的pvs，根据k-&amp;gt;v将v通过反射填充到对象属性中" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fillColor=none;gradientDirection=south;strokeColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="247" y="1358.5" width="226" height="51" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" value="当k-&amp;gt;v的value为BeanReference类型时则转为先调用getBean获取这个依赖的bean（创建或从缓存获取，参数为beanName）" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="519.5" y="1351.09" width="203" height="65.82" as="geometry"/>
+                </mxCell>
+                <mxCell id="148" value="回调实现了BeanFactoryAware、BeanClassLoaderAware、BeanNameAware这三个接口的bean的对应方法，可以感知对应的对象" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;gradientDirection=south;" parent="1" vertex="1">
+                    <mxGeometry x="247" y="1459.5" width="393" height="49" as="geometry"/>
+                </mxCell>
+                <mxCell id="154" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;sketch=1;" edge="1" parent="1" source="150" target="153">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" value="前置处理 | BeanPostProcessor#postProcessBeforeInitialization" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;gradientDirection=south;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="1572.37" width="380" height="37.63" as="geometry"/>
+                </mxCell>
+                <mxCell id="152" value="postProcessPropertyValues" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fillColor=none;gradientDirection=south;strokeColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="417" y="1284" width="230" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="153" target="155">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" value="ApplicationContextAwareProcessor实现了BeanPostProcessor接口，在postProcessBeforeInitialization方法中实现了bean对ApplicationContext的感知功能" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="664" y="1549.0900000000001" width="228" height="81.81" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" value="步骤：&lt;br&gt;① 如果是InitializingBean，则先执行它的afterPropertiesSet()方法&lt;br&gt;② 从BeanDefinition中取出initMethod，通过反射找到对应Method然后反射执行" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="402.5" y="1689.05" width="217" height="99.9" as="geometry"/>
+                </mxCell>
+                <mxCell id="155" value="small spring的其余BeanPostProcessor这个方法的实现均为空" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=hachure;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="934" y="1563.64" width="216" height="52.71" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" value="DefaultAdvisorAutoProxyCreator是small spring中唯一该方法实现不为空的类，此方法内的逻辑为：&lt;br&gt;① 判断bean是否存在于二级缓存，如存在则返回&lt;br&gt;② 返回对应的代理对象（动态代理）&lt;br&gt;&amp;lt;&amp;lt;bean&amp;gt;&amp;gt; -&amp;gt; &amp;lt;&amp;lt;bean代理对象&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="664" y="1801.02" width="219" height="105.95" as="geometry"/>
+                </mxCell>
+                <mxCell id="160" value="内部逻辑：&lt;br&gt;判断&lt;br&gt;① bean是单例模式&lt;br&gt;② 实现了DisposableBean接口 || 存在destroy-method&lt;br&gt;符合则注册到disposableBeans集合中供后面销毁时回调" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="322" y="1940" width="219" height="105.95" as="geometry"/>
+                </mxCell>
+                <mxCell id="164" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="162" target="163">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="169" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="162" target="168">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="162" value="&lt;div style=&quot;text-align: left&quot;&gt;bean=getSingleton(beanName)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fillStyle=solid;strokeColor=#006EAF;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="47" y="2150" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="163" value="获取可能原来存储在二级缓存中的代理对象作为最终bean" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="322" y="2140" width="176" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="174" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=15;" edge="1" parent="1" source="165" target="173">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="165" value="判断是否是单例" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=-1;hachureGap=8;fillStyle=solid;sketch=1;shadow=0;labelBackgroundColor=none;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="98.5" y="2050" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="171" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="168" target="170">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="168" value="&lt;div style=&quot;text-align: left&quot;&gt;registerSingleton&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fillStyle=solid;strokeColor=#006EAF;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="47" y="2230" width="143" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="175" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fontSize=15;rounded=0;" edge="1" parent="1" source="170" target="173">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="170" value="① 注册bean到一级缓存中&lt;br&gt;② 二级缓存和三级缓存中删除bean" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="298.5" y="2220" width="203" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="173" value="&lt;b&gt;&lt;font color=&quot;#33001a&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;结束&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillStyle=dots;sketch=1;shadow=0;strokeColor=#CC0000;fillColor=#FFCCCC;" vertex="1" parent="1">
+                    <mxGeometry x="613" y="2050" width="97" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="176" value="AbstractApplicationContext#refresh" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="249" y="60" width="211" height="42.5" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
