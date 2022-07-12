@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="TaOZYZj4RHotkan8RvCG" name="第 1 页">
-        <mxGraphModel dx="1194" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="999" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -558,7 +558,7 @@
                 <mxCell id="282" value="相当于解码的逆过程：&lt;br&gt;① RpcMessage字段转为字节&lt;br&gt;② rpcMessage.data &lt;b&gt;序列化&lt;/b&gt; 后 &lt;b&gt;压缩&lt;/b&gt; -&amp;gt; bodyBytes&lt;br&gt;③ 填写帧首full length" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="1">
                     <mxGeometry x="430" y="1210" width="290" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="284" value="解压和反序列化方式由RpcMessage内容控制" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                <mxCell id="284" value="压缩和序列化方式由RpcMessage内容控制" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
                     <mxGeometry x="730" y="1226.75" width="133.7" height="46.5" as="geometry"/>
                 </mxCell>
                 <mxCell id="307" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="285" target="286">
