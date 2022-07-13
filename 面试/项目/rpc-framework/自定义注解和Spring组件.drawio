@@ -1,0 +1,195 @@
+<mxfile host="65bd71144e">
+    <diagram id="r68i4Q77VqMRe6vbiKWA" name="第 1 页">
+        <mxGraphModel dx="968" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="41" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="640" width="740" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="350" width="720" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="自定义注解" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="130" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="@RpcService" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="40" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="@RpcReference" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="130" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="@RpcScan" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="220" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;RPC服务注解，标注在服务实现类上&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;功能：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;① 和@RpcScan注解配合使用将服务对象注入到IoC容器中&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;② 和RpcServiceRegisterPostProcessor配合使用实现自动服务注册（注册到内存map和注册中心）&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="20" width="320" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="11" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;div style=&quot;text-align: left&quot;&gt;RPC引用注解，用法类似@Autowire注解，标注在成员变量上&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;功能：&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 和RpcReferenceFieldBeanPostProcessor这个后置处理器配合使用，实现自动创建Rpc服务代理对象&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;（进而可以使用代理对象完成远程过程调用，而不用关心调用的细节）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="110" width="380" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;div style=&quot;text-align: left&quot;&gt;和Spring中的@ComponentScan注解的功能类似，但此注解的功能是标注被@RpcService注解修饰的服务实现类的包扫描路径，进而可以在Spring容器启动后将服务对象的BeanDefinition注入到Spring容器中的BeanDefinitionRegistry中，进而间接的完成RpcService bean注入IOC容器&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="205" width="400" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;color: #9e880d&quot;&gt;@Component&lt;/span&gt;&lt;span style=&quot;color: #9e880d&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;public class &lt;/span&gt;&lt;span style=&quot;color: #066555&quot;&gt;IndexController &lt;/span&gt;{&lt;br&gt;&lt;br&gt;    &lt;span style=&quot;color: #9e880d&quot;&gt;@RpcReference&lt;/span&gt;(version = &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;version1&quot;&lt;/span&gt;, group = &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;test&quot;&lt;/span&gt;)&lt;br&gt;    &lt;span style=&quot;color: #0033b3&quot;&gt;private &lt;/span&gt;&lt;span style=&quot;color: #6c00d5&quot;&gt;MyService &lt;/span&gt;&lt;span style=&quot;color: #871094&quot;&gt;myService&lt;/span&gt;;&lt;br&gt;&lt;br&gt;    &lt;span style=&quot;color: #0033b3&quot;&gt;public void &lt;/span&gt;&lt;span style=&quot;color: #795e26&quot;&gt;index&lt;/span&gt;() {&lt;br&gt;        &lt;span style=&quot;color: #0033b3&quot;&gt;for &lt;/span&gt;(&lt;span style=&quot;color: #0033b3&quot;&gt;int &lt;/span&gt;i = &lt;span style=&quot;color: #1750eb&quot;&gt;0&lt;/span&gt;; i &amp;lt; &lt;span style=&quot;color: #1750eb&quot;&gt;5&lt;/span&gt;; i++) {&lt;br&gt;            &lt;span style=&quot;color: #066555&quot;&gt;String &lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;result &lt;/span&gt;= &lt;span style=&quot;color: #871094&quot;&gt;myService&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;hello&lt;/span&gt;(&lt;span style=&quot;color: #0033b3&quot;&gt;new &lt;/span&gt;&lt;span style=&quot;color: #795e26&quot;&gt;Data&lt;/span&gt;(&lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;jack&quot; &lt;/span&gt;+ i, &lt;span style=&quot;color: #1750eb&quot;&gt;10 &lt;/span&gt;+ i));&lt;br&gt;        }&lt;br&gt;    }&lt;br&gt;}&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="771" y="65" width="470" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="17" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="17" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="自定义&lt;br&gt;BeanPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="440" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="18" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="RpcServiceRegisterPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="194" y="300" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;sketch=1;" edge="1" parent="1" source="21" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="21" target="37">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;span style=&quot;text-align: left&quot;&gt;实现postProcessAfterInitialization方法&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="300" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;dashed=1;" edge="1" parent="1" source="23" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;进行服务发布处理：&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;① 从@RpcService注解中提取group和version信息，构造RpcServiceConfig&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;② 发布服务&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="501.25" y="432" width="157.5" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="24" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="27">
+                    <mxGeometry x="-0.5857" y="-3" relative="1" as="geometry">
+                        <mxPoint x="10" y="-3" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="24" target="23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="29">
+                    <mxGeometry x="0.4111" y="-2" relative="1" as="geometry">
+                        <mxPoint x="1" y="-13" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="bean的类被&lt;br&gt;@RpcService修饰?" style="rhombus;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="360" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;返回bean&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="360" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;rounded=0;" edge="1" parent="1" source="31" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;color: #9e880d&quot;&gt;RpcService &lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;rpcService &lt;/span&gt;= bean.&lt;span style=&quot;color: #795e26&quot;&gt;getClass&lt;/span&gt;().&lt;span style=&quot;color: #795e26&quot;&gt;getAnnotation&lt;/span&gt;(&lt;span style=&quot;color: #9e880d&quot;&gt;RpcService&lt;/span&gt;.&lt;span style=&quot;color: #0033b3&quot;&gt;class&lt;/span&gt;);&lt;br&gt;&lt;span style=&quot;color: #066555&quot;&gt;RpcServiceConfig &lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;rpcServiceConfig &lt;/span&gt;= &lt;span style=&quot;color: #066555&quot;&gt;RpcServiceConfig&lt;/span&gt;.&lt;span style=&quot;font-style: italic&quot;&gt;builder&lt;/span&gt;()&lt;br&gt;        .&lt;span style=&quot;color: #795e26&quot;&gt;group&lt;/span&gt;(&lt;span style=&quot;color: #000000&quot;&gt;rpcService&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;group&lt;/span&gt;())&lt;br&gt;        .&lt;span style=&quot;color: #795e26&quot;&gt;version&lt;/span&gt;(&lt;span style=&quot;color: #000000&quot;&gt;rpcService&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;version&lt;/span&gt;())&lt;br&gt;        .&lt;span style=&quot;color: #795e26&quot;&gt;service&lt;/span&gt;(bean).&lt;span style=&quot;color: #795e26&quot;&gt;build&lt;/span&gt;();&lt;br&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic&quot;&gt;// &lt;/span&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic ; font-family: &amp;#34;宋体&amp;#34; , monospace&quot;&gt;发布&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #871094&quot;&gt;serviceProvider&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;publishService&lt;/span&gt;(&lt;span style=&quot;color: #000000&quot;&gt;rpcServiceConfig&lt;/span&gt;);&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="426" width="450" height="97" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="35" target="39">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="RpcReferenceFieldBeanPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="194" y="585" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;实现Rpc服务的自动发布而不需要手动编写发布服务逻辑&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="720" y="300" width="300" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;dashed=1;" edge="1" parent="1" source="39" target="42">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;span style=&quot;text-align: left&quot;&gt;实现postProcessAfterInitialization方法&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="585" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fontSize=11;" edge="1" parent="1" source="42" target="47">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="570" y="721" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="field" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="45">
+                    <mxGeometry x="-0.62" y="-1" relative="1" as="geometry">
+                        <mxPoint x="1" y="6" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=11;" edge="1" parent="1" source="42" target="57">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="遍历完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="58">
+                    <mxGeometry x="-0.4431" y="-1" relative="1" as="geometry">
+                        <mxPoint x="18" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="&lt;span style=&quot;text-align: left&quot;&gt;获取bean的Class对象的Fields，然后遍历每个字段对象field&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="650" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="field上是否被&lt;br&gt;@RpcReference修饰?" style="rhombus;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="720" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="50" target="42">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" style="rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;dashed=1;" edge="1" parent="1" source="50" target="55">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;① 从@RpcService注解中提取group和version信息，构造RpcServiceConfig&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;② 构建代理对象并注入bean对象的该field字段中&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="790" width="180" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fontSize=11;" edge="1" parent="1" source="47" target="50">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="580" y="700" as="sourcePoint"/>
+                        <mxPoint x="580" y="730" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="52">
+                    <mxGeometry x="-0.62" y="-1" relative="1" as="geometry">
+                        <mxPoint x="1" y="6" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="47" target="42">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="48">
+                    <mxGeometry x="-0.1067" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;color: #066555&quot;&gt;RpcServiceConfig &lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;rpcServiceConfig &lt;/span&gt;= &lt;span style=&quot;color: #066555&quot;&gt;RpcServiceConfig&lt;/span&gt;.&lt;span style=&quot;font-style: italic&quot;&gt;builder&lt;/span&gt;()&lt;br&gt;        .&lt;span style=&quot;color: #795e26&quot;&gt;group&lt;/span&gt;(&lt;span style=&quot;color: #000000&quot;&gt;rpcReference&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;group&lt;/span&gt;())&lt;br&gt;        .&lt;span style=&quot;color: #795e26&quot;&gt;version&lt;/span&gt;(&lt;span style=&quot;color: #000000&quot;&gt;rpcReference&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;version&lt;/span&gt;()).&lt;span style=&quot;color: #795e26&quot;&gt;build&lt;/span&gt;();&lt;br&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic&quot;&gt;// &lt;/span&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic ; font-family: &amp;#34;宋体&amp;#34; , monospace&quot;&gt;生成代理对象&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #066555&quot;&gt;RpcClientProxy &lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;rpcClientProxy &lt;/span&gt;= &lt;span style=&quot;color: #0033b3&quot;&gt;new &lt;/span&gt;&lt;span style=&quot;color: #795e26&quot;&gt;RpcClientProxy&lt;/span&gt;(&lt;span style=&quot;color: #871094&quot;&gt;rpcClient&lt;/span&gt;, &lt;span style=&quot;color: #000000&quot;&gt;rpcServiceConfig&lt;/span&gt;);&lt;br&gt;&lt;span style=&quot;color: #066555&quot;&gt;Object &lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;serviceProxy &lt;/span&gt;= &lt;span style=&quot;color: #000000&quot;&gt;rpcClientProxy&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;getProxy&lt;/span&gt;(&lt;span style=&quot;color: #000000&quot;&gt;field&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;getType&lt;/span&gt;());&lt;br&gt;&lt;span style=&quot;color: #000000&quot;&gt;field&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;setAccessible&lt;/span&gt;(&lt;span style=&quot;color: #0033b3&quot;&gt;true&lt;/span&gt;);&lt;br&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic&quot;&gt;// &lt;/span&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic ; font-family: &amp;#34;宋体&amp;#34; , monospace&quot;&gt;设置到字段上&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: #000000&quot;&gt;field&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;set&lt;/span&gt;(bean, &lt;span style=&quot;color: #000000&quot;&gt;serviceProxy&lt;/span&gt;);&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="770" width="500" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="&lt;span style=&quot;text-align: left&quot;&gt;返回bean&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="650" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="&lt;div style=&quot;text-align: left&quot;&gt;青色表示Rpc提供者使用&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;蓝色表示Rpc消费端使用&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="15" width="150" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
