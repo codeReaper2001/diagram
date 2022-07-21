@@ -1,10 +1,10 @@
 <mxfile host="65bd71144e">
     <diagram id="C3j85PxHwPWabAKFlSuc" name="第 1 页">
-        <mxGraphModel dx="923" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="937" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillStyle=solid;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" parent="1" vertex="1">
+                <mxCell id="2" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillStyle=solid;strokeColor=#b85450;fillColor=#f8cecc;align=left;" parent="1" vertex="1">
                     <mxGeometry x="80" y="110" width="570" height="155" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="初始化事件处理" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillStyle=solid;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
@@ -19,7 +19,7 @@
                 <mxCell id="6" value="&lt;b&gt;创建事件发布对象，放到IoC容器中&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" parent="1" vertex="1">
                     <mxGeometry x="97" y="142" width="223" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="这里是SimpleApplicationEventMulticaster" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=center;" parent="1" vertex="1">
+                <mxCell id="7" value="这里是SimpleApplicationEventMulticaster" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;fillStyle=hachure;align=center;" parent="1" vertex="1">
                     <mxGeometry x="397" y="142" width="236" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="9" target="10" edge="1">
@@ -28,7 +28,7 @@
                 <mxCell id="9" value="&lt;b&gt;registerListeners 注册事件监听者&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" parent="1" vertex="1">
                     <mxGeometry x="97" y="202" width="223" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="提前实例化BeanDefinition集合中实现了ApplicationListener接口的bean，一一添加到事件发布者的Listener集合中" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=center;" parent="1" vertex="1">
+                <mxCell id="10" value="提前实例化BeanDefinition集合中实现了ApplicationListener接口的bean，一一添加到事件发布者的Listener集合中" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;fillStyle=hachure;align=center;" parent="1" vertex="1">
                     <mxGeometry x="395" y="195.5" width="233" height="53" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;" parent="1" source="11" target="2" edge="1">
@@ -79,43 +79,43 @@
                 <mxCell id="24" value="&lt;b&gt;listener.onApplicationEvent(event)&lt;br&gt;对事件进行处理&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#ffe6cc;sketch=1;fillStyle=solid;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="386.5" y="570" width="250" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="遍历&lt;span style=&quot;text-align: center&quot;&gt;Listener集合&lt;/span&gt;&lt;br&gt;由于Listener类实现ApplicationListener&amp;lt;T&amp;gt;泛型接口，所以可以通过反射的方式获得T，然后反射判断T类型是否是event.class类型的基类Tclass.isAssignableFrom(event.class)，如果是则放置到结果集中，最终返回结果集" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=left;" parent="1" vertex="1">
+                <mxCell id="27" value="遍历&lt;span style=&quot;text-align: center&quot;&gt;Listener集合&lt;/span&gt;&lt;br&gt;由于Listener类实现ApplicationListener&amp;lt;T&amp;gt;泛型接口，所以可以通过反射的方式获得T，然后反射判断T类型是否是event.class类型的基类Tclass.isAssignableFrom(event.class)，如果是则放置到结果集中，最终返回结果集" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;fillStyle=hachure;align=left;" parent="1" vertex="1">
                     <mxGeometry x="700" y="440" width="250" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="调用对应的事件处理函数&lt;br&gt;（可写为lambda表达式）" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=left;" parent="1" vertex="1">
+                <mxCell id="29" value="调用对应的事件处理函数&lt;br&gt;（可写为lambda表达式）" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;fillStyle=hachure;align=left;" parent="1" vertex="1">
                     <mxGeometry x="700" y="568" width="160" height="55" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="只需要编写继承了ApplicationContextEvent的类即可。发布事件需要使用applicationContext.publishEvent(xxxEvent);" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=left;" vertex="1" parent="1">
+                <mxCell id="31" value="只需要编写继承了ApplicationContextEvent的类即可。发布事件需要使用applicationContext.publishEvent(xxxEvent);" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;fillStyle=hachure;align=left;" parent="1" vertex="1">
                     <mxGeometry x="97" y="910" width="245" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="32" target="33">
+                <mxCell id="34" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="32" target="33" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="32" target="38">
+                <mxCell id="39" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="32" target="38" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="&lt;b&gt;自定义事件和监听器&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;sketch=1;fillStyle=solid;strokeColor=#b85450;" vertex="1" parent="1">
+                <mxCell id="32" value="&lt;b&gt;自定义事件和监听器&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;sketch=1;fillStyle=solid;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="253.5" y="750" width="223" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="33" target="31">
+                <mxCell id="35" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="33" target="31" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="&lt;b&gt;自定义事件&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;sketch=1;fillStyle=solid;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="33" value="&lt;b&gt;自定义事件&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;sketch=1;fillStyle=solid;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="144.5" y="840" width="150" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="36" target="14">
+                <mxCell id="37" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="36" target="14" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="&lt;b&gt;applicationContext.publishEvent&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" vertex="1" parent="1">
+                <mxCell id="36" value="&lt;b&gt;applicationContext.publishEvent&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;fillStyle=solid;strokeColor=#006EAF;" parent="1" vertex="1">
                     <mxGeometry x="80.5" y="420" width="250" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="41" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="38" target="40">
+                <mxCell id="41" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="38" target="40" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" value="&lt;b&gt;自定义监听器&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;sketch=1;fillStyle=solid;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="38" value="&lt;b&gt;自定义监听器&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;sketch=1;fillStyle=solid;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="430" y="840" width="150" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="40" value="编写类实现泛型接口ApplicationListener&amp;lt;xxxEvent&amp;gt;，实现onApplicationEvent事件处理方法，最后将这个类配置到spring IoC容器中。&lt;br&gt;当xxxEvent发生时就会回调对应的事件处理方法" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=hachure;align=left;" vertex="1" parent="1">
+                <mxCell id="40" value="编写类实现泛型接口ApplicationListener&amp;lt;xxxEvent&amp;gt;，实现onApplicationEvent事件处理方法，最后将这个类配置到spring IoC容器中。&lt;br&gt;当xxxEvent发生时就会回调对应的事件处理方法" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;fillStyle=hachure;align=left;" parent="1" vertex="1">
                     <mxGeometry x="376.5" y="910" width="257" height="100" as="geometry"/>
                 </mxCell>
             </root>
