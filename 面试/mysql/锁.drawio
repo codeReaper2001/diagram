@@ -1,0 +1,439 @@
+<mxfile host="65bd71144e">
+    <diagram id="phQJBKk2QBsW6JPgQkwE" name="第 1 页">
+        <mxGraphModel dx="968" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="2" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="MySQL内的锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="90" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="全局锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="50" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="表级锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="95" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="行级锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="140" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="全局锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="369" y="210" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="10" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="10" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="全局锁应用场景" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="300" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="主要应用于做&lt;b&gt;全库逻辑备份&lt;/b&gt;，这样在备份数据库期间，不会因为数据或表结构的更新，而出现备份文件的数据与预期的不一样" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="260" width="240" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="13" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="缺点" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="330" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="整个数据库都是&lt;b&gt;只读状态&lt;/b&gt;，&lt;b&gt;不能更新数据&lt;/b&gt;，这样会造成业务停滞" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="320" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="17" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="替代的解决方案" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+                    <mxGeometry x="195" y="400" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="19" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="备份前先开启事务，利用MVCC提供的快照读功能，读取快照信息即可（读写分离）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="395" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220721143117958.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="460" width="520" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="表级锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="369" y="540" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="24" target="25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="24" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="24" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="24" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="表级锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="890" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="25" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="25" target="34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="表锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="620" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="26" target="51">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="26" target="53">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="26" target="55">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="元数据锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="766.75" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="27" target="92">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="27" target="94">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="146" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="27" target="145">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="意向锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="1070" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="AUTO-INC 锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="1210" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="33" target="37">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="表共享读锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="600" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="34" target="37">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="380" y="630" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="表独占写锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="640" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="37" target="40">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="加锁" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="41">
+                    <mxGeometry x="-0.3782" y="-1" relative="1" as="geometry">
+                        <mxPoint x="9" y="-5" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="37" target="43">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="释放锁" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="44">
+                    <mxGeometry x="-0.3785" y="3" relative="1" as="geometry">
+                        <mxPoint x="9" y="6" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="操作" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="620" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="lock tables 表名 read/write" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="600" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="unlock tables / 客户端断开连接" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="640" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="46" target="48">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="加读锁：&lt;br&gt;- 读操作时自己以及其他客户端执行成功&lt;br&gt;- 写操作时本客户端会报错，其他客户端会阻塞&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="545" width="180" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="47" target="48">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="加写锁：&lt;br&gt;- 本客户端：读写都可以&lt;br&gt;- 其他客户端：读写都阻塞" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="640" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220721144457476.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="930" y="501.99999999999994" width="420" height="243.12" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="作用：维护表元数据的一致性 -&amp;gt; 规避DML和DDL语句的冲突" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="275" y="710" width="185" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220721144858627.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="275" y="760" width="290" height="43.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="55" target="77">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="案例" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="275" y="840" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=0;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220721150152674.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="980" y="766.75" width="533.68" height="136.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="90" target="89">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="查看锁信息" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="820" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="152" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="92" target="151">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="解决的问题：&lt;br&gt;由于InnoDB加入了行级锁，例如使用一个update语句为某行加上行级读锁，那么当某客户端想加上表锁时就需要&lt;b&gt;遍历全表才知道是否有某行被加上的行锁&lt;/b&gt;，为了避免这个问题，所以使用意向锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="950" width="300" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="94" target="95">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="94" target="96">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="两种类型" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="1070" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="95" target="130">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="意向共享锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="1050" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="96" target="130">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="意向排他锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="1090" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="580" y="775" width="280" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="115">
+                    <mxGeometry width="220" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="客户端1" style="rounded=0;whiteSpace=wrap;html=1;comic=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="115">
+                    <mxGeometry width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="客户端2" style="rounded=0;whiteSpace=wrap;html=1;comic=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="115">
+                    <mxGeometry x="110" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="begin;&lt;br&gt;select * from score;" style="rounded=0;whiteSpace=wrap;html=1;comic=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="115">
+                    <mxGeometry y="30" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="begin;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="115">
+                    <mxGeometry x="110" y="70" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="阻塞" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="115">
+                    <mxGeometry x="230" y="115" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="成功执行DML" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="115">
+                    <mxGeometry x="110" y="130" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="alter table score add colum java int;" style="rounded=0;whiteSpace=wrap;html=1;comic=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="115">
+                    <mxGeometry x="110" y="100" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="commit" style="rounded=0;whiteSpace=wrap;html=1;comic=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="115">
+                    <mxGeometry y="130" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="142" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="510" y="1040" width="210" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="142">
+                    <mxGeometry width="210" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="意向共享锁" style="rounded=0;whiteSpace=wrap;html=1;comic=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="142">
+                    <mxGeometry x="50" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="129" value="意向排它锁" style="rounded=0;whiteSpace=wrap;html=1;comic=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="142">
+                    <mxGeometry x="130" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" value="表读锁" style="rounded=0;whiteSpace=wrap;html=1;comic=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="142">
+                    <mxGeometry y="30" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="表写锁" style="rounded=0;whiteSpace=wrap;html=1;comic=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="142">
+                    <mxGeometry y="60" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" value="兼容" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="142">
+                    <mxGeometry x="50" y="30" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" value="互斥" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="142">
+                    <mxGeometry x="130" y="30" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="互斥" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="142">
+                    <mxGeometry x="50" y="60" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="141" value="互斥" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="142">
+                    <mxGeometry x="130" y="60" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="148" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="145" target="147">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="加锁情况" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="1175" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="147" target="149">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="147" value="① 执行&lt;b&gt;插入、更新、删除操作&lt;/b&gt;，需要先对表加上「&lt;b&gt;意向独占锁&lt;/b&gt;」，然后对该记录加独占锁&lt;br&gt;②&amp;nbsp;&lt;b&gt;普通的 select &lt;/b&gt;是不会加行级锁的（MVCC快照读），因而也不会加意向锁&lt;br&gt;③ 但select 也是可以对记录加共享锁和独占锁的，在语句后面加入 in share mode 或 for update" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="1140" width="270" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="149" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=0;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220721155220086.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="1146" width="272.38" height="88" as="geometry"/>
+                </mxCell>
+                <mxCell id="151" value="加行锁前先加对应的表级意向锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="975" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" value="行级锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="369" y="1300" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="179" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="154" target="174">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="185" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="154" target="180">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="154" value="行级锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="1560" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="162" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="155" target="161">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="155" value="记录锁&lt;br&gt;Record Lock" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="315" y="1373.75" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="164" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="156" target="163">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" value="间隙锁&lt;br&gt;Gap Lock" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="315" y="1450" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="171" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="157" target="170">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" value="临键锁&lt;br&gt;Next-Key Lock" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="1530" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="169" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="161" target="168">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="161" value="记录锁，也就是仅仅把一条记录锁上" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="1378.75" width="215" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="166" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="163" target="165">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="163" value="锁定一个范围，但是不包含记录本身" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="1455" width="215" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="165" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=0;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220721160220803.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="685" y="1432.5" width="500" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="168" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=0;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220721160320179.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="685" y="1362.5" width="500" height="62.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="173" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="170" target="172">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="170" value="记录锁 + 间隙锁 的组合，锁定一个范围，并且锁定记录本身" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="1530" width="215" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="172" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=0;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220721160508527.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="685" y="1512.98" width="500" height="74.04" as="geometry"/>
+                </mxCell>
+                <mxCell id="175" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="174" target="155">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="177" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="174" target="156">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="178" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="174" target="157">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="174" value="按功能分" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="1455" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="183" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="180" target="181">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="184" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="180" target="182">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="180" value="按读写分" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="1690" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="197" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="181" target="196">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="181" value="共享锁&lt;br&gt;读锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="315" y="1650" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="198" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="182" target="196">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="182" value="排他锁&lt;br&gt;写锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="315" y="1720" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="186" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="550" y="1662.5" width="210" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="187" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="186">
+                    <mxGeometry width="210" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="188" value="共享锁" style="rounded=0;whiteSpace=wrap;html=1;comic=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="186">
+                    <mxGeometry x="50" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="189" value="排它锁" style="rounded=0;whiteSpace=wrap;html=1;comic=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="186">
+                    <mxGeometry x="130" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="190" value="共享锁" style="rounded=0;whiteSpace=wrap;html=1;comic=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="186">
+                    <mxGeometry y="30" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="191" value="排他锁" style="rounded=0;whiteSpace=wrap;html=1;comic=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="186">
+                    <mxGeometry y="60" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="192" value="兼容" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="186">
+                    <mxGeometry x="50" y="30" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="193" value="互斥" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="186">
+                    <mxGeometry x="130" y="30" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="194" value="互斥" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="186">
+                    <mxGeometry x="50" y="60" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="195" value="互斥" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="186">
+                    <mxGeometry x="130" y="60" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="199" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="196" target="190">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="196" value="兼容关系" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="1690" width="90" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="200" value="什么语句加什么锁在意向锁部分已经详细说明" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="770" y="1690" width="147.62" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="201" value="使用&lt;b&gt;临键锁在RR隔离级别下&lt;/b&gt;可以在事务中&lt;b&gt;避免当前读产生幻读现象&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#fad9d5;strokeColor=#ae4132;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="1587.02" width="215" height="42.98" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
