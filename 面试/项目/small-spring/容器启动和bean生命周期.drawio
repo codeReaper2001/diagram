@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Zg5PwccDcSvucMKCE4wA" name="第 1 页">
-        <mxGraphModel dx="1373" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1613" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -93,8 +93,8 @@
                 <mxCell id="21" value="&lt;b&gt;postProcessAfterInstantiation&lt;/b&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fillColor=none;gradientDirection=south;strokeColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="413" y="1307.3899999999999" width="230" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="&lt;pre style=&quot;font-family: 宋体; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;在 Bean 对象执行初始化方法之后，执行此方法&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="413" y="1270.39" width="320" height="35" as="geometry"/>
+                <mxCell id="22" value="&lt;pre style=&quot;font-size: 10.5pt&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;在 bean 对象实例化之后，执行此方法&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="413" y="1270.39" width="247" height="35" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="25" target="152" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -382,8 +382,8 @@
                 <mxCell id="129" value="在small spring中的对应接口的实现类中这个方法中的逻辑均为空" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;fillStyle=hachure;align=center;" parent="1" vertex="1">
                     <mxGeometry x="706" y="1299.77" width="182" height="55.25" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="&lt;pre style=&quot;font-family: 宋体; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;在 Bean 对象实例化完成后，设置属性操作之前执行此方法&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="413" y="1347.3899999999999" width="390" height="40" as="geometry"/>
+                <mxCell id="27" value="&lt;pre style=&quot;font-size: 10.5pt&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;设置bean属性操作之前执行此方法&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="413" y="1347.39" width="237" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="136" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="133" target="135" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -439,7 +439,7 @@
                 <mxCell id="155" value="small spring的其余BeanPostProcessor这个方法的实现均为空" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=hachure;align=center;" parent="1" vertex="1">
                     <mxGeometry x="930" y="1667.03" width="216" height="52.71" as="geometry"/>
                 </mxCell>
-                <mxCell id="158" value="DefaultAdvisorAutoProxyCreator是small spring中唯一该方法实现不为空的类，此方法内的逻辑为：&lt;br&gt;① 判断bean是否存在于二级缓存，如存在则返回&lt;br&gt;② 返回对应的代理对象（动态代理）&lt;br&gt;&amp;lt;&amp;lt;bean&amp;gt;&amp;gt; -&amp;gt; &amp;lt;&amp;lt;bean代理对象&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;fillStyle=hachure;align=left;" parent="1" vertex="1">
+                <mxCell id="158" value="DefaultAdvisorAutoProxyCreator是small spring中唯一该方法实现不为空的类，此方法内的逻辑为：&lt;br&gt;① 判断bean是否存在于二级缓存，如存在则返回输入的bean&lt;br&gt;② 返回对应的代理对象（动态代理）&lt;br&gt;&amp;lt;&amp;lt;bean&amp;gt;&amp;gt; -&amp;gt; &amp;lt;&amp;lt;bean代理对象&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;fillStyle=hachure;align=left;" parent="1" vertex="1">
                     <mxGeometry x="660" y="1904.4099999999999" width="219" height="105.95" as="geometry"/>
                 </mxCell>
                 <mxCell id="160" value="内部逻辑：&lt;br&gt;判断&lt;br&gt;① bean是单例模式&lt;br&gt;② 实现了DisposableBean接口 || 存在destroy-method&lt;br&gt;符合则注册到disposableBeans集合中供后面销毁时回调" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;fillStyle=hachure;align=left;" parent="1" vertex="1">
