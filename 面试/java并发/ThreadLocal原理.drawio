@@ -1,0 +1,516 @@
+<mxfile host="65bd71144e">
+    <diagram id="RW-CA43n8JAziDT_tjmc" name="第 1 页">
+        <mxGraphModel dx="1971" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="142" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="540.8" y="1540" width="359.2" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="298.75" y="1790" width="351.25" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="286.42" y="1060" width="527.5" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220724175547787.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="32.09" y="756" width="248.66" height="139" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="ThreadLocal的用途" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="80" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="我们往往使用ThreadLocal来保存当前线程执行流需要使用到的信息，就像go中的context(上下文)一样，在项目中我只使用它来保存用户信息：&lt;br&gt;① 在某个类中 public static ThreadLocal&amp;lt;User&amp;gt; userInfo&lt;br&gt;② 用户认证拦截器认证后：userInfo.set(user);&lt;br&gt;③ 拦截器后的Controller等可以直接从userInfo中获取上下文中的用户信息" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="50" width="440" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="97" target="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="381.4200000000001" y="790" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="43">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="获取当前线程对象thread&lt;br&gt;获取thread.threadLocals" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="306.42" y="820" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220724175841335.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="30" width="260.65" height="224" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Thread对象中有一个threadLocals属性，即每个线程都有对应的ThreadLocalMap，以此来实现线程之间的隔离" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="270" width="320" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220724180349843.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="686.42" y="340" width="450" height="56.25" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="ThreadLocal管理模式" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="346" y="180" width="136" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="17" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Thread" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;comic=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="260" width="70" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="ThreadLocalMap" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="250" width="450" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="270" width="35" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="265" y="270" width="35" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="270" width="35" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="335" y="270" width="35" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="270" width="35" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="25" target="34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="405" y="270" width="35" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="270" width="35" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="475" y="270" width="35" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="270" width="35" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="545" y="270" width="35" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="580" y="270" width="35" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="615" y="270" width="35" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="357.5" y="360" width="130" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Entry&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;align=center;" vertex="1" parent="38">
+                    <mxGeometry width="130" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;span&gt;Key：ThreadLocal(弱引用)&lt;/span&gt;&lt;br&gt;&lt;span&gt;Value：Object&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;" vertex="1" parent="38">
+                    <mxGeometry x="8.25" y="25" width="113.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220724181401748.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="68.57" y="480" width="371.43" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="34" target="39">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="Entry继承于WeakReference类，通过构造函数将key保存到父类的referent成员变量中，该成员变量指向的对象可以被gc回收（弱引用，当某对象只有弱引用时，会被gc回收&lt;br&gt;而value则是ThreadLocal真正存放的内容" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="522.5" width="320" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="42" target="56">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="map.set(this, value)&lt;br&gt;k: this, v: value存储到map中" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="298.92" y="990" width="165" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="43" target="42">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="45">
+                    <mxGeometry x="-0.4271" y="-2" relative="1" as="geometry">
+                        <mxPoint x="2" y="3" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="43" target="48">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="49">
+                    <mxGeometry x="-0.5907" y="-2" relative="1" as="geometry">
+                        <mxPoint x="18" y="-2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="thread.threadLocals&lt;br&gt;已存在？" style="rhombus;whiteSpace=wrap;html=1;comic=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="318.92" y="900" width="125" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="创建threadLocalMap，然后将(k, v)存放到map中&lt;br&gt;this.createMap(t, value);&lt;br&gt;--&amp;gt;&amp;nbsp;t.threadLocals = new ThreadLocalMap(this, firstValue);" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="503.92" y="895" width="322.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="48" target="53">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="843.4200000000002" y="924.58" as="sourcePoint"/>
+                        <mxPoint x="921.84" y="924.58" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="将(k, v)放入到哈希表中：&lt;br&gt;① 创建桶数组table: Entry[]，初始容量为16&lt;br&gt;② 获取threadLocal.threadLocalHashCode作为key计算哈希值，通过取模运算得到桶下标&lt;br&gt;③ 在对应桶中创建Entry对象(k=threadLocal, v=object)&lt;br&gt;④ 大小size=1&lt;br&gt;⑤ 设置阈值，为容量的2/3" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="866.42" y="870" width="322.5" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="56" target="61">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="使用threadLocalHashCode作为key计算桶下标-&amp;gt;i" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="303.92" y="1090" width="155" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11px&quot;&gt;ThreadLocalMap#&lt;span style=&quot;color: #795e26&quot;&gt;set&lt;/span&gt;(&lt;span style=&quot;color: #066555&quot;&gt;ThreadLocal&lt;/span&gt;&amp;lt;?&amp;gt; key, &lt;span style=&quot;color: #066555&quot;&gt;Object &lt;/span&gt;value)&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="286.42" y="1060" width="330" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;dashed=1;" edge="1" parent="1" source="59" target="56">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=0;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220724220652543.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="1085.5" width="270.75" height="56.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="61" target="69">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="381.42" y="1250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" value="桶不空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="64">
+                    <mxGeometry x="-0.4556" y="2" relative="1" as="geometry">
+                        <mxPoint x="17" y="3" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="75" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="61" target="67">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="桶为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="75">
+                    <mxGeometry x="-0.6" y="-2" relative="1" as="geometry">
+                        <mxPoint x="11" y="-11" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="61" value="桶是否为空?&lt;br&gt;table[i]==null?" style="rhombus;whiteSpace=wrap;html=1;comic=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="318.92" y="1160" width="125" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="63" target="61">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="i = ((i+1)&amp;lt;len)? i+1 : 0&lt;br&gt;即循环获取下一个桶" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="313.3" y="1324" width="136.25" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="67" target="78">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="创建entry放入桶中，entry内容为(key, value)" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="491.42" y="1165" width="136.25" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="69" target="63">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="不是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="70">
+                    <mxGeometry x="-0.5644" relative="1" as="geometry">
+                        <mxPoint x="15" y="5" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="69" target="72">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="73">
+                    <mxGeometry x="-0.5213" y="1" relative="1" as="geometry">
+                        <mxPoint x="8" y="-9" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="桶中entry的key是否为&lt;br&gt;输入的threadLocal?" style="rhombus;whiteSpace=wrap;html=1;comic=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="318.92" y="1240" width="125" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="72" target="80">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="entry.value=value&lt;br&gt;更新桶中的值" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="483.61" y="1245" width="120.63" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="78" target="80">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="更新size，并检查是否进行再哈希操作" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="656.42" y="1165" width="120.63" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="80" target="98">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1010" y="1280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="80" value="返回" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="686.42" y="1247.5" width="60" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="83" target="85">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="下面出现了threadLocal.threadLocalHashCode这个成员变量来计算哈希值，这个变量是在ThreadLocal构造函数中赋值的。&lt;br&gt;即每生成一个ThreadLocal对象，就会分配给这个threadLocal一个threadLocalHashCode，其值是上一个值加上一个神奇的值，&lt;b&gt;可以在取模计算真正的哈希值时分布得更加均匀，尽量避免哈希冲突&lt;/b&gt;。" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="492.42" y="725" width="288" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="91" target="98">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1028" y="1260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="91" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220724182839930.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="818.05" y="1007.45" width="419.25" height="122.55" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="91" target="53">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="836.42" y="935" as="sourcePoint"/>
+                        <mxPoint x="876.42" y="935" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="96" value="set(Object val)方法" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+                    <mxGeometry x="346" y="680" width="136" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;labelBackgroundColor=none;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="366.41999999999996" y="730" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;labelBackgroundColor=none;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="1012.67" y="1250" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="结束" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+                    <mxGeometry x="1042.67" y="1255" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="get()方法" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+                    <mxGeometry x="363" y="1440" width="102" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="105" target="106">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;labelBackgroundColor=none;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="396.41999999999996" y="1500" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="106" target="108">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="获取当前线程对象thread&lt;br&gt;获取thread.threadLocals" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="336.42" y="1560" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="161" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="108" target="144">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="162" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="161">
+                    <mxGeometry x="-0.4182" y="-1" relative="1" as="geometry">
+                        <mxPoint x="5" y="-4" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="108" value="thread.threadLocals&lt;br&gt;已存在？" style="rhombus;whiteSpace=wrap;html=1;comic=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="348.92" y="1640" width="125" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="118" target="126">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="map.getEntry(this)&lt;br&gt;将当前threadLocal作为key获取哈希表的entry" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="336.42" y="1720" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=0;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220724224312886.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="-83.10000000000002" y="1460" width="369.52" height="221" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" style="edgeStyle=none;rounded=0;sketch=1;html=1;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="108" target="118">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="405.00000000000006" y="1690" as="sourcePoint"/>
+                        <mxPoint x="400" y="1720" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="123" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="122">
+                    <mxGeometry x="-0.5213" y="1" relative="1" as="geometry">
+                        <mxPoint x="10" y="3" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="124" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;ThreadLocalMap#&lt;span style=&quot;color: #795e26&quot;&gt;getEntry&lt;/span&gt;(&lt;span style=&quot;color: #066555&quot;&gt;ThreadLocal&lt;/span&gt;&amp;lt;?&amp;gt; key)&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="298.75" y="1790" width="291.25" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="131" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="126" target="130">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="使用threadLocalHashCode作为key计算桶下标-&amp;gt;i" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="333.92" y="1830" width="155" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="计算方法和HashMap相同，都是key&amp;amp;(len-1)" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="475" y="1100" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="129" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=0;sketch=1;fontSize=12;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220724224758738.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="-71.07999999999998" y="1740" width="357.5" height="132" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" value="哈希桶不空且entry.get()==key?" style="rhombus;whiteSpace=wrap;html=1;comic=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="1910" width="125" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="160" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;dashed=1;" edge="1" parent="1" source="132" target="159">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="132" value="返回entry" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="528.92" y="1995" width="87.5" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="130" target="132">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="747.4200000000001" y="1715" as="sourcePoint"/>
+                        <mxPoint x="747.4200000000001" y="1795" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="134" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="133">
+                    <mxGeometry x="-0.5213" y="1" relative="1" as="geometry">
+                        <mxPoint x="60" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="135" style="edgeStyle=none;rounded=0;sketch=1;html=1;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="130" target="139">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="404.00000000000006" y="1962" as="sourcePoint"/>
+                        <mxPoint x="411.07000000000016" y="1980" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="136" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="135">
+                    <mxGeometry x="-0.5213" y="1" relative="1" as="geometry">
+                        <mxPoint x="8" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="140" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="139" target="132">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" value="沿着i继续往下找entry，直到找到entry.get()==key&lt;br&gt;(i 循环递增)" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="344" y="1990" width="139.04" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="141" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=0;sketch=1;fontSize=12;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220724225735860.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="-150" y="1881.1299999999999" width="436.42" height="267.73" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;ThreadLocal#&lt;span style=&quot;color: #795e26&quot;&gt;setInitialValue&lt;/span&gt;()&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="540.8" y="1540" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="146" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="144" target="145">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" value="使用initValue()方法获取初始值，默认为null" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="557.5" y="1570" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="获取当前线程对应的threadLocals" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="573.21" y="1630" width="118.58" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="147" target="155">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="147" value="map.set(this, value)&lt;br&gt;调用上面介绍的set方法，将初始值set到哈希表中" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="561.06" y="1701" width="142.87" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="149" style="edgeStyle=none;rounded=0;sketch=1;html=1;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="145" target="147">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="656.42" y="1740" as="sourcePoint"/>
+                        <mxPoint x="656.42" y="1820" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="150" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="149">
+                    <mxGeometry x="-0.5213" y="1" relative="1" as="geometry">
+                        <mxPoint x="12" y="6" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="157" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="151" target="155">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="151" value="this.createMap(this, value)&lt;br&gt;即创建map并将当前threadLocal作为key，存储(key, value)到map中" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="734.0999999999999" y="1617.5" width="157.95" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" style="edgeStyle=none;rounded=0;sketch=1;html=1;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="145" target="151">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="780" y="1905" as="sourcePoint"/>
+                        <mxPoint x="780" y="1985" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="154" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="153">
+                    <mxGeometry x="-0.5213" y="1" relative="1" as="geometry">
+                        <mxPoint x="10" y="-8" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="167" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="155" target="164">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="155" value="返回初始值&lt;br&gt;为null" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="769.3199999999999" y="1709" width="87.5" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=0;sketch=1;fontSize=12;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220724230635357.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="914.91" y="1592.95" width="261.51" height="177.05" as="geometry"/>
+                </mxCell>
+                <mxCell id="166" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="159" target="164">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="159" value="返回entry.value" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="758.9699999999999" y="1997.5" width="108.21" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="164" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;labelBackgroundColor=none;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="797.18" y="1872" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="165" value="结束" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+                    <mxGeometry x="827.1800000000001" y="1877" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="168" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="813.92" y="710" width="371.58000000000004" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="168">
+                    <mxGeometry width="371.58" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=0;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220724222515601.png;" vertex="1" parent="168">
+                    <mxGeometry x="6.670000000000073" y="3" width="359.76" height="20.76" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=0;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220724222629068.png;" vertex="1" parent="168">
+                    <mxGeometry x="6.670000000000073" y="25.75999999999999" width="314.37" height="50.78" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=0;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220724222700283.png;" vertex="1" parent="168">
+                    <mxGeometry x="6.670000000000073" y="80" width="276.76" height="33" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=0;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220724222826388.png;" vertex="1" parent="168">
+                    <mxGeometry x="6.670000000000073" y="118" width="339.76" height="19.61" as="geometry"/>
+                </mxCell>
+                <mxCell id="171" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="169" target="170">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="173" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="169" target="172">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="169" value="ThreadLocalMap使用开放地址法" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="2240" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="170" value="原因：&lt;br&gt;① 一般需要使用到的ThreadLocal数量较少，不会像一般的map存放那么多的entry&lt;br&gt;② 使用黄金分割数作为key来计算哈希值后哈希冲突大大减少，此时用开放地址就能得到很高的性能" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="274" y="2190" width="236" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="172" value="最佳实践：&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;一般业务中尽量少创建ThreadLocal变量，如果需要存放多个上下文信息，可以创建一个ThreadLocal变量，且内容是Map&amp;lt;String, Object&amp;gt;类型的值，这样就可以使用一个ThreadLocal存放很多的上下文变量了" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="274" y="2300" width="246" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="174" value="参考资料：&lt;br&gt;https://zhuanlan.zhihu.com/p/238231572" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="542.17" y="2338" width="246" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="175" value="为什么ThreadLocalMap.Entry的key使用ThreadLocal的弱引用" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="316" y="2440" width="196" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="178" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="176" target="177">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="181" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="176" target="180">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="176" value="使用强引用时" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="25.21" y="2680" width="86" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="177" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=0;sketch=1;fontSize=12;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220724232101764.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="206.82" y="2500" width="370.36" height="198" as="geometry"/>
+                </mxCell>
+                <mxCell id="180" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;可以看到，使用强引用时，当栈内的ThreadLocal变量生存期结束后，堆中的ThreadLocal对象还被当前thread的threadLocals内的entry.key强引用着，这样就会导致：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;① 堆内存的&lt;b&gt;ThreadLocal对象无法被垃圾回收器回收&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;② thread.threadLocals的桶无法被清理，&lt;b&gt;entry及entry.value也无法被回收&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;综上没有使用的资源没有及时清理，即产生内存泄漏&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="206.82" y="2720" width="303.18" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="184" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="182" target="183">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="186" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;entryPerimeter=0;" edge="1" parent="1" source="182" target="185">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="182" value="使用弱引用" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="25.21" y="3030" width="86" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="183" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=0;sketch=1;fontSize=12;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220724232803540.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="206.82" y="2850" width="370.1" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="185" value="&lt;div style=&quot;text-align: left&quot;&gt;同样是栈内的ThreadLocal变量生存期结束时，那么该变量对于堆中的ThreadLocal对象的强引用就消失了，此时发生GC，那么会发现堆中的ThreadLocal对象只存在thread.threadLocals的entry.referent这个弱引用：&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;① ThreadLocal对象被回收&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;② entry.referent=null，即赋值为空&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;第一点直接解决了上面强引用的第一个问题，而第二个问题则由&lt;b&gt;在调用get、set等方法时间接expungeStaleEntry方法将value和table[i]也置为空，供gc清理掉&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="206.82" y="3060" width="303.18" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="187" value="&lt;div style=&quot;text-align: left&quot;&gt;即设计为弱引用是为了解决用户对ThreadLocal对象的引用消失时可以回收掉：&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;① ThreadLocal对象&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;② value对象&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;③ ThreadLocalMap中的entry&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="528.92" y="3085" width="303.18" height="90" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
