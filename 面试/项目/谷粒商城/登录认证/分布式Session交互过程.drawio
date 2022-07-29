@@ -1,0 +1,302 @@
+<mxfile host="65bd71144e">
+    <diagram id="Ol7NgpMgmCDMjqYJtXSc" name="第 1 页">
+        <mxGraphModel dx="1795" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="架构设计" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="374" y="30" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="5" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="原始session存在的问题" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="29.7" y="216.32999999999996" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="6" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220729141617808.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="329.7" y="100.00000000000003" width="233.85" height="132.66" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="7" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="同一服务部署多个实例" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="179.7" y="146.33" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="10" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="不同服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="179.7" y="296.73" width="80" height="35.51" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="13" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220729141747879.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="329.7" y="243.35999999999999" width="233.37" height="142.26" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="15" target="61">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="原来的session方案只是将信息存储到当前服务进程的本地内存中，这样多个服务之间无法共享session" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="629.7" y="196.33" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="20" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="20" target="29">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="20" target="44">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="180" y="890" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="20" target="51">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="可供选择的解决方案" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="740" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="21" target="25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="21" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220729142147034.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="410" width="197.61" height="135" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="session复制" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="462.5" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="优点：&lt;br&gt;-&amp;nbsp;web-server（Tomcat）原生支持，只需要修改配置 文件（入侵性小）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="609.7" y="420" width="200" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="缺点：&lt;br&gt;- 同步session占用网络带宽&lt;br&gt;- 限制web-server的水平扩展" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="609.7" y="485" width="180.3" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="29" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="session存储在客户端" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="647.38" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="30" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="30" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="30" target="37">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220729142610743.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="362.73" y="590" width="194.88" height="144.76" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;b&gt;JWT&lt;/b&gt;其实就是这种方案" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="609.7" y="567.97" width="150.3" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="优点：&lt;br&gt;-&amp;nbsp;服务器不需存储session，&lt;b&gt;节省服务端资源&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="609.7" y="614.37" width="200" height="51.97" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="37" target="39">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="缺点：&lt;br&gt;- 每次http请求，携带用户在cookie中的完整信息， &lt;b&gt;浪费网络带宽&lt;/b&gt;&lt;br&gt;-&amp;nbsp;session数据放在cookie中，存在&lt;b&gt;泄漏、篡改、窃取&lt;/b&gt;等安全隐患" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="609.6999999999999" y="680" width="210.6" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="如果不做特殊处理，那么尽管用户退出登录了，还是可以使用token去获取用户登录才能查看的数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="850" y="686.25" width="150.3" height="67.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="42" target="45">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="42" target="47">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220729143334629.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="361.08" y="753.75" width="195.45" height="248.66" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="44" target="42">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="hash一致性" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="863.08" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="优点：&lt;br&gt;- 只需要改nginx配置，不需要修改应用代码&lt;br&gt;-&amp;nbsp;&lt;span&gt;负载均衡，只要hash属性的值分布是均匀的，多台&lt;/span&gt;&lt;span&gt;web-server的负载是均衡的&lt;br&gt;&lt;/span&gt;&lt;span&gt;- 支持水平扩展&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="609.7" y="770" width="220.3" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="缺点：&lt;br&gt;-&amp;nbsp;session还是存在web-server中的，&lt;b&gt;服务器重启&lt;/b&gt;会导致&lt;b&gt;部分用户需要重新登录&lt;/b&gt;&lt;br&gt;-&amp;nbsp;如果&lt;b&gt;web-server水平扩展&lt;/b&gt;，rehash后session重新分布，也会有一部分用户&lt;b&gt;路由不到正确的session&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="609.7" y="880" width="210.6" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="50" target="54">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="50" target="57">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220729144017994.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="355.54" y="1030.95" width="206.53" height="165.05" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="51" target="50">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="统一存储" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="1098.48" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="优点：&lt;br&gt;-&amp;nbsp;&lt;span&gt;没有安全隐患（数据都在服务器端登录控制容易）&lt;br&gt;- 可以水平扩展（session存储和web服务器耦合解除）&lt;br&gt;- web-server重启或者扩容都不会有&amp;nbsp; session丢失&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="609.7" y="1010" width="220.3" height="111.52" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="缺点：&lt;br&gt;-&amp;nbsp;增加了一次网络调用，需要访问Redis存取数据&lt;br&gt;- 对代码有一定的入侵性，需要编写访问Redis的逻辑（可使用SpringSession解决）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="609.7" y="1128.48" width="240.3" height="81.52" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="59" target="50">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="采用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="428.2" y="1230" width="61.2" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="61" target="64">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;color: rgb(8 , 8 , 8)&quot;&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;public class &lt;/span&gt;&lt;span style=&quot;color: #066555&quot;&gt;StandardSession &lt;/span&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;implements &lt;/span&gt;&lt;span style=&quot;color: #6c00d5&quot;&gt;HttpSession&lt;/span&gt;, &lt;span style=&quot;color: #6c00d5&quot;&gt;Session&lt;/span&gt;, &lt;span style=&quot;color: #6c00d5&quot;&gt;Serializable &lt;/span&gt;{&lt;br&gt;    &lt;/span&gt;&lt;font color=&quot;#0033b3&quot;&gt;...&lt;/font&gt;&lt;font color=&quot;#080808&quot;&gt;&lt;br&gt;    &lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 51 , 179)&quot;&gt;protected &lt;/span&gt;&lt;span style=&quot;color: rgb(108 , 0 , 213)&quot;&gt;ConcurrentMap&lt;/span&gt;&lt;font color=&quot;#080808&quot;&gt;&amp;lt;&lt;/font&gt;&lt;span style=&quot;color: rgb(6 , 101 , 85)&quot;&gt;String&lt;/span&gt;&lt;font color=&quot;#080808&quot;&gt;, &lt;/font&gt;&lt;span style=&quot;color: rgb(6 , 101 , 85)&quot;&gt;Object&lt;/span&gt;&lt;font color=&quot;#080808&quot;&gt;&amp;gt; &lt;/font&gt;&lt;span style=&quot;color: rgb(135 , 16 , 148)&quot;&gt;attributes &lt;/span&gt;&lt;font color=&quot;#080808&quot;&gt;= &lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 51 , 179)&quot;&gt;new &lt;/span&gt;&lt;span style=&quot;color: rgb(121 , 94 , 38)&quot;&gt;ConcurrentHashMap&lt;/span&gt;&lt;font color=&quot;#080808&quot;&gt;();&lt;br&gt;    &lt;/font&gt;&lt;font color=&quot;#0033b3&quot;&gt;...&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="827" y="206.08" width="543" height="60.51" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="原始的Session内部就是使用一个ConcurrentHashMap来存储session键值对" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="978.5" y="289.49" width="240" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="交互过程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="374" y="1310" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="116" y="1390" width="20" height="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="认证微服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="216" y="1390" width="100" height="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="68">
+                    <mxGeometry x="45" y="80" width="10" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="购物车微服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="475.70000000000005" y="1390" width="100" height="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="69">
+                    <mxGeometry x="45" y="265" width="10" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="69">
+                    <mxGeometry x="55" y="300" width="10" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="从session&lt;br&gt;获取用户信息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;sketch=0;fontSize=12;" edge="1" target="101" parent="69" source="98">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="66.99000000000001" y="280" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="97" y="279"/>
+                            <mxPoint x="97" y="300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="70" value="Redis" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="611" y="1390" width="100" height="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="70">
+                    <mxGeometry x="45" y="180" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="70">
+                    <mxGeometry x="45" y="340" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="会员微服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="342.39" y="1390" width="100" height="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="71">
+                    <mxGeometry x="45" y="100" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="auth.gulimall.com/login&lt;br&gt;用户登录信息" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;sketch=0;fontSize=12;entryX=-0.103;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="75" parent="1" source="67">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="126" y="1490" as="sourcePoint"/>
+                        <mxPoint x="271" y="1480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="78" value="登录信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;sketch=0;fontSize=12;" edge="1" target="77" parent="1" source="75">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="1470" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="79" value="登录的用户信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;sketch=0;fontSize=12;" edge="1" source="77" parent="1" target="75">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="1546" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="95" value="session.setAttribute(...)&lt;br&gt;存储用户信息到Redis中" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;sketch=0;fontSize=12;" edge="1" target="94" parent="1" source="75">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="275.70000000000005" y="1560" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="96" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;sketch=0;fontSize=12;exitX=0.084;exitY=0.961;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="94" parent="1" target="75">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="275.70000000000005" y="1580" as="targetPoint"/>
+                        <mxPoint x="656" y="1580" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="97" value="response响应头&lt;br&gt;带上对应Cookie" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;sketch=0;fontSize=12;exitX=-0.159;exitY=0.994;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="75" target="67">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="127.56000000000006" y="1600" as="targetPoint"/>
+                        <mxPoint x="509.55000000000007" y="1600" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="99" value="获取购物车数据(请求带上JSESSIONID的Cookie)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;sketch=0;fontSize=12;" edge="1" target="98" parent="1" source="67">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="416.00000000000006" y="1660" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="100" value="购物车数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;sketch=0;fontSize=12;" edge="1" source="98" parent="1" target="67">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="416.00000000000006" y="1707.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="104" value="从Redis中获取&lt;br&gt;用户信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;sketch=0;fontSize=12;" edge="1" target="103" parent="1" source="101">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="547.69" y="1700" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="105" value="用户信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;sketch=0;fontSize=12;" edge="1" source="103" parent="1" target="101">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="547.69" y="1747.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="109" value="内部原理是：&lt;br&gt;① response响应头会带上Set-Cookie字段，内容为多个(key,value)组成的字符串，其中一个Cookie是：(key:JSESSIONID, value: 对应的id值)&lt;br&gt;② 浏览器收到响应后会存储Cookie&lt;br&gt;③ 在下一次用户&lt;b&gt;发送请求到该域名&lt;/b&gt;，就会&lt;b&gt;带上对应的Cookie&lt;/b&gt;&lt;br&gt;④ 进而在服务器端就能根据Cookie携带的sessionId定位到对应的Session获取出用户信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="-104" y="1450" width="220" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="这个发卡的过程是当程序使用了session.setAttribute(...)后自动执行的，不需要手动设置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="-104" y="1620" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="由于请求带上了JSESSIONID的Cookie，所以使用request.getSession()时可以通过sessionId定位到用户对应的session" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="1650" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="auth.gulimall.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="207.5" y="1360" width="117" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="cart.gulimall.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="467.2" y="1360" width="117" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="114" target="115">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="完成上面过程需要解决的几个问题：&lt;br&gt;① 认证服务Set-Cookie需要指定Cookie的作用域为整个父域，即gulimall.com&lt;br&gt;② 如何将原本存放在内存中的session信息为存放到redis中&lt;br&gt;③ 数据存放到redis中的序列化机制(json)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;sketch=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="179.7" y="1870" width="220" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="引入SpringSession统一解决" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="451.4" y="1900" width="164" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

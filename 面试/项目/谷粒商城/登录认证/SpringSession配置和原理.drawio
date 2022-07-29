@@ -1,0 +1,192 @@
+<mxfile host="65bd71144e">
+    <diagram id="r9CI_c3HajUbtmO5Mt3F" name="第 1 页">
+        <mxGraphModel dx="968" dy="-611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="完成上面过程需要解决的几个问题：&lt;br&gt;① 认证服务Set-Cookie需要指定Cookie的作用域为整个父域，即gulimall.com&lt;br&gt;② 如何将原本存放在内存中的session信息为存放到redis中&lt;br&gt;③ 数据存放到redis中的序列化机制(json)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;sketch=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="1280" width="220" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="3" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="前面分析分布式Session架构方案时需要解决的问题" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="1305" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="SpringSession配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;sketch=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="334" y="1200" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="SpringSession配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="1420" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="① 导入依赖" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;comic=1;sketch=0;align=center;fontColor=#333333;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="1500" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220729161629962.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="1481.79" width="320.49" height="76.43" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="12" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="12" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="② 添加注解" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;comic=1;sketch=0;align=center;fontColor=#333333;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="1610" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11px&quot;&gt;&lt;span style=&quot;color: #9e880d&quot;&gt;@EnableRedisHttpSession     &lt;/span&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic&quot;&gt;//&lt;/span&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic ; font-family: &amp;#34;宋体&amp;#34; , monospace&quot;&gt;整合&lt;/span&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic&quot;&gt;Redis&lt;/span&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic ; font-family: &amp;#34;宋体&amp;#34; , monospace&quot;&gt;作为&lt;/span&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic&quot;&gt;session&lt;/span&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic ; font-family: &amp;#34;宋体&amp;#34; , monospace&quot;&gt;存储&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #9e880d&quot;&gt;...&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #9e880d&quot;&gt;@SpringBootApplication&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;public class &lt;/span&gt;&lt;span style=&quot;color: #066555&quot;&gt;GulimallAuthServerApplication &lt;/span&gt;{&lt;br&gt;    &lt;span style=&quot;color: #0033b3&quot;&gt;public static void &lt;/span&gt;&lt;span style=&quot;color: #795e26&quot;&gt;main&lt;/span&gt;(&lt;span style=&quot;color: #066555&quot;&gt;String&lt;/span&gt;[] args) {&lt;br&gt;        &lt;span style=&quot;color: #066555&quot;&gt;SpringApplication&lt;/span&gt;.&lt;span style=&quot;font-style: italic&quot;&gt;run&lt;/span&gt;(&lt;span style=&quot;color: #066555&quot;&gt;GulimallAuthServerApplication&lt;/span&gt;.&lt;span style=&quot;color: #0033b3&quot;&gt;class&lt;/span&gt;, args);&lt;br&gt;    }&lt;br&gt;}&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="1575" width="450" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="17" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="17" target="25">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="240" y="1950" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="③ 添加自定义配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;comic=1;sketch=0;align=center;fontColor=#333333;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="1780.5" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11px&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;color: #9e880d&quot;&gt;@Configuration&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;public class &lt;/span&gt;&lt;span style=&quot;color: #066555&quot;&gt;GulimallSessionConfig &lt;/span&gt;{&lt;br&gt;    &lt;span style=&quot;color: #9e880d&quot;&gt;@Bean&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #9e880d&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;public &lt;/span&gt;&lt;span style=&quot;color: #6c00d5&quot;&gt;CookieSerializer &lt;/span&gt;&lt;span style=&quot;color: #795e26&quot;&gt;cookieSerializer&lt;/span&gt;() {&lt;br&gt;        &lt;span style=&quot;color: #066555&quot;&gt;DefaultCookieSerializer &lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;cookieSerializer &lt;/span&gt;= &lt;span style=&quot;color: #0033b3&quot;&gt;new &lt;/span&gt;&lt;span style=&quot;color: #795e26&quot;&gt;DefaultCookieSerializer&lt;/span&gt;();&lt;br&gt;        &lt;span style=&quot;color: #8c8c8c ; font-style: italic&quot;&gt;//&lt;/span&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic ; font-family: &amp;#34;宋体&amp;#34; , monospace&quot;&gt;放大作用域&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic ; font-family: &amp;#34;宋体&amp;#34; , monospace&quot;&gt;        &lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;cookieSerializer&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;setDomainName&lt;/span&gt;(&lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;gulimall.com&quot;&lt;/span&gt;);&lt;br&gt;        &lt;span style=&quot;color: #000000&quot;&gt;cookieSerializer&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;setCookieName&lt;/span&gt;(&lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;GULISESSION&quot;&lt;/span&gt;);&lt;br&gt;        &lt;span style=&quot;color: #0033b3&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;cookieSerializer&lt;/span&gt;;&lt;br&gt;    }&lt;br&gt;    &lt;span style=&quot;color: #9e880d&quot;&gt;@Bean&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #9e880d&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;public &lt;/span&gt;&lt;span style=&quot;color: #6c00d5&quot;&gt;RedisSerializer&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: #066555&quot;&gt;Object&lt;/span&gt;&amp;gt; &lt;span style=&quot;color: #795e26&quot;&gt;springSessionDefaultRedisSerializer&lt;/span&gt;() {&lt;br&gt;        &lt;span style=&quot;color: #0033b3&quot;&gt;return new &lt;/span&gt;&lt;span style=&quot;color: #795e26&quot;&gt;GenericJackson2JsonRedisSerializer&lt;/span&gt;();&lt;br&gt;    }&lt;br&gt;}&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="1700" width="500" height="201" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220729162509951.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="1907" width="134.96" height="106" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="25" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="application.yml" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="1945" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="①和②两步实现了将session信息存放到Redis中" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="1540" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="第③步实现了cookie作用域的放大和session信息序列化为json" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="760" y="1775.5" width="190" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="设置上这个过期时间，SpringSession会在每次getAttribute时更新Redis中的过期时间为30min(自动续期)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="560.49" y="1932.5" width="210" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="SpringSession原理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;sketch=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="334" y="2090" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="31" target="32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="@EnableRedisHttpSession注解" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="145" y="2180" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="@Import引入" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="32" target="34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11px&quot;&gt;&lt;span style=&quot;color: #9e880d&quot;&gt;...&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #9e880d&quot;&gt;@Import&lt;/span&gt;({&lt;span style=&quot;color: #066555&quot;&gt;RedisHttpSessionConfiguration&lt;/span&gt;.&lt;span style=&quot;color: #0033b3&quot;&gt;class&lt;/span&gt;})&lt;br&gt;&lt;span style=&quot;color: #9e880d&quot;&gt;@Configuration&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;public &lt;/span&gt;@&lt;span style=&quot;color: #0033b3&quot;&gt;interface &lt;/span&gt;&lt;span style=&quot;color: #9e880d&quot;&gt;EnableRedisHttpSession &lt;/span&gt;{&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="2250" width="280" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="34" target="38">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;font style=&quot;font-size: 12px&quot;&gt;继承自&lt;/font&gt;" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="34" target="43">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;color: rgb(6 , 101 , 85)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;RedisHttpSessionConfiguration&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="117.5" y="2360" width="205" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="36" target="41">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11px&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;color: rgb(158 , 136 , 13)&quot;&gt;@Bean&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 51 , 179)&quot;&gt;public &lt;/span&gt;&lt;span style=&quot;color: rgb(6 , 101 , 85)&quot;&gt;RedisOperationsSessionRepository &lt;/span&gt;&lt;span style=&quot;color: rgb(121 , 94 , 38)&quot;&gt;sessionRepository&lt;/span&gt;&lt;font color=&quot;#080808&quot;&gt;() {&lt;br&gt;    &lt;/font&gt;&lt;font color=&quot;#066555&quot;&gt;...&lt;/font&gt;&lt;font color=&quot;#080808&quot;&gt;&lt;br&gt;}&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="358.75" y="2530" width="380" height="62.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="38" target="36">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fontSize=11;" edge="1" parent="1" source="38" target="55">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="往IoC容器中注入bean：&lt;br&gt;RedisOperationSessionRepository" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="117.5" y="2541.25" width="202.5" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="用于操作Redis中的Session&lt;br&gt;Session增删改查封装类" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="772.5" y="2541.25" width="162.5" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="43" target="45">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 12pt&quot;&gt;&lt;span style=&quot;color: rgb(6 , 101 , 85) ; font-size: 12px&quot;&gt;SpringHttpSessionConfiguration&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="2360" width="205" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="45" target="47">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="往IoC容器中注入bean：&lt;br&gt;&lt;b&gt;SessionRepositoryFilter&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="681.25" y="2350.5" width="140" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11px&quot;&gt;&lt;span style=&quot;color: rgb(8 , 8 , 8)&quot;&gt;&lt;span style=&quot;color: #9e880d&quot;&gt;@Bean&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;public &lt;/span&gt;&amp;lt;&lt;span style=&quot;color: #007e8a&quot;&gt;S &lt;/span&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;extends &lt;/span&gt;&lt;span style=&quot;color: #6c00d5&quot;&gt;Session&lt;/span&gt;&amp;gt; &lt;span style=&quot;color: #066555&quot;&gt;SessionRepositoryFilter&lt;/span&gt;&amp;lt;? &lt;span style=&quot;color: #0033b3&quot;&gt;extends &lt;/span&gt;&lt;span style=&quot;color: #6c00d5&quot;&gt;Session&lt;/span&gt;&amp;gt; &lt;span style=&quot;color: #795e26&quot;&gt;springSessionRepositoryFilter&lt;/span&gt;(&lt;span style=&quot;color: #6c00d5&quot;&gt;SessionRepository&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: #007e8a&quot;&gt;S&lt;/span&gt;&amp;gt; sessionRepository) {&lt;br&gt;    &lt;span style=&quot;color: #066555&quot;&gt;SessionRepositoryFilter&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: #007e8a&quot;&gt;S&lt;/span&gt;&amp;gt; &lt;span style=&quot;color: #000000&quot;&gt;sessionRepositoryFilter &lt;/span&gt;= &lt;span style=&quot;color: #0033b3&quot;&gt;new &lt;/span&gt;&lt;span style=&quot;color: #795e26&quot;&gt;SessionRepositoryFilter&lt;/span&gt;(sessionRepository);&lt;br&gt;    &lt;/span&gt;...&lt;font color=&quot;#080808&quot;&gt;&lt;br&gt;    &lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 51 , 179)&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;sessionRepositoryFilter&lt;/span&gt;&lt;font color=&quot;#080808&quot;&gt;;&lt;br&gt;}&lt;/font&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="321.25" y="2410" width="860" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="此时在创建Filter的时候就已经&lt;b&gt;获取到了容器中的SessionRepository对象&lt;/b&gt;，进而注入到创建的Filter对象中" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="840" y="2346.5" width="210" height="49" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="依赖注入" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;dashed=1;" edge="1" parent="1" source="36" target="47">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="55" target="57">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="55" target="59">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="由于&lt;b&gt;往IoC容器中注入了实现了Filter的对象&lt;/b&gt;，那么SpringMVC就会：&lt;br&gt;① 将Filter连到FilterChain上&lt;br&gt;② 在请求发送前后使用Filter对请求进行过滤或操作" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="132.81" y="2664" width="174.37" height="94" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220729172224867.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="2610" width="416.83" height="202" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="59" target="62">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="请求进入和离开Servlet&lt;br&gt;Filter#doFilter(request, response);&lt;br&gt;OncePerRequestFilter#doFilter() {&lt;br&gt;&lt;span&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; doFilterInternal(req, res)&lt;br&gt;}&lt;br&gt;--&amp;gt;&amp;nbsp;SessionRepositoryFilter#doFilterInternal()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="91.02" y="2868" width="258.98" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11px&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;protected void &lt;/span&gt;&lt;span style=&quot;color: #795e26&quot;&gt;doFilterInternal&lt;/span&gt;(&lt;span style=&quot;color: #6c00d5&quot;&gt;HttpServletRequest &lt;/span&gt;request, &lt;span style=&quot;color: #6c00d5&quot;&gt;HttpServletResponse &lt;/span&gt;response, &lt;span style=&quot;color: #6c00d5&quot;&gt;FilterChain &lt;/span&gt;filterChain) &lt;span style=&quot;color: #0033b3&quot;&gt;throws &lt;/span&gt;&lt;span style=&quot;color: #066555&quot;&gt;ServletException&lt;/span&gt;, &lt;span style=&quot;color: #066555&quot;&gt;IOException &lt;/span&gt;{&lt;br&gt;    request.&lt;span style=&quot;color: #795e26&quot;&gt;setAttribute&lt;/span&gt;(&lt;span style=&quot;color: #871094 ; font-style: italic&quot;&gt;SESSION_REPOSITORY_ATTR&lt;/span&gt;, &lt;span style=&quot;color: #0033b3&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #871094&quot;&gt;sessionRepository&lt;/span&gt;);&lt;br&gt;    &lt;span style=&quot;color: #066555&quot;&gt;SessionRepositoryFilter&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: #007e8a&quot;&gt;S&lt;/span&gt;&amp;gt;.&lt;span style=&quot;color: #066555&quot;&gt;SessionRepositoryRequestWrapper &lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;wrappedRequest &lt;/span&gt;= &lt;span style=&quot;color: #0033b3&quot;&gt;new &lt;/span&gt;&lt;span style=&quot;color: #066555&quot;&gt;SessionRepositoryFilter&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;SessionRepositoryRequestWrapper&lt;/span&gt;(request, response, &lt;span style=&quot;color: #0033b3&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #871094&quot;&gt;servletContext&lt;/span&gt;);&lt;br&gt;    &lt;span style=&quot;color: #066555&quot;&gt;SessionRepositoryFilter&lt;/span&gt;.&lt;span style=&quot;color: #066555&quot;&gt;SessionRepositoryResponseWrapper &lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;wrappedResponse &lt;/span&gt;= &lt;span style=&quot;color: #0033b3&quot;&gt;new &lt;/span&gt;&lt;span style=&quot;color: #066555&quot;&gt;SessionRepositoryFilter&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;SessionRepositoryResponseWrapper&lt;/span&gt;(&lt;span style=&quot;color: #000000&quot;&gt;wrappedRequest&lt;/span&gt;, response);&lt;br&gt;&lt;br&gt;    &lt;span style=&quot;color: #0033b3&quot;&gt;try &lt;/span&gt;{&lt;br&gt;        filterChain.&lt;span style=&quot;color: #795e26&quot;&gt;doFilter&lt;/span&gt;(&lt;span style=&quot;color: #000000&quot;&gt;wrappedRequest&lt;/span&gt;, &lt;span style=&quot;color: #000000&quot;&gt;wrappedResponse&lt;/span&gt;);&lt;br&gt;    } &lt;span style=&quot;color: #0033b3&quot;&gt;finally &lt;/span&gt;{&lt;br&gt;        &lt;span style=&quot;color: #000000&quot;&gt;wrappedRequest&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;commitSession&lt;/span&gt;();&lt;br&gt;    }&lt;br&gt;&lt;br&gt;}&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="2833" width="1100" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="1" source="64" target="65">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="这个Filter主要的功能就是将原来的request和response对象封装为自定义的Wrapper对象(包装对象)，进而传递到Controller时得到的request和response就都是包装后的对象了&lt;br&gt;（应该是代理模式的一种应用）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="776.83" y="2900" width="258.98" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="65" target="67">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="Wrapper对象获取Session" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="824.73" y="3010" width="163.17" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" style="edgeStyle=none;sketch=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="67" target="69">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11px&quot;&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;private &lt;/span&gt;&lt;span style=&quot;color: #007e8a&quot;&gt;S &lt;/span&gt;&lt;span style=&quot;color: #795e26&quot;&gt;getRequestedSession&lt;/span&gt;() {&lt;br&gt;   ...&lt;br&gt;   &lt;span style=&quot;color: #007e8a&quot;&gt;S &lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;session &lt;/span&gt;= &lt;span style=&quot;color: #066555&quot;&gt;SessionRepositoryFilter&lt;/span&gt;.&lt;span style=&quot;color: #0033b3&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #871094&quot;&gt;sessionRepository&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #871094&quot;&gt;         &lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;findById&lt;/span&gt;(&lt;span style=&quot;color: #000000&quot;&gt;sessionId&lt;/span&gt;);&lt;br&gt;   ...&lt;br&gt;}&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="717.0999999999999" y="3080" width="378.44" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="① Controller -&amp;gt; request.getSession()&lt;br&gt;② RequestWrapper#getSession()&lt;br&gt;③ 使用外部类对象的sessionRepository获取session&lt;br&gt;④ 由于sessionRepository为注入的RedisOperationsSessionRepository，故对Session的操作都转为操作Redis内的数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="3067.5" width="230" height="115" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="由于Wrapper为内部类，故可以调用外部类方法进而获取到sessionRepository" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="1018.08" y="3010" width="163.17" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
