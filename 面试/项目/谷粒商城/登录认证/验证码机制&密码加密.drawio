@@ -1,0 +1,158 @@
+<mxfile host="65bd71144e">
+    <diagram id="T_aBhhd3I6Xlzh0ZhXT7" name="第 1 页">
+        <mxGraphModel dx="999" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="44" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=0;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220730024652212.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="640" width="401.82" height="102" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="8" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="150" width="330" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="验证码接口" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="354" y="40" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="验证码接口执行过程" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="110" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="4" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="请求/sms/sendCode" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="180" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="5" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="接口防刷" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="250" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="14">
+                    <mxGeometry x="-0.4333" y="2" relative="1" as="geometry">
+                        <mxPoint x="13" y="3" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" source="11" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="从redis中获取&lt;br&gt;&lt;span&gt;sms:code:{手机号}&lt;br&gt;对应的内容&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="160" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="获取value的时间和现在的系统时间，计算是否超过一分钟" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="240" width="130" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Redis中存储的内容：&lt;br&gt;key：sms:code:{手机号}&lt;br&gt;value：{验证码}_{时间}" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="130" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="17" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="未超过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="20">
+                    <mxGeometry x="-0.4639" y="-1" relative="1" as="geometry">
+                        <mxPoint x="26" y="5" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" style="rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="17" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;span&gt;是否时间超过一分钟?&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="310" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="返回Exception" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="370" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="继续向下执行" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+                    <mxGeometry x="464" y="310" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="26" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="生成验证码" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="320" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="存储&lt;br&gt;key：sms:code:{手机号}&lt;br&gt;value：{验证码}_{时间}&lt;br&gt;到Redis中" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="65" y="380" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="密码加密" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="354" y="500" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="这一步也可以&lt;b&gt;改成存储验证码到Redis直接设置超时时间为1分钟&lt;/b&gt;，这样可以免去存储时间和时间计算" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="250" width="150" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="32" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="密码加密过程" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="570" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="33" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="获取一个随机数作为盐值" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="67.5" y="640" width="145" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="35" target="37">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="将密码和盐值拼接后使用MD5信息摘要算法得到128位(16字节)的值" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="67.5" y="700" width="145" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="将该值存放到数据库中" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="67.5" y="780" width="145" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="39" target="40">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="39" target="48">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="加入盐值的意义" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="234" y="710" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="40" target="42">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="40" target="44">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="不加入盐值时，当数据库被爆破时，黑客可以获取到MD5哈希后的密码值，假如是常用的密码可以通过反向查询彩虹表的方式得到原密码值" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="414" y="600" width="176" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11px&quot;&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;public static void &lt;/span&gt;&lt;span style=&quot;color: #795e26&quot;&gt;main&lt;/span&gt;(&lt;span style=&quot;color: #066555&quot;&gt;String&lt;/span&gt;[] args) {&lt;br&gt;    &lt;span style=&quot;color: #066555&quot;&gt;String &lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;origin &lt;/span&gt;= &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;123456&quot;&lt;/span&gt;;&lt;br&gt;    &lt;span style=&quot;color: #066555&quot;&gt;String &lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;s &lt;/span&gt;= &lt;span style=&quot;color: #066555&quot;&gt;DigestUtils&lt;/span&gt;.&lt;span style=&quot;font-style: italic&quot;&gt;md5Hex&lt;/span&gt;(&lt;span style=&quot;color: #000000&quot;&gt;origin&lt;/span&gt;);&lt;br&gt;    &lt;span style=&quot;color: #8c8c8c ; font-style: italic&quot;&gt;// e10adc3949ba59abbe56e057f20f883e&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #066555&quot;&gt;System&lt;/span&gt;.&lt;span style=&quot;color: #871094 ; font-style: italic&quot;&gt;out&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;println&lt;/span&gt;(&lt;span style=&quot;color: #000000&quot;&gt;origin &lt;/span&gt;+ &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;-&amp;gt;&quot; &lt;/span&gt;+ &lt;span style=&quot;color: #000000&quot;&gt;s&lt;/span&gt;);&lt;br&gt;}&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="540" width="260" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="48" target="50">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="加入盐值，使密码串变得更加复杂，不再是常见的字符串，因而通过数据库能够查询出来的几率更小（大大降低密码被暴力破解的可能性）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="414" y="770" width="176" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="50" target="52">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11px&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;public static void &lt;/span&gt;&lt;span style=&quot;color: #795e26&quot;&gt;main&lt;/span&gt;(&lt;span style=&quot;color: #066555&quot;&gt;String&lt;/span&gt;[] args) {&lt;br&gt;    &lt;span style=&quot;color: #066555&quot;&gt;String &lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;origin &lt;/span&gt;= &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;123456&quot;&lt;/span&gt;;&lt;br&gt;    &lt;span style=&quot;color: #8c8c8c ; font-style: italic&quot;&gt;// $1$8bDU.Nh4$7KWhFYBR9XzR5R.MwR/oB/&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #066555&quot;&gt;String &lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;s &lt;/span&gt;= &lt;span style=&quot;color: #066555&quot;&gt;Md5Crypt&lt;/span&gt;.&lt;span style=&quot;font-style: italic&quot;&gt;md5Crypt&lt;/span&gt;(&lt;span style=&quot;color: #000000&quot;&gt;origin&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;getBytes&lt;/span&gt;());&lt;br&gt;    &lt;span style=&quot;color: #066555&quot;&gt;System&lt;/span&gt;.&lt;span style=&quot;color: #871094 ; font-style: italic&quot;&gt;out&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;println&lt;/span&gt;(&lt;span style=&quot;color: #000000&quot;&gt;origin &lt;/span&gt;+ &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;-&amp;gt;&quot; &lt;/span&gt;+ &lt;span style=&quot;color: #000000&quot;&gt;s&lt;/span&gt;);&lt;br&gt;}&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="770" width="320" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220730025704163.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="980" y="760" width="380.4" height="109" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
