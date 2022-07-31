@@ -1,0 +1,295 @@
+<mxfile host="65bd71144e">
+    <diagram id="94xwJkqdHMeJ5LPqZdwO" name="第 1 页">
+        <mxGraphModel dx="968" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220730230129987.png;sketch=1;imageBorder=default;" parent="1" vertex="1">
+                    <mxGeometry x="201" y="30" width="425.8" height="226" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="内存淘汰策略" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="290" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curved=1;" parent="1" source="4" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="4" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;rounded=0;sketch=1;" edge="1" parent="1" source="4" target="40">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="分类" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="545" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" parent="1" source="5" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="不进行数据淘汰的策略" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="460" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="noeviction" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="460" width="84" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="进行数据淘汰的策略" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="630" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="11" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="11" target="15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="11" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="11" target="18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="范围：设置了过期时间的数据" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="540" width="106" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="13" target="29" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="volatile-random" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="486" y="515" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="15" target="31" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="volatile-ttl" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="486" y="470" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="17" target="33" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="volatile-lru" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="486" y="560" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="18" target="35" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="volatile-lfu" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="486" y="600" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="21" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="21" target="24" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="21" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="范围：所有数据" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="715" width="106" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="23" target="29" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="allkeys-random" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="486" y="670" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="24" target="33" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="allkeys-lru" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="486" y="714.5" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="25" target="35" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="allkeys-lfu" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="486" y="760" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="随机淘汰" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="626.8" y="590" width="84" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="优先淘汰更早过期的键值" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="626.8" y="470" width="154" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="最久未使用的键值" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="626.8" y="630" width="154" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="最少使用的键值" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="626.8" y="670" width="154" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="40" target="42">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="查看当前的内存淘汰策略" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="714.5" width="90" height="35.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220731181558117.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="84" y="780" width="242" height="46.54" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="LRU 算法和 LFU 算法" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="351" y="860" width="126" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="45" target="46">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="45" target="50">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="45" target="58">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="45" target="64">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="LRU 算法" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="1040" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="46" target="48">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="说明" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="925" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="48" target="74">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="Least Recently Used，即最久未使用，会选择&lt;b&gt;淘汰最久未使用的数据&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="256" y="920" width="230" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="传统&lt;br&gt;LRU" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="50" target="52">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="与传统的LRU实现比较" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="995" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="存在的&lt;br&gt;问题" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="52" target="54">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="① 基于「链表」结构，&lt;br&gt;② 最新操作的键会被移动到表头&lt;br&gt;③ 内存淘汰时，删除链表尾部的元素&lt;br&gt;（链表尾部的元素就代表最久未被使用的元素）" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="980" width="256" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="① 使用链表管理，需要额外的内存空间&lt;br&gt;② 移动链表元素性能开销较大" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="626.8" y="995" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="56" target="61">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="①&amp;nbsp;在 Redis 的对象结构体中添加一个&lt;b&gt;额外的字段&lt;/b&gt;，用于记录此数据的&lt;b&gt;最后一次访问时间&lt;/b&gt;&lt;br&gt;②&amp;nbsp;使用随机采样的方式来淘汰数据，它是&lt;b&gt;随机取 5 个值&lt;/b&gt;（此值可配置），然后&lt;b&gt;淘汰最久没有使用的那个&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="1070" width="310" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="近似 LRU&lt;br&gt;算法" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="58" target="56">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="&lt;div&gt;Redis采用&lt;/div&gt;&lt;div&gt;的LRU&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#fad7ac;strokeColor=#b46504;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="1090" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="优点：&lt;br&gt;- 不用为所有的数据维护一个大链表，&lt;b&gt;节省了空间占用&lt;/b&gt;&lt;br&gt;-&amp;nbsp;不用在每次数据访问时都移动链表项，提升了缓存的性能" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="1070" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" style="sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" source="64" target="66">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="缺点" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="1180" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="场景：&lt;br&gt;key1五分钟前访问500次，key2一分钟前访问1次，但内存淘汰把key1给淘汰掉了，比较不合理" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="279" y="1168.75" width="270" height="52.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="68" target="70">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="68" target="78">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="LFU 算法" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="1330" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="70" target="71" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="说明" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="1269" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="71" target="76">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="Least Frequently Used，即最近最不常用的，会选择&lt;b&gt;淘汰最近最不常用的数据&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="256" y="1262" width="244" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="衡量对象为上次到现在的使用时间" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="520.8" y="925" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="衡量对象为最近的&lt;b&gt;使用频率&lt;/b&gt;&lt;br&gt;核心思想是“如果数据过去被访问多次，那么将来被访问的频率也更高”" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="530.8" y="1258.5" width="190" height="51" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="78" target="95">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="&lt;div&gt;Redis&lt;span&gt;的LFU实现&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#fad7ac;strokeColor=#b46504;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="155" y="1375" width="75" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="83" target="84">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="83" target="86">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;sketch=0;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220731201342202.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="890" y="900" width="208" height="111.43" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" style="rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="84" target="88">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="LRU 算法" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="1018" y="1050" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" style="rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="86" target="90">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="LFU 算法" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="1018" y="1130" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="用来记录 key 的访问时间戳" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="1130" y="1050" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="高 16bit： 访问时间戳&lt;br&gt;低8bit：访问频次" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="1130" y="1125" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="并不是单纯的访问次数，而是&lt;b&gt;访问频次&lt;/b&gt;，因为 logc 会&lt;b&gt;随时间推移而衰减&lt;/b&gt;的。" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="1130" y="1181.25" width="220" height="48.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220731202141719.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="827" y="1245.1399999999999" width="470" height="77.73" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="95" target="98">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="95" target="97">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="1. 按照上次访问距离当前的时长，来对 logc 进行衰减；&lt;br&gt;2. 按照一定概率增加 logc 的值" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="1371" width="310" height="49" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="2. 增加操作并不是单纯的 + 1，而是根据概率增加，如果 &lt;b&gt;logc 越大的 key，它的 logc 就越难再增加&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="1410" width="310" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="1. 如果上一次访问的时间与这一次&lt;b&gt;访问的时间差距越大&lt;/b&gt;，那么&lt;b&gt;衰减的值就越大&lt;/b&gt;（频率）" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="1360" width="310" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="101" target="103">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="触发时机" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="380" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="当 Redis 的&lt;b&gt;运行内存超过最大运行内存时&lt;/b&gt;，就会触发内存淘汰策略" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="380" width="370" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
