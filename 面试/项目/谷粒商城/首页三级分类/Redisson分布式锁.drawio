@@ -1,0 +1,475 @@
+<mxfile host="65bd71144e">
+    <diagram id="LNAzGk9qbwU1WvvARSMt" name="第 1 页">
+        <mxGraphModel dx="968" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="113" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="110" target="112">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="110" target="156">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="解锁过程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="1287.81" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Redisson分布式锁原理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="346" y="40" width="136" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" parent="1" source="3" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="240" y="155" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="3" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="分布式锁需要注意的问题" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="314" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="已被占用的锁不能再次抢占" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="100" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="SETNX命令" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="100" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="锁需要指定上&lt;b&gt;过期时间&lt;/b&gt;&lt;br&gt;避免死锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="162.5" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="死锁场景：&lt;br&gt;一个机器占有了分布式锁后，停电宕机了，进而锁无法释放，其他机器上的服务也无法占有锁，导致死锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="150" width="200" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="13" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;b&gt;加锁+设置过期时间&lt;/b&gt;这两个操作应该是&lt;b&gt;原子&lt;/b&gt;的" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="274" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="16" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220802094112363.png;sketch=1;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="230" width="321.36" height="128" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="在这种情况，万一在加锁后、设置过期时间之前断电了，那么过期时间就没有加上，还是会导致死锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="790" y="265.75" width="200" height="56.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="20" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="锁需要有当前业务线程的标识，不能删除其他人的锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="390" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="场景：万一业务在锁过期时间前未能完成，那么之后删除锁时就可能会删掉其他业务加的锁。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="380" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;span style=&quot;text-align: left&quot;&gt;解决方案：加入UUID，当匹配到是自己加的锁再删除，如Redisson使用{UUID}:{线程ID}的方式进行标识。&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="385" width="210" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="26" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;b&gt;判断是自己的锁+删除锁&lt;/b&gt;这两个操作应该是&lt;b&gt;原子&lt;/b&gt;的" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="460" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="28" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="场景：如果不是原子的，在判断后恰好&lt;b&gt;自己的锁过期&lt;/b&gt;+&lt;b&gt;其他业务占有了锁&lt;/b&gt;，自己删除锁就会&lt;b&gt;删除掉别人的锁了&lt;/b&gt;。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="450" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="&lt;span style=&quot;text-align: left&quot;&gt;解决方案：使用Lua脚本保证判断锁+删除锁是原子操作&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="457.5" width="200" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="32" target="34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="锁自动续期" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="540" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="34" target="36">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="场景：由于为了避免死锁为锁&lt;b&gt;设置了过期时间&lt;/b&gt;，那么当自己业务还没有完成时由于过期时间到了自动解锁，可能会造成&lt;b&gt;共享资源保护失效&lt;/b&gt;的问题。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="520" width="230" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;span style=&quot;text-align: left&quot;&gt;解决方案：使用定时任务自动续期，Redisson的看门狗机制&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="532.5" width="200" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="38" target="86">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="38" target="110">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="170" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="38" target="169">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Redisson源码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="896" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" style="rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="39" target="48">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="脚本" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="86" target="39">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="86" target="92">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="164" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=11;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="86" target="163">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="290" y="690" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="86" value="加锁过程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="820" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="960" y="630" width="460" height="410" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;align=center;" vertex="1" parent="89">
+                    <mxGeometry x="80" width="380" height="410" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="是否存在锁名key" style="rhombus;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="89">
+                    <mxGeometry x="125.01999999999998" y="70" width="121.93" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="key对应的哈希表的&lt;br&gt;{uuid}:{线程id}项存在?" style="rhombus;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="89">
+                    <mxGeometry x="125.77999999999997" y="144" width="121.93" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="存在" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" edge="1" parent="89" source="52" target="55">
+                    <mxGeometry y="7" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" edge="1" parent="89" source="58" target="52">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="185.99" y="55" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="开始" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="89">
+                    <mxGeometry x="150.98999999999978" y="10" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="不存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" edge="1" parent="89" source="52" target="62">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="存在" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;startArrow=none;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="89" source="55" target="63">
+                    <mxGeometry x="-0.069" y="13" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                        <mxPoint x="186.74000000000024" y="261" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="62" value="key对应一个哈希表&lt;br&gt;表内添加项&lt;br&gt;(key:{uuid}:{线程id}, value: 1)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;align=center;" vertex="1" parent="89">
+                    <mxGeometry x="263.8599999999999" y="140" width="186.14" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="key对应哈希表的&lt;br&gt;{uuid}:{线程id}项的值+1" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;align=center;" vertex="1" parent="89">
+                    <mxGeometry x="118.57999999999993" y="240" width="136.33" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="结束" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;strokeOpacity=100;fillOpacity=100;imageHeight=24;imageWidth=24;arcSize=50;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="89">
+                    <mxGeometry x="246.95000000000005" y="365" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="设置过期时间(30s)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;align=center;" vertex="1" parent="89">
+                    <mxGeometry x="299.47" y="245" width="114.91" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontColor=#6262FC;" edge="1" parent="89" source="62" target="66">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#6262FC;" edge="1" parent="89" source="63" target="66">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="89" source="74" target="64">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="357" y="350"/>
+                            <mxPoint x="282" y="350"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="74" value="返回nil" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;comic=1;align=center;" vertex="1" parent="89">
+                    <mxGeometry x="324.74" y="300" width="64.38" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontColor=#6262FC;" edge="1" parent="89" source="66" target="74">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="89" source="76" target="64">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="187" y="350"/>
+                            <mxPoint x="282" y="350"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="76" value="返回key对应锁名key对应的ttl值" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;comic=1;align=center;" vertex="1" parent="89">
+                    <mxGeometry x="129.66000000000008" y="300" width="114.16" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="&lt;font color=&quot;#000000&quot;&gt;不存在&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#6262FC;" edge="1" parent="89" source="55" target="76">
+                    <mxGeometry x="-0.3371" y="10" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="100" y="320"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="83" value="此时表示加锁失败，锁被其他业务线程占有，返回锁的释放时间" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="89">
+                    <mxGeometry y="360" width="230" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;dashed=1;" edge="1" parent="89" source="76" target="83">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="92" target="94">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="92" target="95">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="92" target="96">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="92" target="97">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="实现的注意点" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="980" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" style="rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="94" target="102">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="已被占用的锁不能再次抢占" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="980" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="95" target="104">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="锁需要指定上&lt;b&gt;过期时间&lt;/b&gt;&lt;br&gt;避免死锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="1020" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="96" target="106">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="&lt;b&gt;加锁+设置过期时间&lt;/b&gt;这两个操作应该是&lt;b&gt;原子&lt;/b&gt;的" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="1070" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="97" target="108">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="锁需要有当前业务线程的标识，不能删除其他人的锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="1120" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="试图加锁时查看redis中有无哈希表，查看哈希表中有无对应的项，如果没有则返回ttl" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="972.5" width="250" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="在创建锁和锁重入时都设置了过期时间(30s)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="1022.5" width="250" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="Lua脚本保证了这一点" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="1072.5" width="130" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="锁名key对应的哈希表中只有一项：&lt;br&gt;(key: {uuid:线程id}, value: 锁重入次数)，欲删除锁(哈希表)时先查看表项是否符合再删除" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="1115.63" width="250" height="48.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" style="rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="112" target="119">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11px&quot;&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;protected &lt;/span&gt;&lt;span style=&quot;color: #6c00d5&quot;&gt;RFuture&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: #066555&quot;&gt;Boolean&lt;/span&gt;&amp;gt; &lt;span style=&quot;color: #795e26&quot;&gt;unlockInnerAsync&lt;/span&gt;(&lt;span style=&quot;color: #0033b3&quot;&gt;long &lt;/span&gt;threadId) {&lt;br&gt;    &lt;span style=&quot;color: #0033b3&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color: #871094&quot;&gt;commandExecutor&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;evalWriteAsync&lt;/span&gt;(&lt;span style=&quot;color: #795e26&quot;&gt;getName&lt;/span&gt;(), &lt;span style=&quot;color: #066555&quot;&gt;LongCodec&lt;/span&gt;.&lt;span style=&quot;color: #871094 ; font-style: italic&quot;&gt;INSTANCE&lt;/span&gt;, &lt;span style=&quot;color: #6c00d5&quot;&gt;RedisCommands&lt;/span&gt;.&lt;span style=&quot;color: #871094 ; font-style: italic&quot;&gt;EVAL_BOOLEAN&lt;/span&gt;,&lt;br&gt;            &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;if (redis.call('hexists', KEYS[1], ARGV[3]) == 0) then &quot; &lt;/span&gt;+&lt;br&gt;                &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;return nil;&quot; &lt;/span&gt;+&lt;br&gt;            &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;end; &quot; &lt;/span&gt;+&lt;br&gt;            &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;local counter = redis.call('hincrby', KEYS[1], ARGV[3], -1); &quot; &lt;/span&gt;+&lt;br&gt;            &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;if (counter &amp;gt; 0) then &quot; &lt;/span&gt;+&lt;br&gt;                &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;redis.call('pexpire', KEYS[1], ARGV[2]); &quot; &lt;/span&gt;+&lt;br&gt;                &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;return 0; &quot; &lt;/span&gt;+&lt;br&gt;            &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;else &quot; &lt;/span&gt;+&lt;br&gt;                &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;redis.call('del', KEYS[1]); &quot; &lt;/span&gt;+&lt;br&gt;                &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;redis.call('publish', KEYS[2], ARGV[1]); &quot; &lt;/span&gt;+&lt;br&gt;                &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;return 1; &quot;&lt;/span&gt;+&lt;br&gt;            &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;end; &quot; &lt;/span&gt;+&lt;br&gt;            &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;return nil;&quot;&lt;/span&gt;,&lt;br&gt;            &lt;span style=&quot;color: #066555&quot;&gt;Arrays&lt;/span&gt;.&amp;lt;&lt;span style=&quot;color: #066555&quot;&gt;Object&lt;/span&gt;&amp;gt;&lt;span style=&quot;font-style: italic&quot;&gt;asList&lt;/span&gt;(&lt;span style=&quot;color: #795e26&quot;&gt;getName&lt;/span&gt;(), &lt;span style=&quot;color: #795e26&quot;&gt;getChannelName&lt;/span&gt;()), &lt;span style=&quot;color: #066555&quot;&gt;LockPubSub&lt;/span&gt;.&lt;span style=&quot;color: #871094 ; font-style: italic&quot;&gt;UNLOCK_MESSAGE&lt;/span&gt;, &lt;span style=&quot;color: #871094&quot;&gt;internalLockLeaseTime&lt;/span&gt;, &lt;span style=&quot;color: #795e26&quot;&gt;getLockName&lt;/span&gt;(threadId));&lt;br&gt;&lt;br&gt;}&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="1180" width="840" height="245.62" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11px&quot;&gt;&amp;lt;&lt;span style=&quot;color: #007e8a&quot;&gt;T&lt;/span&gt;&amp;gt; &lt;span style=&quot;color: #6c00d5&quot;&gt;RFuture&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: #007e8a&quot;&gt;T&lt;/span&gt;&amp;gt; &lt;span style=&quot;color: #795e26&quot;&gt;tryLockInnerAsync&lt;/span&gt;(&lt;span style=&quot;color: #0033b3&quot;&gt;long &lt;/span&gt;leaseTime, &lt;span style=&quot;color: #066555&quot;&gt;TimeUnit &lt;/span&gt;unit, &lt;span style=&quot;color: #0033b3&quot;&gt;long &lt;/span&gt;threadId, &lt;span style=&quot;color: #066555&quot;&gt;RedisStrictCommand&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: #007e8a&quot;&gt;T&lt;/span&gt;&amp;gt; command) {&lt;br&gt;    &lt;span style=&quot;color: #871094&quot;&gt;internalLockLeaseTime &lt;/span&gt;= unit.&lt;span style=&quot;color: #795e26&quot;&gt;toMillis&lt;/span&gt;(leaseTime);&lt;br&gt;&lt;br&gt;    &lt;span style=&quot;color: #0033b3&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color: #871094&quot;&gt;commandExecutor&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;evalWriteAsync&lt;/span&gt;(&lt;span style=&quot;color: #795e26&quot;&gt;getName&lt;/span&gt;(), &lt;span style=&quot;color: #066555&quot;&gt;LongCodec&lt;/span&gt;.&lt;span style=&quot;color: #871094 ; font-style: italic&quot;&gt;INSTANCE&lt;/span&gt;, command,&lt;br&gt;              &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;if (redis.call('exists', KEYS[1]) == 0) then &quot; &lt;/span&gt;+&lt;br&gt;                  &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;redis.call('hset', KEYS[1], ARGV[2], 1); &quot; &lt;/span&gt;+&lt;br&gt;                  &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;redis.call('pexpire', KEYS[1], ARGV[1]); &quot; &lt;/span&gt;+&lt;br&gt;                  &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;return nil; &quot; &lt;/span&gt;+&lt;br&gt;              &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;end; &quot; &lt;/span&gt;+&lt;br&gt;              &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;if (redis.call('hexists', KEYS[1], ARGV[2]) == 1) then &quot; &lt;/span&gt;+&lt;br&gt;                  &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;redis.call('hincrby', KEYS[1], ARGV[2], 1); &quot; &lt;/span&gt;+&lt;br&gt;                  &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;redis.call('pexpire', KEYS[1], ARGV[1]); &quot; &lt;/span&gt;+&lt;br&gt;                  &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;return nil; &quot; &lt;/span&gt;+&lt;br&gt;              &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;end; &quot; &lt;/span&gt;+&lt;br&gt;              &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;return redis.call('pttl', KEYS[1]);&quot;&lt;/span&gt;,&lt;br&gt;                &lt;span style=&quot;color: #066555&quot;&gt;Collections&lt;/span&gt;.&amp;lt;&lt;span style=&quot;color: #066555&quot;&gt;Object&lt;/span&gt;&amp;gt;&lt;span style=&quot;font-style: italic&quot;&gt;singletonList&lt;/span&gt;(&lt;span style=&quot;color: #795e26&quot;&gt;getName&lt;/span&gt;()), &lt;span style=&quot;color: #871094&quot;&gt;internalLockLeaseTime&lt;/span&gt;, &lt;span style=&quot;color: #795e26&quot;&gt;getLockName&lt;/span&gt;(threadId));&lt;br&gt;}&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="720" width="680" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b85450;comic=0;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="774" width="310" height="66" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;font color=&quot;#6262fc&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;① 查看redis中是否存在锁名的key，如果不存在：&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;1) 创建一个哈希表，设置内容为{&quot;uuid:线程id&quot;: 1}，这个数据项表示当前业务锁&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;2) 数据设置超时时间&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="774" width="290" height="56" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b85450;comic=0;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="840" width="370" height="66" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;font color=&quot;#6262fc&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;② 对应锁名key存在，查看当前业务锁是否存在&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;1) 存在，则使值+1(锁重入)，并更新过期时间&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;2) 不存在，返回锁过期时间&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="750" y="847" width="240" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b85450;comic=0;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="1210" width="370" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="&lt;font color=&quot;#6262fc&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;如果锁项不存在了，返回nil(一般为过期时间到了自动过期)&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="750" y="1215" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b85450;comic=0;imageHeight=24;imageWidth=24;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="1250" width="400" height="132" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="&lt;font color=&quot;#6262fc&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;锁项{uuid}:{线程id}的value-1：&lt;br&gt;1) 结果 &amp;gt; 0，表示没有完全解锁，刷新过期时间后返回0&lt;br&gt;2) 结果 = 0，表示锁重入为0，删除锁名key对应的哈希表结构，发布解锁通知&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="1250" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="1190" y="1097.81" width="320" height="410" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="用锁名key和&lt;br&gt;{uuid}:{线程id}定位锁项" style="rhombus;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="1205.02" y="1167.81" width="121.93" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" value="存在" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" edge="1" parent="1" source="120" target="141">
+                    <mxGeometry x="0.1943" y="14" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                        <mxPoint x="1266.745" y="1241.8100000000002" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="123" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" edge="1" parent="1" source="124" target="120">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1265.99" y="1152.81" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="124" value="开始" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="1230.9899999999998" y="1107.81" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" value="不存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" edge="1" parent="1" source="120" target="127">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="返回nil" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;comic=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="1389.12" y="1175.31" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="刷新过期时间" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="1216.3999999999999" y="1337.81" width="101.42" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="129" value="结束" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;strokeOpacity=100;fillOpacity=100;imageHeight=24;imageWidth=24;arcSize=50;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="1300.99" y="1462.81" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="127" target="129">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" value="删除key对应的哈希表" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="1363.09" y="1273.22" width="90" height="41.19" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontColor=#6262FC;" edge="1" parent="1" source="130" target="154">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1395" y="1397.81" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="137" target="129">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="返回0" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;comic=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="1237.17" y="1397.81" width="63.82" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="146" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="128" target="137">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="141" value="获取对应项value&lt;br&gt;count = (--value)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="1209.66" y="1234.62" width="114.91" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" value="是" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="142" target="128">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="否" style="rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="142" target="130">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="142" value="count &amp;gt; 0?" style="rhombus;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="1213.07" y="1280.56" width="108.08" height="26.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="141" target="142">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="148" target="129">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1330" y="1457.81" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="148" value="返回1" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;comic=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="1376.18" y="1397.81" width="63.82" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="155" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="154" target="148">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="154" value="发布锁删除消息" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="1363.09" y="1337.81" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="159" style="rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="156" target="158">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" value="实现的注意点" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="1460" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="162" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="158" target="161">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" value="&lt;b&gt;判断是自己的锁+删除锁&lt;/b&gt;这两个操作应该是&lt;b&gt;原子&lt;/b&gt;的" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="1455" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="161" value="Lua脚本保证了这一点" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="1457.5" width="130" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="166" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="163" target="165">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="163" value="加锁失败时" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="660" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="165" value="加锁失败时可以获取到锁的ttl，然后获取Semaphore对象，进行tryAcquire对应的时间，即相当于线程阻塞" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="640" width="160" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="167" value="阻塞等待+自旋的方式获取锁，当redis对应锁解锁后会发送消息，这边接收到消息后会对semaphore进行release，进而其他业务线程可以获取到锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="640" width="210" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="172" value="续期脚本" style="rounded=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="169" target="173">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="310" y="1560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="169" target="176">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="169" value="自动续期&lt;br&gt;看门狗" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="1555.62" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="175" style="edgeStyle=none;rounded=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="173" target="174">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="173" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11px&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;protected &lt;/span&gt;&lt;span style=&quot;color: #6c00d5&quot;&gt;RFuture&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: #066555&quot;&gt;Boolean&lt;/span&gt;&amp;gt; &lt;span style=&quot;color: #795e26&quot;&gt;renewExpirationAsync&lt;/span&gt;(&lt;span style=&quot;color: #0033b3&quot;&gt;long &lt;/span&gt;threadId) {&lt;br&gt;    &lt;span style=&quot;color: #0033b3&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color: #871094&quot;&gt;commandExecutor&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;evalWriteAsync&lt;/span&gt;(&lt;span style=&quot;color: #795e26&quot;&gt;getName&lt;/span&gt;(), &lt;span style=&quot;color: #066555&quot;&gt;LongCodec&lt;/span&gt;.&lt;span style=&quot;color: #871094 ; font-style: italic&quot;&gt;INSTANCE&lt;/span&gt;, &lt;span style=&quot;color: #6c00d5&quot;&gt;RedisCommands&lt;/span&gt;.&lt;span style=&quot;color: #871094 ; font-style: italic&quot;&gt;EVAL_BOOLEAN&lt;/span&gt;,&lt;br&gt;            &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;if (redis.call('hexists', KEYS[1], ARGV[2]) == 1) then &quot; &lt;/span&gt;+&lt;br&gt;                &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;redis.call('pexpire', KEYS[1], ARGV[1]); &quot; &lt;/span&gt;+&lt;br&gt;                &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;return 1; &quot; &lt;/span&gt;+&lt;br&gt;            &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;end; &quot; &lt;/span&gt;+&lt;br&gt;            &lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;return 0;&quot;&lt;/span&gt;,&lt;br&gt;        &lt;span style=&quot;color: #066555&quot;&gt;Collections&lt;/span&gt;.&amp;lt;&lt;span style=&quot;color: #066555&quot;&gt;Object&lt;/span&gt;&amp;gt;&lt;span style=&quot;font-style: italic&quot;&gt;singletonList&lt;/span&gt;(&lt;span style=&quot;color: #795e26&quot;&gt;getName&lt;/span&gt;()), &lt;br&gt;        &lt;span style=&quot;color: #871094&quot;&gt;internalLockLeaseTime&lt;/span&gt;, &lt;span style=&quot;color: #795e26&quot;&gt;getLockName&lt;/span&gt;(threadId));&lt;br&gt;}&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="1507.81" width="610" height="135.62" as="geometry"/>
+                </mxCell>
+                <mxCell id="174" value="在异步创建锁成功后，创建一个定时任务，每经过规定时间的1/3就会触发(默认时间30s，故默认触发时间为10s)，任务内容为刷新锁的过期时间" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="975.02" y="1540.46" width="230" height="70.32" as="geometry"/>
+                </mxCell>
+                <mxCell id="179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="176" target="180">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="430" y="1675" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="176" value="实现的注意点" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="1660" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="180" target="181">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="180" value="锁自动续期" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="1660" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="181" value="定时任务实现" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="575" y="1657.5" width="95" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="183" value="即一般情况下当ttl还剩下20s时，就会刷新锁的ttl为30s，这就保证了在当前锁没释放时锁不会自动过期，除非当前服务宕机" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;sketch=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="1216.4" y="1545.8500000000001" width="230" height="59.54" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
