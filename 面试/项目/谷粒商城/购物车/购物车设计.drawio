@@ -1,0 +1,232 @@
+<mxfile host="65bd71144e">
+    <diagram id="fdwy9s4uSTqGnnXUALLM" name="第 1 页">
+        <mxGraphModel dx="879" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" parent="1" source="4" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="原购物车设计" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="191.5" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="使用的数据结构" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="75" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="11" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="案例" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="196.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=0;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220802223716243.png;imageBorder=default;sketch=1;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="160" width="315.48" height="103" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="16" target="18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="16" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="优缺点" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="320" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="优点：对于购物车的操作一般为高频操作，现在的设计只有第一次访问购物车时会访问数据库，其他时候对于购物车的操作以及获取购物车信息都&lt;b&gt;只会操作redis&lt;/b&gt;，性能很高" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="280" width="320" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="缺点：当数据库中的sku信息更新后，无法做到数据库商品信息与购物车内的商品信息一致，用户体验较差" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="350" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="23" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="23" target="34" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="23" target="38" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="一种较好的方案" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="550" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="380" y="45" width="200" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="哈希类型 gulimall:cart:{userId}" style="rounded=0;whiteSpace=wrap;html=1;comic=0;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;verticalAlign=top;" parent="24" vertex="1">
+                    <mxGeometry width="200" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;span style=&quot;text-align: left&quot;&gt;&lt;b&gt;hkey&lt;/b&gt;：skuId 商品Id&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="24" vertex="1">
+                    <mxGeometry y="30" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;b&gt;hvalue&lt;/b&gt;：购物车项的所有信息，包括skuId、数量、标题、价格、勾选等" style="rounded=0;whiteSpace=wrap;html=1;comic=0;fillColor=#b1ddf0;strokeColor=#10739e;" parent="24" vertex="1">
+                    <mxGeometry y="60" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="25" target="28" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="使用的数据结构" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="450" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="370" y="410" width="200" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="哈希类型 gulimall:cart:{userId}" style="rounded=0;whiteSpace=wrap;html=1;comic=0;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;verticalAlign=top;" parent="32" vertex="1">
+                    <mxGeometry width="200" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;span style=&quot;text-align: left&quot;&gt;&lt;b&gt;hkey&lt;/b&gt;：skuId 商品Id&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="32" vertex="1">
+                    <mxGeometry y="30" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="&lt;b&gt;hvalue&lt;/b&gt;：只保存购物项的：&lt;br&gt;① skuId ② 数量 ③ 是否勾选&lt;br&gt;这三样数据" style="rounded=0;whiteSpace=wrap;html=1;comic=0;fillColor=#b1ddf0;strokeColor=#10739e;" parent="32" vertex="1">
+                    <mxGeometry y="60" width="200" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="34" target="36" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="操作说明" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="555" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="此时用户访问购物车时需要：&lt;br&gt;① 获取redis中当前用户的所有购物项spuId集合&lt;br&gt;② 使用集合到&lt;b&gt;数据库&lt;/b&gt;中查找出这些spu的详细信息&lt;br&gt;而增减购物车购物项的数量和勾选状态则只操作redis" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="535" width="320" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="38" target="40" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="38" target="41" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="优缺点" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="660" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="优点：用户可以看到购物车中商品的最新价格状态，对于购物项的操作也不用经过数据库" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="328.87" y="630" width="282.26" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="缺点：每次获取购物项详细信息时还需要查询一次数据库" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="680" width="320" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="优化点：&lt;b&gt;hvalue多存储&lt;/b&gt;一个&lt;b&gt;第一次加入购物车时的价格&lt;/b&gt;，那么当查询sku详细信息时就可以和最新价格进行对比，如果降价了额外返回降价信息" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="470" width="282.26" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="临时用户添加购物项逻辑" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="334" y="770" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="129" y="860" width="20" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="浏览器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="229" y="860" width="100" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" parent="72" vertex="1">
+                    <mxGeometry x="45.5" y="70.3" width="10" height="59.7" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="访问商品页" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;sketch=0;fontSize=12;entryX=-0.103;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" parent="72" target="73" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-90" y="70" as="sourcePoint"/>
+                        <mxPoint x="55.5" y="80.29999999999995" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="75" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" parent="72" vertex="1">
+                    <mxGeometry x="45" y="160" width="10" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" parent="72" vertex="1">
+                    <mxGeometry x="45.5" y="260.14" width="10" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="购物车服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="413" y="860" width="100" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" parent="76" vertex="1">
+                    <mxGeometry x="45" y="177.5" width="10" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" parent="76" vertex="1">
+                    <mxGeometry x="45" y="272.64" width="10" height="47.36" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="cart.gulimall.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" parent="1" vertex="1">
+                    <mxGeometry x="404.5" y="830" width="117" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="点击加入购物车" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;sketch=0;fontSize=12;entryX=-0.103;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="71" target="75" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="138.5" y="1035.0606" as="sourcePoint"/>
+                        <mxPoint x="284.5" y="1045.24" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="101" value="商品服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="580" y="860" width="100" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" parent="101" vertex="1">
+                    <mxGeometry x="45" y="77.65" width="10" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="item.gulimall.com/{spuId}.html" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;sketch=0;fontSize=12;" parent="1" source="73" target="102" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="274.5" y="930" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="104" value="商品页" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;sketch=0;fontSize=12;exitX=0.084;exitY=0.961;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="102" target="73" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="274.5" y="973.2449999999999" as="targetPoint"/>
+                        <mxPoint x="639" y="920" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="106" value="cart.gulimall.com/&lt;br&gt;addToCartSuccessPage.html&lt;br&gt;?skuId=5" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;sketch=0;fontSize=12;" parent="1" source="75" target="105" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="100" y="1030" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="107" value="添加成功页&lt;br&gt;响应头携带Set-Cookie" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;sketch=0;fontSize=12;exitX=0.084;exitY=0.961;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="105" target="75" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="100" y="1073.245" as="targetPoint"/>
+                        <mxPoint x="464.5" y="1020" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="108" value="CartInterceptor拦截器：&lt;br&gt;preHandle：从session中获取用户数据时发现用户不存在，且不存在&quot;user-key&quot;的cookie，生成uuid，赋值到userInfoTo.userKey&lt;br&gt;postHandle：若preHandle时发现是&lt;b&gt;新的临时用户&lt;/b&gt;，则返回一个Set-Cookie：(key: &quot;user-key&quot;, value: 原uuid)" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="1010" width="290" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="保存cookie: (key:&quot;user-key&quot;, value: uuid)" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="51.74" y="1060" width="218.26" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="点击我的购物车" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;sketch=0;fontSize=12;entryX=-0.103;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="71" target="110" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="139" y="1120" as="sourcePoint"/>
+                        <mxPoint x="285" y="1145.38" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="114" value="http://cart.gulimall.com/cart.html" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;sketch=0;fontSize=12;" parent="1" source="110" target="113" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="284" y="1130" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="115" value="购物车页&lt;br&gt;查到临时用户购物车" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;sketch=0;fontSize=12;exitX=0.084;exitY=0.961;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="113" target="110" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="284" y="1173.245" as="targetPoint"/>
+                        <mxPoint x="464.5" y="1112.5" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="116" value="CartInterceptor拦截器：&lt;br&gt;preHandle：发现&lt;b&gt;存在&quot;user-key&quot;的cookie&lt;/b&gt;，将值uuid设置到userInfoTo.userKey中，进而查询redis时查询&lt;b&gt;gulimall:cart:uuid&lt;/b&gt;的购物车&lt;br&gt;postHandle：cookie中已存在&quot;user-key&quot;，不用再Set-Cookie" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="1120" width="282.26" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="117" target="118" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="临时购物车合并操作" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="1290" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="118" target="120" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="假设原临时购物车中添加了物品，那么浏览器cookie中会有分配的user-key，登录后cookie user-key还为消失，因而拦截器设置userInfoTo.userId的同时也设置userInfo.userKey。进而在获取购物车数据时，就先检查userInfo.userKey的购物车中是否有物品，如果有就合并到userInfo.userId的购物车中。" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="1255" width="290" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11px&quot;&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic&quot;&gt;//1&lt;/span&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic ; font-family: &amp;#34;宋体&amp;#34; , monospace&quot;&gt;、登录&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #066555&quot;&gt;String &lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;cartKey &lt;/span&gt;= &lt;span style=&quot;color: #871094 ; font-style: italic&quot;&gt;CART_PREFIX &lt;/span&gt;+ &lt;span style=&quot;color: #000000&quot;&gt;userInfoTo&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;getUserId&lt;/span&gt;();&lt;br&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic&quot;&gt;//&lt;/span&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic ; font-family: &amp;#34;宋体&amp;#34; , monospace&quot;&gt;临时购物车的键&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #066555&quot;&gt;String &lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;temptCartKey &lt;/span&gt;= &lt;span style=&quot;color: #871094 ; font-style: italic&quot;&gt;CART_PREFIX &lt;/span&gt;+ &lt;span style=&quot;color: #000000&quot;&gt;userInfoTo&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;getUserKey&lt;/span&gt;();&lt;br&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic&quot;&gt;//2&lt;/span&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic ; font-family: &amp;#34;宋体&amp;#34; , monospace&quot;&gt;、如果临时购物车的数据还未进行合并&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #6c00d5&quot;&gt;List&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: #066555&quot;&gt;CartItemVo&lt;/span&gt;&amp;gt; &lt;span style=&quot;color: #000000&quot;&gt;tempCartItems &lt;/span&gt;= &lt;span style=&quot;color: #795e26&quot;&gt;getCartItems&lt;/span&gt;(&lt;span style=&quot;color: #000000&quot;&gt;temptCartKey&lt;/span&gt;);&lt;br&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;if &lt;/span&gt;(&lt;span style=&quot;color: #000000&quot;&gt;tempCartItems &lt;/span&gt;!= &lt;span style=&quot;color: #0033b3&quot;&gt;null&lt;/span&gt;) {&lt;br&gt;    &lt;span style=&quot;color: #8c8c8c ; font-style: italic&quot;&gt;//&lt;/span&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic ; font-family: &amp;#34;宋体&amp;#34; , monospace&quot;&gt;临时购物车有数据需要进行合并操作&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic ; font-family: &amp;#34;宋体&amp;#34; , monospace&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;for &lt;/span&gt;(&lt;span style=&quot;color: #066555&quot;&gt;CartItemVo &lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;item &lt;/span&gt;: &lt;span style=&quot;color: #000000&quot;&gt;tempCartItems&lt;/span&gt;) {&lt;br&gt;        &lt;span style=&quot;color: #795e26&quot;&gt;addToCart&lt;/span&gt;(&lt;span style=&quot;color: #000000&quot;&gt;item&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;getSkuId&lt;/span&gt;(),&lt;span style=&quot;color: #000000&quot;&gt;item&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;getCount&lt;/span&gt;());&lt;br&gt;    }&lt;br&gt;    &lt;span style=&quot;color: #8c8c8c ; font-style: italic&quot;&gt;//&lt;/span&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic ; font-family: &amp;#34;宋体&amp;#34; , monospace&quot;&gt;清除临时购物车的数据&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic ; font-family: &amp;#34;宋体&amp;#34; , monospace&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #795e26&quot;&gt;clearCartInfo&lt;/span&gt;(&lt;span style=&quot;color: #000000&quot;&gt;temptCartKey&lt;/span&gt;);&lt;br&gt;}&lt;br&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic&quot;&gt;//3&lt;/span&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic ; font-family: &amp;#34;宋体&amp;#34; , monospace&quot;&gt;、获取登录后的购物车数据【包含合并过来的临时购物车的数据和登录后购物车的数据】&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #6c00d5&quot;&gt;List&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: #066555&quot;&gt;CartItemVo&lt;/span&gt;&amp;gt; &lt;span style=&quot;color: #000000&quot;&gt;cartItems &lt;/span&gt;= &lt;span style=&quot;color: #795e26&quot;&gt;getCartItems&lt;/span&gt;(&lt;span style=&quot;color: #000000&quot;&gt;cartKey&lt;/span&gt;);&lt;br&gt;&lt;span style=&quot;color: #000000&quot;&gt;cartVo&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;setItems&lt;/span&gt;(&lt;span style=&quot;color: #000000&quot;&gt;cartItems&lt;/span&gt;);&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="1240" width="470" height="230" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
