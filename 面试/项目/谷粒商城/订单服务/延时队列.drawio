@@ -1,0 +1,74 @@
+<mxfile host="65bd71144e">
+    <diagram id="CKbPec81XlJpkWl51eLv" name="第 1 页">
+        <mxGraphModel dx="968" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220804233310089.png;imageBorder=default;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="110" width="520" height="221" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="指定死信&lt;br&gt;交换机" style="edgeStyle=none;sketch=1;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="620" y="185.5" as="targetPoint"/>
+                        <mxPoint x="550" y="155.5" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="3" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="使用两个交换机" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="205.5" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="对应死信&lt;br&gt;路由键" style="edgeStyle=none;sketch=1;html=1;exitX=0.673;exitY=0.296;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2">
+                    <mxGeometry x="-0.016" y="-27" relative="1" as="geometry">
+                        <mxPoint x="570" y="245.5" as="targetPoint"/>
+                        <mxPoint x="560" y="165.5" as="sourcePoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="300s即5min后消息会变成死信，进而会被队列放置到指定的死信交换机。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="50" width="206" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="由于指定死信路由键为delay.message，死信交换机会转发到指定的消费者的消费队列中" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="720" y="185.5" width="206" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="消费者消费队列信息，这里面的信息都是生成出来过了5min后的" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="340" width="206" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="使用单个交换机" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="540" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220804234024764.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="198.13" y="446.5" width="503.75" height="217" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="其实使用一个交换机也可以直接完成这个延时队列的需求：&lt;br&gt;① 消息生产者发送消息到交换机，而此时的&lt;b&gt;路由键将消息路由到延时队列&lt;/b&gt;中&lt;br&gt;② 5min后，加入的消息过期&lt;b&gt;变成死信&lt;/b&gt;，进而发送到死信交换机(同一个交换机)，且对应的&lt;b&gt;路由键将消息路由到消费队列&lt;/b&gt;&lt;br&gt;③ 消费者获取消费队列中的消息，可以保证获取的消息都是5min后的" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="730" y="490" width="250" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="14" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="14" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="14" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="什么情况下消息会变成死信" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="750" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="1.&amp;nbsp;被Consumer拒收了，并且reject方法的参数里requeue是false" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="700" width="210" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="2.&amp;nbsp;消息的TTL到了，消息过期了" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="755" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="3.&amp;nbsp;队列的&lt;b&gt;长度限制满了&lt;/b&gt;，排在前面的消息会被丢弃或者扔到死信路由上" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="800" width="210" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
