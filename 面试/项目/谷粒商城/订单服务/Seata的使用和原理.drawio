@@ -1,0 +1,43 @@
+<mxfile host="65bd71144e">
+    <diagram id="NxDPWAZKHPk9P7EE6e0t" name="第 1 页">
+        <mxGraphModel dx="733" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="2" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;span&gt;Seata的基本使用&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="120" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="① 创建undo_log表" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="60" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="② 安装事务协调者seate-server" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="236" y="120" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="③ 整合" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="236" y="200" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;div&gt;1. 启动seata-server：&lt;/div&gt;&lt;div&gt;修改registry.conf中的注册中心配置(这里修改为nacos)&lt;/div&gt;&lt;div&gt;2. file模式下客户端微服务需要导入registry.conf、file.conf&lt;/div&gt;&lt;div&gt;3. 大事务上添加@GlobalTransactional，下层每个小事务上添加@Transactional&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="336" y="176.25" width="324" height="87.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;div&gt;AT模式&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="75" width="78" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;div&gt;之所以需要设置配置中心，是因为各个&lt;b&gt;Seata客户端需要与seata-server(分布式事务协调者)进行通信&lt;/b&gt;，因而当它注册到注册中心后才能顺利找到&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="336" y="280" width="274" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
