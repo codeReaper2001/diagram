@@ -1,0 +1,137 @@
+<mxfile host="65bd71144e">
+    <diagram id="JqIxvQa5mokd1G2ALzdu" name="第 1 页">
+        <mxGraphModel dx="1161" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="26" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="110" width="20" height="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="浏览器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="110" width="100" height="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="27">
+                    <mxGeometry x="45.5" y="70.3" width="10" height="199.7" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="27">
+                    <mxGeometry x="45.5" y="290.4" width="10" height="129.6" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="gulimall的服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="374" y="110" width="100" height="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="31">
+                    <mxGeometry x="45" y="110" width="10" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="31">
+                    <mxGeometry x="55" y="140" width="10" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="重新计算支付&lt;br&gt;金额信息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.067;entryY=0.444;sketch=0;fontSize=12;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="51" parent="31" source="38">
+                    <mxGeometry x="0.0534" relative="1" as="geometry">
+                        <mxPoint x="55" y="130" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="97" y="130"/>
+                            <mxPoint x="97" y="157"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="31">
+                    <mxGeometry x="45" y="375.25" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="31">
+                    <mxGeometry x="45" y="425" width="10" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="31">
+                    <mxGeometry x="55" y="450" width="10" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="保存交易流水信息&lt;br&gt;修改订单状态为已支付" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.067;entryY=0.444;sketch=0;fontSize=12;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="74" parent="31">
+                    <mxGeometry x="0.0534" relative="1" as="geometry">
+                        <mxPoint x="55" y="440" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="97" y="440"/>
+                            <mxPoint x="97" y="467"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="支付宝服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="110" width="100" height="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="37">
+                    <mxGeometry x="45" y="200" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="37">
+                    <mxGeometry x="45" y="310" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="order.gulimall.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="365.5" y="80" width="117" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="http://order.gulimall.com&lt;br&gt;/aliPayOrder?orderSn={订单号}" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;sketch=0;fontSize=12;" edge="1" parent="1" source="28" target="38">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="250" y="210" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="支付宝支付页" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;sketch=0;fontSize=12;exitX=0.084;exitY=0.961;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="38" target="28">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="225" y="238.82999999999993" as="targetPoint"/>
+                        <mxPoint x="610" y="220" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="点击支付宝按钮" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;sketch=0;fontSize=12;entryX=-0.103;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="28" source="26">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="100" y="180" as="sourcePoint"/>
+                        <mxPoint x="245.5" y="190.29999999999995" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="61" value="输入密码并确定" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;sketch=0;fontSize=12;entryX=-0.103;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="60" parent="1" source="26">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="99.5" y="400.00059999999996" as="sourcePoint"/>
+                        <mxPoint x="245.5" y="410.4" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="构造并发送请求到&lt;br&gt;支付宝服务器" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;sketch=0;fontSize=12;" edge="1" target="53" parent="1" source="38">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="429" y="310" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="支付宝支付页" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;sketch=0;fontSize=12;exitX=0.084;exitY=0.961;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="53" parent="1" target="38">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="429" y="338.83000000000004" as="targetPoint"/>
+                        <mxPoint x="793.5" y="310" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="发送支付请求到支付宝服务器" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;sketch=0;fontSize=12;" edge="1" target="65" parent="1" source="60">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="429" y="440" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="67" value="响应携带重定向信息，重定向到支付成功页" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;sketch=0;fontSize=12;exitX=0.084;exitY=0.961;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="65" parent="1" target="60">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="429" y="468.8299999999999" as="targetPoint"/>
+                        <mxPoint x="793.5" y="440" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="68" value="这个请求包含：&lt;br&gt;① 同步跳转地址：支付成功页&lt;br&gt;② 异步请求地址：gulimall修改订单状态url" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="290" width="170" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="请求支付成功页" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;sketch=0;fontSize=12;" edge="1" target="69" parent="1" source="60">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="59.5" y="500" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="71" value="支付成功页" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;sketch=0;fontSize=12;exitX=0.084;exitY=0.961;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="69" parent="1" target="60">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="59.5" y="538.44" as="targetPoint"/>
+                        <mxPoint x="607.5" y="520" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" value="发送异步请求，通知支付成功" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;sketch=0;fontSize=12;entryX=1;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="37" target="73">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="690" y="400" as="sourcePoint"/>
+                        <mxPoint x="794.97" y="470.00059999999996" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
