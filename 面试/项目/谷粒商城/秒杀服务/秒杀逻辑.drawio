@@ -1,0 +1,101 @@
+<mxfile host="65bd71144e">
+    <diagram id="9WabHbL2lTF_DjLV01-q" name="第 1 页">
+        <mxGraphModel dx="778" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="秒杀流程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="359" y="40" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;span&gt;开始&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="120" width="60" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="未登录" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="8">
+                    <mxGeometry y="10" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="登录拦截" style="rhombus;whiteSpace=wrap;html=1;sketch=0;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="190" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="拦截器实现" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="140" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="重定向到首页" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="193" width="100" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="不合法" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" source="10" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="合法" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="19">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="110" y="325" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="合法性判断" style="rhombus;whiteSpace=wrap;html=1;sketch=0;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="260" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="1. 校验对应商品秒杀skuId是否存在{场次id}-{skuId}（查Redis seckill:skus的内容）&lt;br&gt;2. 校验时间是否在秒杀时间内&lt;br&gt;3. 校验随机码randomCode&lt;br&gt;4. 校验购买件数是否&amp;lt;=限制件数&lt;br&gt;5. 校验该用户是否已秒杀过（Redis使用SETNX占位：key为{userId}-{sessionId}-{skuId}）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="230" width="300" height="115" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="参数：&lt;br&gt;秒杀skuId、randomCode、秒杀件数" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="70" width="200" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="秒杀失败" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="340" width="80" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="获取&lt;br&gt;失败" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="19" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="获取成功" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="19" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="获取Redisson&lt;br&gt;信号量" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+                    <mxGeometry x="65" y="340" width="90" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="21" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="快速下单" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="65" y="420" width="90" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="1. 生成一个SeckillOrderTo对象，内容包含：&lt;br&gt;① 订单号&lt;br&gt;② 用户id&lt;br&gt;③ 秒杀skuId&lt;br&gt;④ 秒杀件数&lt;br&gt;⑤ 秒杀场次&lt;br&gt;⑥ 秒杀价格&lt;br&gt;2. 将这个对象发送到MQ中，等待订单服务消费" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="390" width="260" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="返回秒杀成功页" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+                    <mxGeometry x="65" y="476" width="90" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="order.seckill.order" style="rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="26" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="快速秒杀单创建成功" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="600" width="115" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="order.seckill.order" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="31" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="order-event-exchange" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="590" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="监听信息" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="33" target="36">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="order.seckill.order.queue&lt;br&gt;流量削峰" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="605" width="160" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="订单服务监听消息创建订单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="515" y="680" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="1. 保存订单（订单号、下单用户、总金额）&lt;br&gt;2. 保存订单项（价格、件数、金额）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="730" width="240" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
