@@ -1,0 +1,47 @@
+<mxfile host="65bd71144e">
+    <diagram id="spTDXPut5eZ6xc2-UA5q" name="第 1 页">
+        <mxGraphModel dx="968" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;sketch=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="测试使用的枚举类" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="85" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="javac编译" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="3" target="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="258.0000000000001" y="170" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11px&quot;&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;public enum &lt;/span&gt;&lt;span style=&quot;color: #066555&quot;&gt;Color &lt;/span&gt;{&lt;br&gt;    &lt;span style=&quot;color: #871094 ; font-style: italic&quot;&gt;RED&lt;/span&gt;, &lt;span style=&quot;color: #871094 ; font-style: italic&quot;&gt;GREEN&lt;/span&gt;, &lt;span style=&quot;color: #871094 ; font-style: italic&quot;&gt;BLUE&lt;br&gt;&lt;/span&gt;}&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="80" width="124" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="javap&lt;br&gt;反编译" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="7" target="8">
+                    <mxGeometry x="-0.0964" y="21" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220812144337684.png;imageBorder=default;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="188.73" y="176.93" width="126.55" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;curved=1;" edge="1" parent="1" source="8" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220812144450104.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="130" width="439.05" height="141.85" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="10" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="结论" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="222" y="280" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="枚举类的本质：&lt;br&gt;① 是一个继承自java.lang.Enum的类Color&lt;br&gt;② 里面的每个枚举量相当于的Color类型的静态成员变量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="124.76" y="335" width="254.5" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
