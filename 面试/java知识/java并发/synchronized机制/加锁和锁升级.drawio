@@ -1,0 +1,353 @@
+<mxfile host="65bd71144e">
+    <diagram id="tOnEFJTHXXiLS9WzeKoR" name="第 1 页">
+        <mxGraphModel dx="968" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="109" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="1379.5" width="670" height="230.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="19" y="1169" width="671" height="201" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11px&quot;&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;public class &lt;/span&gt;&lt;span style=&quot;color: #066555&quot;&gt;Main &lt;/span&gt;{&lt;br&gt;    &lt;span style=&quot;color: #0033b3&quot;&gt;public static void &lt;/span&gt;&lt;span style=&quot;color: #795e26&quot;&gt;main&lt;/span&gt;(&lt;span style=&quot;color: #066555&quot;&gt;String&lt;/span&gt;[] args) {&lt;br&gt;        &lt;span style=&quot;color: #066555&quot;&gt;Object &lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;obj &lt;/span&gt;= &lt;span style=&quot;color: #0033b3&quot;&gt;new &lt;/span&gt;&lt;span style=&quot;color: #795e26&quot;&gt;Object&lt;/span&gt;();&lt;br&gt;        &lt;span style=&quot;color: #0033b3&quot;&gt;int &lt;/span&gt;i = &lt;span style=&quot;color: #1750eb&quot;&gt;0&lt;/span&gt;;&lt;br&gt;        &lt;span style=&quot;color: #0033b3&quot;&gt;synchronized &lt;/span&gt;(&lt;span style=&quot;color: #000000&quot;&gt;obj&lt;/span&gt;) {&lt;br&gt;            i++;&lt;br&gt;        }&lt;br&gt;        &lt;span style=&quot;color: #066555&quot;&gt;System&lt;/span&gt;.&lt;span style=&quot;color: #871094 ; font-style: italic&quot;&gt;out&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;println&lt;/span&gt;(i);&lt;br&gt;    }&lt;br&gt;}&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="201.85" y="99.5" width="270" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220816200220585.png;imageBorder=default;" parent="1" vertex="1">
+                    <mxGeometry x="541.85" y="29" width="416.3" height="281" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b85450;comic=0;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="119.5" width="110" height="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="字节码" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="synchronized&lt;br&gt;代码块" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;sketch=1;" parent="1" source="7" target="2" edge="1">
+                    <mxGeometry x="-0.2715" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="函数添加&lt;br&gt;synchronized&lt;br&gt;关键字" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="7" target="10" edge="1">
+                    <mxGeometry x="-0.2027" y="-5" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="加锁案例" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="280" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="当我们使用synchronized关键字构建代码临界区时，其实jvm底层会使用&lt;b&gt;monitorenter&lt;/b&gt;和&lt;b&gt;monitorexit&lt;/b&gt;两条指令来保证中间指令执行的原子性" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;sketch=1;" parent="1" vertex="1">
+                    <mxGeometry x="205" y="260" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="字节码" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="10" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11px&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;public class &lt;/span&gt;&lt;span style=&quot;color: #066555&quot;&gt;Main &lt;/span&gt;{&lt;br&gt;&lt;br&gt;    &lt;span style=&quot;color: #0033b3&quot;&gt;int &lt;/span&gt;&lt;span style=&quot;color: #871094&quot;&gt;i &lt;/span&gt;= &lt;span style=&quot;color: #1750eb&quot;&gt;0&lt;/span&gt;;&lt;br&gt;    &lt;span style=&quot;color: #0033b3&quot;&gt;public synchronized void &lt;/span&gt;&lt;span style=&quot;color: #795e26&quot;&gt;add&lt;/span&gt;() {&lt;br&gt;        &lt;span style=&quot;color: #871094&quot;&gt;i&lt;/span&gt;++;&lt;br&gt;    }&lt;br&gt;}&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="205" y="350" width="225" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220817155641195.png;imageBorder=default;" parent="1" vertex="1">
+                    <mxGeometry x="541.85" y="330.89" width="263.28" height="138.22" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b85450;comic=0;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="638" y="351" width="80" height="17" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="15" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="对象结构" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="565" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="510" width="160" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=11;endArrow=none;endFill=0;dashed=1;" parent="1" source="17" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontSize=11;endArrow=none;endFill=0;dashed=1;" parent="1" source="17" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="对象头" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="177.5" y="520" width="145" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="对象数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="177.5" y="565" width="145" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;endArrow=classic;endFill=1;" parent="1" source="19" target="28" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="字节填充" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="177.5" y="610" width="145" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="500" width="110" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="markWord" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+                    <mxGeometry x="388.75" y="513" width="92.5" height="27" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;endArrow=classic;endFill=1;" parent="1" source="23" target="26" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="klassPointer" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="388.75" y="546.5" width="92.5" height="27" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="指向方法区中的instanceKlass对象(c++对象)&lt;br&gt;该对象包含基本所有的类信息" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="533.25" width="160" height="53.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Java对象大小需要填充到可以被8整除（8字节倍数）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="604.13" width="160" height="41.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220817161148032.png;imageBorder=default;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="670" width="580" height="186.27" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;endArrow=classic;endFill=1;" parent="1" source="31" target="30" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="MarkWord与锁状态关系" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="743.13" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b85450;comic=0;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="762" width="80" height="23.13" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b85450;comic=0;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="388.75" y="786.13" width="131.25" height="23.13" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b85450;comic=0;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="809.26" width="160" height="23.13" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220817161522394.png;imageBackground=none;imageBorder=default;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="489" width="211.19" height="121" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="这里即判断末尾是否为101" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;sketch=1;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="1060" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="monitorenter指令执行大致流程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="362" y="920" width="104" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="方法的访问标志上添加了ACC_SYNCHRONIZED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="381" width="150" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="48" target="50">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="monitorenter指令" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="198" y="985" width="104" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="否" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="50" target="101">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="360" y="1077.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="100" value="是" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="50" target="81">
+                    <mxGeometry x="-0.4817" y="10" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="锁对象的markword判断是否使用偏向锁" style="rhombus;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="192.5" y="1052.5" width="115" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="由于内部逻辑过于复杂，这里就只总结最简单的逻辑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=center;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="985" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="81" target="89">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="249" y="1184" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="81" value="添加偏向锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="198" y="1130" width="102" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="否" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="89" target="91">
+                    <mxGeometry x="0.0847" y="10" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="96" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="89" target="94">
+                    <mxGeometry x="-0.8204" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="89" value="markword线程id&lt;br&gt;是否是当前线程" style="rhombus;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="192.5" y="1184" width="115" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="是" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="91" target="93">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="通过markword判断&lt;br&gt;是否为匿名偏向" style="rhombus;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="192.5" y="1253.5" width="115" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="cas&lt;br&gt;成功" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="93" target="94">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="cas失败" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="93" target="98">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="构建新的markword&lt;br&gt;(当前线程id|分代年龄|101)&lt;br&gt;并使用cas设置到obj markword" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="362" y="1246.75" width="170" height="53.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="获取锁成功&lt;br&gt;返回" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="584" y="1253.5" width="96" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="匿名偏向状态即后面三位为101，但线程id为空" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="27.5" y="1253" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="98" target="102">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="撤销偏向锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="199" y="1330" width="102" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="尝试添加轻量级锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="363" y="1062.5" width="102" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="102" target="104">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="等待所有线程进入安全点" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="199" y="1397.25" width="102" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="否" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="104" target="106">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="104" target="113">
+                    <mxGeometry x="-0.7568" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="104" value="拥有偏向锁的线程&lt;br&gt;还在同步代码块中?" style="rhombus;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="192.5" y="1460" width="115" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="设置markword结尾为001&lt;br&gt;即不可偏向" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="1540" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="进入轻量级锁的升级流程&lt;br&gt;原拥有偏向锁的线程获得该轻量级锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="1540" width="200" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="否" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="91" target="98">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="19" y="1623" width="581" height="260.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="118" target="120">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="添加轻量级锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="184" y="1633" width="115" height="33" as="geometry"/>
+                </mxCell>
+                <mxCell id="129" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="119" target="128">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="将obj的markword写入到&lt;b&gt;LockRecord的header中&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="171.37" y="1763" width="140.25" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="无锁" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="120" target="119">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="134" value="有锁" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="120" target="133">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="markword&lt;br&gt;判断是否无锁" style="rhombus;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="184" y="1683" width="115" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" value="slow_enter" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="118">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="139" y="1649.08" as="targetPoint"/>
+                        <mxPoint x="89" y="1649.3300000000002" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="125" value="这里可以获得BasicLock&lt;br&gt;也就是LockRecord" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="36.5" y="1683" width="132.5" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="&lt;div style=&quot;background-color: rgb(250 , 250 , 250) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 11px ; line-height: 22px&quot;&gt;&lt;div style=&quot;color: rgb(56 , 58 , 66)&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 22px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #a626a4&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #c18401&quot;&gt;BasicObjectLock&lt;/span&gt; &lt;span style=&quot;color: #e45649&quot;&gt;VALUE_OBJ_CLASS_SPEC&lt;/span&gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;friend&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #c18401&quot;&gt;VMStructs&lt;/span&gt;;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;span style=&quot;color: #a626a4&quot;&gt;private:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; BasicLock _lock;&lt;span style=&quot;color: #a0a1a7 ; font-style: italic&quot;&gt;&amp;nbsp; // the lock, must be double word aligned&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #e45649&quot;&gt;oop&lt;/span&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #e45649&quot;&gt;_obj&lt;/span&gt;;&lt;span style=&quot;color: #a0a1a7 ; font-style: italic&quot;&gt;&amp;nbsp; &amp;nbsp;// object holds the lock;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;};&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="619.6" y="1740" width="372" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="131" value="cas成功" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="128" target="130">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="350" y="1841"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="128" value="cas设置obj的markword为&lt;br&gt;(LockRecord的指针|00)" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="171.37" y="1820" width="140.25" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" value="获取锁成功&lt;br&gt;返回" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="387" y="1819.5" width="96" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" value="是" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="133" target="139">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="133" target="136">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" value="是否指向&lt;br&gt;当前线程栈帧" style="rhombus;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="377.5" y="1683" width="115" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" value="膨胀成重量级锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="481.25" y="1723" width="115" height="33" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" value="&lt;div style=&quot;background-color: rgb(250 , 250 , 250) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 11px ; line-height: 22px&quot;&gt;&lt;div style=&quot;color: rgb(56 , 58 , 66)&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 22px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 22px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #a626a4&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #c18401&quot;&gt;BasicLock&lt;/span&gt; &lt;span style=&quot;color: #e45649&quot;&gt;VALUE_OBJ_CLASS_SPEC&lt;/span&gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;friend&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #c18401&quot;&gt;VMStructs&lt;/span&gt;;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;span style=&quot;color: #a626a4&quot;&gt;private:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;volatile&lt;/span&gt; markOop _displaced_header;&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="619.6" y="1623" width="236.4" height="113" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="139" target="130">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" value="锁重入，&lt;b&gt;header设置为null&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="386.25" y="1763" width="96.75" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" value="添加&lt;br&gt;轻量级锁" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="141" target="142">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="141" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818171128812.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="1910" width="317.16" height="172" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="cas设置到obj的markword成功" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="142" target="144">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="149" value="失败" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="142" target="148">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="142" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818171217579.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="406.33" y="1910" width="293.67" height="171.69" as="geometry"/>
+                </mxCell>
+                <mxCell id="147" value="锁重入" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="144" target="146">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818171400829.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="2130" width="316.96" height="184.69" as="geometry"/>
+                </mxCell>
+                <mxCell id="146" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818171505858.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="131.23" y="2360" width="314.49" height="202" as="geometry"/>
+                </mxCell>
+                <mxCell id="148" value="膨胀成重量级锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="495.66" y="2520" width="115" height="33" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" value="轻量级锁&lt;b&gt;解锁操作&lt;/b&gt;：&lt;br&gt;① 栈中当前LockRecord的header为空，则直接弹出此LockRecord&lt;br&gt;② header不为空，则恢复obj的markword，后弹出LockRecord" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="564.99" y="2130" width="217" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="152" target="155">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="152" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818172152058.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="44.99" y="2610" width="520" height="196" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" value="cas失败，因为已经被其他线程添加了轻量级锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="572" y="2683" width="139.03" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="159" value="Thread-0解锁" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="155" target="158">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="280" y="3090" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="155" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818172338021.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="38" y="2850" width="534" height="197.17" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;①为原拥有轻量级锁的线程申请ObjectMonitor对象&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;② obj的markword改为(monitor的地址|10)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;③ 当前线程进入队列阻塞等待锁释放（&lt;b&gt;EnterI&lt;/b&gt;）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="584" y="2870" width="276" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;① cas试图恢复obj的markword，失败&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;② 进入到ObjectMonitor的解锁流程&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; 1) owner设置为NULL&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; 2) 根据策略唤醒同步队列的后继线程&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="195" y="3100" width="218.63" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
