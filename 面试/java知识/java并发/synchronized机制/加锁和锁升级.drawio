@@ -324,14 +324,14 @@
                 <mxCell id="150" value="轻量级锁&lt;b&gt;解锁操作&lt;/b&gt;：&lt;br&gt;① 栈中当前LockRecord的header为空，则直接弹出此LockRecord&lt;br&gt;② header不为空，则恢复obj的markword，后弹出LockRecord" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
                     <mxGeometry x="564.99" y="2130" width="217" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="156" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="152" target="155">
+                <mxCell id="156" value="锁膨胀" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="152" target="155">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="152" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818172152058.png;imageBorder=default;" vertex="1" parent="1">
                     <mxGeometry x="44.99" y="2610" width="520" height="196" as="geometry"/>
                 </mxCell>
-                <mxCell id="153" value="cas失败，因为已经被其他线程添加了轻量级锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
-                    <mxGeometry x="572" y="2683" width="139.03" height="50" as="geometry"/>
+                <mxCell id="153" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;① 获取markwork，判断为有锁，且指向的是其他线程栈帧的锁记录&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;② 锁膨胀&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="572" y="2683" width="188" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="159" value="Thread-0解锁" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="155" target="158">
                     <mxGeometry relative="1" as="geometry">
@@ -346,6 +346,114 @@
                 </mxCell>
                 <mxCell id="158" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;① cas试图恢复obj的markword，失败&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;② 进入到ObjectMonitor的解锁流程&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; 1) owner设置为NULL&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; 2) 根据策略唤醒同步队列的后继线程&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
                     <mxGeometry x="195" y="3100" width="218.63" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="162" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="160" target="161">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="165" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="160" target="163">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="166" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="160" target="164">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="160" value="总结" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="38" y="3375" width="52" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="169" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="161" target="168">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="161" value="偏向锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="156" y="3260" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="176" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" edge="1" parent="1" source="163" target="175">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="163" value="轻量级锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="156" y="3375" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="190" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" edge="1" parent="1" source="164" target="189">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="164" value="重量级锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="156" y="3497" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="167" value="应用场景" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="337.16" y="3210" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="193" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" edge="1" parent="1" source="168" target="170">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="168" value="反复执行同一段synchronized代码块的&lt;b&gt;线程一直是同一个&lt;/b&gt;，省去反复加锁解锁的开销" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="257.28000000000003" y="3255" width="238.38" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="174" value="对比" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=classic;startFill=1;" edge="1" parent="1" source="170" target="171">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="170" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818173954190.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="533" y="3122.98" width="327.72" height="155.04" as="geometry"/>
+                </mxCell>
+                <mxCell id="171" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818174047932.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="911.15" y="3080" width="328.92" height="241" as="geometry"/>
+                </mxCell>
+                <mxCell id="172" value="偏向锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;align=center;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="533" y="3102.98" width="78.15" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="173" value="轻量级锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;align=center;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="911.1500000000001" y="3060" width="78.15" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="188" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" edge="1" parent="1" source="175" target="177">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="175" value="一段synchronized代码块被多个线程穿插执行，相互之间其实是没有冲突的" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="257.28000000000003" y="3370" width="238.38" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="187" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="535" y="3330" width="430" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="177" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;align=center;sketch=0;" vertex="1" parent="187">
+                    <mxGeometry width="430" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="178" value="同步代码块" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="187">
+                    <mxGeometry x="71.5" y="18.019999999999982" width="70" height="21.98" as="geometry"/>
+                </mxCell>
+                <mxCell id="180" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" edge="1" parent="187" source="179" target="178">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="179" value="线程1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="187">
+                    <mxGeometry x="8.5" y="18.019999999999982" width="44.99" height="21.98" as="geometry"/>
+                </mxCell>
+                <mxCell id="181" value="同步代码块" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="187">
+                    <mxGeometry x="210" y="46.039999999999964" width="70" height="21.98" as="geometry"/>
+                </mxCell>
+                <mxCell id="182" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" edge="1" source="183" target="181" parent="187">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="183" value="线程2" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="187">
+                    <mxGeometry x="147" y="46.039999999999964" width="44.99" height="21.98" as="geometry"/>
+                </mxCell>
+                <mxCell id="184" value="同步代码块" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="187">
+                    <mxGeometry x="348.15" y="80" width="70" height="21.98" as="geometry"/>
+                </mxCell>
+                <mxCell id="185" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" edge="1" source="186" target="184" parent="187">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="186" value="线程3" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="187">
+                    <mxGeometry x="285.15" y="80" width="44.99" height="21.98" as="geometry"/>
+                </mxCell>
+                <mxCell id="192" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" edge="1" parent="1" source="189" target="191">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="189" value="多个线程同时要执行synchronized代码块的内容时使用&lt;br&gt;优化点：&lt;b&gt;自旋优化&lt;/b&gt;，各个没拿到锁的线程不会直接挂起，而是多次自旋尝试获取锁，&lt;b&gt;多次获取都失败后才挂起&lt;/b&gt;等待" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="257.28" y="3471" width="238.38" height="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="191" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=0;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818174757731.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="3460" width="520" height="323" as="geometry"/>
+                </mxCell>
+                <mxCell id="194" value="只有&lt;b&gt;线程挂起和线程唤醒&lt;/b&gt;操作会真正会进行系统调用(有用户态和内核态切换的开销)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=left;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="257.28" y="3560" width="238.38" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;dashed=1;" edge="1" parent="1" source="113" target="118">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
