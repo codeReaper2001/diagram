@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Ffb0f-CPwvfEkKuO-_Lf" name="第 1 页">
-        <mxGraphModel dx="666" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1157" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -590,7 +590,7 @@
                 <mxCell id="179" value="e!=null?&lt;br&gt;哈希表中存在该键值对" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="223.75" y="1950" width="117.12" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="322" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="182" target="324">
+                <mxCell id="322" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="182" target="324" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="429.14114525139667" y="2001.5" as="targetPoint"/>
                     </mxGeometry>
@@ -613,7 +613,7 @@
                 <mxCell id="195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="189" target="193" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="316" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="189" target="196">
+                <mxCell id="316" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="189" target="196" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="189" value="调用resize()函数进行扩容" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
@@ -952,34 +952,37 @@
                 <mxCell id="307" value="返回newTab，即新的桶数组" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#FFFFFF;align=center;" parent="1" vertex="1">
                     <mxGeometry x="800" y="1750" width="80" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="310" value="&lt;span style=&quot;font-size: 10px&quot;&gt;扩容为原来的两倍&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#A87ED8;align=left;" vertex="1" parent="1">
+                <mxCell id="310" value="&lt;span style=&quot;font-size: 10px&quot;&gt;扩容为原来的两倍&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#A87ED8;align=left;" parent="1" vertex="1">
                     <mxGeometry x="860" y="1350" width="95" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="312" value="&lt;div&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;对应设置初始容量的构造函数&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#A87ED8;align=left;" vertex="1" parent="1">
+                <mxCell id="312" value="&lt;div&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;对应设置初始容量的构造函数&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#A87ED8;align=left;" parent="1" vertex="1">
                     <mxGeometry x="790" y="1450" width="83" height="55" as="geometry"/>
                 </mxCell>
-                <mxCell id="314" value="&lt;div&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;对应无参构造函数&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#A87ED8;align=left;" vertex="1" parent="1">
+                <mxCell id="314" value="&lt;div&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;对应无参构造函数&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#A87ED8;align=left;" parent="1" vertex="1">
                     <mxGeometry x="653.5" y="1485" width="90" height="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="315" value="&lt;span style=&quot;font-size: 10px&quot;&gt;该方法的主要功能是先尝试将树节点拆分到高位链和低位链上，如果需要树化再进行树化&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#A87ED8;align=left;" vertex="1" parent="1">
+                <mxCell id="315" value="&lt;span style=&quot;font-size: 10px&quot;&gt;该方法的主要功能是先尝试将树节点拆分到高位链和低位链上，如果需要树化再进行树化&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#A87ED8;align=left;" parent="1" vertex="1">
                     <mxGeometry x="832.5" y="1840" width="122.5" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="317" value="&lt;span style=&quot;font-size: 10px&quot;&gt;使用位运算等效取模运算hash%n，效率更高&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#A87ED8;align=left;" vertex="1" parent="1">
+                <mxCell id="317" value="&lt;span style=&quot;font-size: 10px&quot;&gt;使用位运算等效取模运算hash%n，效率更高&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#A87ED8;align=left;" parent="1" vertex="1">
                     <mxGeometry x="344.66" y="1460" width="110" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="319" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="179" target="185">
+                <mxCell id="319" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="179" target="185" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="292.22000000000014" y="1835" as="sourcePoint"/>
                         <mxPoint x="291.9849999999999" y="1880" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="320" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="319">
+                <mxCell id="320" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" parent="319" vertex="1" connectable="0">
                     <mxGeometry x="-0.6593" relative="1" as="geometry">
                         <mxPoint y="7" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="324" value="返回oldValue" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="324" value="返回oldValue" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="394.47999999999996" y="2003" width="70.35" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="325" value="&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;font color=&quot;#cc0066&quot;&gt;右移16位的原因：&lt;br&gt;① 通常情况下size不会很大，那么往往是低16位参与哈希运算&lt;br&gt;② 因此这里让高位也参与进来，使最终映射到的idx更加分散&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#A87ED8;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="1260" width="160" height="70" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
