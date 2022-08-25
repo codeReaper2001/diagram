@@ -1,0 +1,128 @@
+<mxfile host="65bd71144e">
+    <diagram id="-kkkI02oXdOv4Lw-UB3S" name="第 1 页">
+        <mxGraphModel dx="968" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;sketch=1;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="示&lt;font style=&quot;font-size: 12px&quot;&gt;例&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="85" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="编译后&lt;br&gt;反编译" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="3" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11px&quot;&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;public class &lt;/span&gt;&lt;span style=&quot;color: #066555&quot;&gt;Main &lt;/span&gt;{&lt;br&gt;    &lt;span style=&quot;color: #066555&quot;&gt;String &lt;/span&gt;&lt;span style=&quot;color: #795e26&quot;&gt;choose&lt;/span&gt;(&lt;span style=&quot;color: #066555&quot;&gt;String &lt;/span&gt;input) {&lt;br&gt;        &lt;span style=&quot;color: #0033b3&quot;&gt;switch &lt;/span&gt;(input) {&lt;br&gt;            &lt;span style=&quot;color: #0033b3&quot;&gt;case &lt;/span&gt;&lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;y&quot;&lt;/span&gt;:&lt;br&gt;                &lt;span style=&quot;color: #0033b3&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;yes&quot;&lt;/span&gt;;&lt;br&gt;            &lt;span style=&quot;color: #0033b3&quot;&gt;case &lt;/span&gt;&lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;n&quot;&lt;/span&gt;:&lt;br&gt;                &lt;span style=&quot;color: #0033b3&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;no&quot;&lt;/span&gt;;&lt;br&gt;            &lt;span style=&quot;color: #0033b3&quot;&gt;default&lt;/span&gt;:&lt;br&gt;                &lt;span style=&quot;color: #0033b3&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;error&quot;&lt;/span&gt;;&lt;br&gt;        }&lt;br&gt;    }&lt;br&gt;}&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="20" width="205" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11px&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;public class &lt;/span&gt;&lt;span style=&quot;color: #066555&quot;&gt;Main &lt;/span&gt;{&lt;br&gt;    &lt;span style=&quot;color: #066555&quot;&gt;String &lt;/span&gt;&lt;span style=&quot;color: #795e26&quot;&gt;choose&lt;/span&gt;(&lt;span style=&quot;color: #066555&quot;&gt;String &lt;/span&gt;input) {&lt;br&gt;        &lt;span style=&quot;color: #0033b3&quot;&gt;byte &lt;/span&gt;var3 = -&lt;span style=&quot;color: #1750eb&quot;&gt;1&lt;/span&gt;;&lt;br&gt;        &lt;span style=&quot;color: #0033b3&quot;&gt;switch&lt;/span&gt;(input.&lt;span style=&quot;color: #795e26&quot;&gt;hashCode&lt;/span&gt;()) {&lt;br&gt;        &lt;span style=&quot;color: #0033b3&quot;&gt;case &lt;/span&gt;&lt;span style=&quot;color: #1750eb&quot;&gt;110&lt;/span&gt;:&lt;br&gt;            &lt;span style=&quot;color: #0033b3&quot;&gt;if &lt;/span&gt;(input.&lt;span style=&quot;color: #795e26&quot;&gt;equals&lt;/span&gt;(&lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;n&quot;&lt;/span&gt;)) {&lt;br&gt;                var3 = &lt;span style=&quot;color: #1750eb&quot;&gt;1&lt;/span&gt;;&lt;br&gt;            }&lt;br&gt;            &lt;span style=&quot;color: #0033b3&quot;&gt;break&lt;/span&gt;;&lt;br&gt;        &lt;span style=&quot;color: #0033b3&quot;&gt;case &lt;/span&gt;&lt;span style=&quot;color: #1750eb&quot;&gt;121&lt;/span&gt;:&lt;br&gt;            &lt;span style=&quot;color: #0033b3&quot;&gt;if &lt;/span&gt;(input.&lt;span style=&quot;color: #795e26&quot;&gt;equals&lt;/span&gt;(&lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;y&quot;&lt;/span&gt;)) {&lt;br&gt;                var3 = &lt;span style=&quot;color: #1750eb&quot;&gt;0&lt;/span&gt;;&lt;br&gt;            }&lt;br&gt;        }&lt;br&gt;&lt;br&gt;        &lt;span style=&quot;color: #0033b3&quot;&gt;switch&lt;/span&gt;(var3) {&lt;br&gt;        &lt;span style=&quot;color: #0033b3&quot;&gt;case &lt;/span&gt;&lt;span style=&quot;color: #1750eb&quot;&gt;0&lt;/span&gt;:&lt;br&gt;            &lt;span style=&quot;color: #0033b3&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;yes&quot;&lt;/span&gt;;&lt;br&gt;        &lt;span style=&quot;color: #0033b3&quot;&gt;case &lt;/span&gt;&lt;span style=&quot;color: #1750eb&quot;&gt;1&lt;/span&gt;:&lt;br&gt;            &lt;span style=&quot;color: #0033b3&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;no&quot;&lt;/span&gt;;&lt;br&gt;        &lt;span style=&quot;color: #0033b3&quot;&gt;default&lt;/span&gt;:&lt;br&gt;            &lt;span style=&quot;color: #0033b3&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;error&quot;&lt;/span&gt;;&lt;br&gt;        }&lt;br&gt;    }&lt;br&gt;}&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="20" width="222" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="29">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;字符串switch-case在javac编译后，本质是：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;① switch(str.hashCode())&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;② 如果一个hashCode中有多个字符串则继续通过if-else获取一个byte值&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;③ 最后使用switch(byteVal)进行真正的逻辑匹配&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="200" width="260" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="50" y="320" width="300" height="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;verticalAlign=top;" vertex="1" parent="30">
+                    <mxGeometry width="300" height="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="switch1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;verticalAlign=top;" vertex="1" parent="30">
+                    <mxGeometry x="20" y="20" width="260" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="获取字符串hashCode，进行switch" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="30">
+                    <mxGeometry x="80" y="50" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="使用if-else + String#equals进一步匹配" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="30">
+                    <mxGeometry x="30" y="120" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="code1" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="30" source="9" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="..." style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="30">
+                    <mxGeometry x="150" y="120" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="code2" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="30" source="9" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="..." style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="30">
+                    <mxGeometry x="220" y="120" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="code3" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="30" source="9" target="12">
+                    <mxGeometry x="0.5919" y="15" relative="1" as="geometry">
+                        <mxPoint y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="得到分配的byteVal" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="30">
+                    <mxGeometry x="95" y="205" width="110" height="35.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="30" source="10" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="30" source="11" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="30" source="12" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="switch2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;verticalAlign=top;" vertex="1" parent="30">
+                    <mxGeometry x="20" y="260" width="260" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="30" source="16" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="对byteVal进行switch" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="30">
+                    <mxGeometry x="80" y="290" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="原逻辑1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="30">
+                    <mxGeometry x="30" y="360" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="v1" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="24" target="25" parent="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="原逻辑2" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="30">
+                    <mxGeometry x="115" y="360" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="v2" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;" edge="1" source="24" target="26" parent="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="原逻辑3" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="30">
+                    <mxGeometry x="200" y="360" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="v3" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="24" target="27" parent="30">
+                    <mxGeometry x="0.0447" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="32" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="哈希码相同字符串案例" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="850" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="编译后&lt;br&gt;反编译" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="33" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11px&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;void &lt;/span&gt;&lt;span style=&quot;color: #795e26&quot;&gt;choose&lt;/span&gt;(&lt;span style=&quot;color: #066555&quot;&gt;String &lt;/span&gt;str) {&lt;br&gt;    &lt;span style=&quot;color: #0033b3&quot;&gt;switch &lt;/span&gt;(str) {&lt;br&gt;        &lt;span style=&quot;color: #0033b3&quot;&gt;case &lt;/span&gt;&lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;BM&quot;&lt;/span&gt;: {&lt;br&gt;            &lt;span style=&quot;color: #066555&quot;&gt;System&lt;/span&gt;.&lt;span style=&quot;color: #871094 ; font-style: italic&quot;&gt;out&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;println&lt;/span&gt;(&lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;h&quot;&lt;/span&gt;);&lt;br&gt;            &lt;span style=&quot;color: #0033b3&quot;&gt;break&lt;/span&gt;;&lt;br&gt;        }&lt;br&gt;        &lt;span style=&quot;color: #0033b3&quot;&gt;case &lt;/span&gt;&lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;C.&quot;&lt;/span&gt;: {&lt;br&gt;            &lt;span style=&quot;color: #066555&quot;&gt;System&lt;/span&gt;.&lt;span style=&quot;color: #871094 ; font-style: italic&quot;&gt;out&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;println&lt;/span&gt;(&lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;w&quot;&lt;/span&gt;);&lt;br&gt;            &lt;span style=&quot;color: #0033b3&quot;&gt;break&lt;/span&gt;;&lt;br&gt;        }&lt;br&gt;    }&lt;br&gt;}&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="790" width="220" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11px&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;void &lt;/span&gt;&lt;span style=&quot;color: #795e26&quot;&gt;choose&lt;/span&gt;(&lt;span style=&quot;color: #066555&quot;&gt;String &lt;/span&gt;str) {&lt;br&gt;    &lt;span style=&quot;color: #0033b3&quot;&gt;byte &lt;/span&gt;var3 = -&lt;span style=&quot;color: #1750eb&quot;&gt;1&lt;/span&gt;;&lt;br&gt;    &lt;span style=&quot;color: #0033b3&quot;&gt;switch&lt;/span&gt;(str.&lt;span style=&quot;color: #795e26&quot;&gt;hashCode&lt;/span&gt;()) {&lt;br&gt;    &lt;span style=&quot;color: #0033b3&quot;&gt;case &lt;/span&gt;&lt;span style=&quot;color: #1750eb&quot;&gt;2123&lt;/span&gt;:&lt;br&gt;        &lt;span style=&quot;color: #0033b3&quot;&gt;if &lt;/span&gt;(str.&lt;span style=&quot;color: #795e26&quot;&gt;equals&lt;/span&gt;(&lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;C.&quot;&lt;/span&gt;)) {&lt;br&gt;            var3 = &lt;span style=&quot;color: #1750eb&quot;&gt;1&lt;/span&gt;;&lt;br&gt;        } &lt;span style=&quot;color: #0033b3&quot;&gt;else if &lt;/span&gt;(str.&lt;span style=&quot;color: #795e26&quot;&gt;equals&lt;/span&gt;(&lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;BM&quot;&lt;/span&gt;)) {&lt;br&gt;            var3 = &lt;span style=&quot;color: #1750eb&quot;&gt;0&lt;/span&gt;;&lt;br&gt;        }&lt;br&gt;    &lt;span style=&quot;color: #0033b3&quot;&gt;default&lt;/span&gt;:&lt;br&gt;        &lt;span style=&quot;color: #0033b3&quot;&gt;switch&lt;/span&gt;(var3) {&lt;br&gt;        &lt;span style=&quot;color: #0033b3&quot;&gt;case &lt;/span&gt;&lt;span style=&quot;color: #1750eb&quot;&gt;0&lt;/span&gt;:&lt;br&gt;            &lt;span style=&quot;color: #066555&quot;&gt;System&lt;/span&gt;.&lt;span style=&quot;color: #871094 ; font-style: italic&quot;&gt;out&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;println&lt;/span&gt;(&lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;h&quot;&lt;/span&gt;);&lt;br&gt;            &lt;span style=&quot;color: #0033b3&quot;&gt;break&lt;/span&gt;;&lt;br&gt;        &lt;span style=&quot;color: #0033b3&quot;&gt;case &lt;/span&gt;&lt;span style=&quot;color: #1750eb&quot;&gt;1&lt;/span&gt;:&lt;br&gt;            &lt;span style=&quot;color: #066555&quot;&gt;System&lt;/span&gt;.&lt;span style=&quot;color: #871094 ; font-style: italic&quot;&gt;out&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;println&lt;/span&gt;(&lt;span style=&quot;color: #067d17 ; font-weight: bold&quot;&gt;&quot;w&quot;&lt;/span&gt;);&lt;br&gt;        }&lt;br&gt;&lt;br&gt;    }&lt;br&gt;}&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="735" width="235" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="37" target="38">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;div style=&quot;text-align: left&quot;&gt;为什么不直接使用if-else和String#equals()直接执行各个逻辑块，而是先获取hashCode()+switch获取了编码后再次使用switch来匹配执行逻辑块呢？&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="530" width="269" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;这样主要是为了提升匹配的性能，&lt;b&gt;大部分字符串的哈希值是不一样的&lt;/b&gt;，这样可以先跳转到哈&lt;font style=&quot;font-size: 12px&quot;&gt;希值相同的字符串集合中进行比较，而这个集合的字符串&lt;/font&gt;数量很少，这一步可以认为是O(1)复杂度。&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;然后使用编号再进行一次switch，复杂度为O(1)，因此这样操作的复杂度远比原来O(n)的复杂度要小&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="409.5" y="620" width="290" height="100" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
