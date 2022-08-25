@@ -192,7 +192,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="58" value="&lt;div style=&quot;text-align: left&quot;&gt;若该&lt;b&gt;静态变量为常量&lt;/b&gt;，则会在准备阶段赋指定默认值&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;（基本类型和字符串）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;" parent="1" vertex="1">
-                    <mxGeometry x="470.94" y="459.26" width="128.12" height="60" as="geometry"/>
+                    <mxGeometry x="470.94" y="454.63" width="128.12" height="69.26" as="geometry"/>
                 </mxCell>
                 <mxCell id="64" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="60" target="63" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
