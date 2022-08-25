@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="hgsSg9nnZrVGJ6cD6uLR" name="第 1 页">
-        <mxGraphModel dx="1180" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1161" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -316,6 +316,18 @@
                 </mxCell>
                 <mxCell id="109" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220821225136570.png;imageBorder=default;" parent="1" vertex="1">
                     <mxGeometry x="591.25" y="1160" width="520" height="94" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="方法区中Klass的内容" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="354" y="1320" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="加载后内存情况" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="114" target="115">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220826061853314.png;imageBorder=default;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="154" y="1380" width="520" height="171" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220826062442219.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="131.8" y="1590" width="567.27" height="300" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
