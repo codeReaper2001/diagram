@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="tOnEFJTHXXiLS9WzeKoR" name="第 1 页">
-        <mxGraphModel dx="968" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="770" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -214,6 +214,11 @@
                 </mxCell>
                 <mxCell id="104" value="拥有偏向锁的线程&lt;br&gt;还在同步代码块中?" style="rhombus;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
                     <mxGeometry x="192.5" y="1460" width="115" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;fontSize=11;startArrow=none;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="106" target="118">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="240" y="1630" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="106" value="设置markword结尾为001&lt;br&gt;即不可偏向" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;" vertex="1" parent="1">
                     <mxGeometry x="170" y="1540" width="160" height="40" as="geometry"/>
