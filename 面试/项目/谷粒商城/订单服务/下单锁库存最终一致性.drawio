@@ -1,15 +1,15 @@
 <mxfile host="65bd71144e">
     <diagram id="ryhLv45AXXRx1UzjRm5k" name="第 1 页">
-        <mxGraphModel dx="1284" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1121" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="41" value="order.finish.#" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0;exitDx=0;exitDy=35;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="3" target="40">
+                <mxCell id="41" value="order.finish.#" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0;exitDx=0;exitDy=35;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="3" target="40" edge="1">
                     <mxGeometry x="0.432" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;rounded=0;" edge="1" parent="1" source="2" target="8">
+                <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;rounded=0;" parent="1" source="2" target="8" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="140" y="280"/>
@@ -17,7 +17,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="24">
+                <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="24" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="140" y="280"/>
@@ -25,13 +25,13 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="32">
+                <mxCell id="33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="32" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="订单服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                <mxCell id="2" value="订单服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="40" y="265" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="order.create.order" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#b0e3e6;strokeColor=#0e8088;" edge="1" parent="1" source="3" target="13">
+                <mxCell id="14" value="order.create.order" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" source="3" target="13" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="395" y="210"/>
@@ -39,23 +39,23 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="order.release.order" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="3" target="18">
+                <mxCell id="19" value="order.release.order" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="3" target="18" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="3" target="27">
+                <mxCell id="28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="3" target="27" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="order.release.other.#" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="28">
+                <mxCell id="29" value="order.release.other.#" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="28" vertex="1" connectable="0">
                     <mxGeometry x="-0.0183" y="-1" relative="1" as="geometry">
                         <mxPoint x="38" y="-1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="37" value="order.finish.#" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0;exitDx=0;exitDy=35;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="3" target="36">
+                <mxCell id="37" value="order.finish.#" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0;exitDx=0;exitDy=35;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="3" target="36" edge="1">
                     <mxGeometry x="0.3469" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="61" value="order.release.other.#" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="3" target="52">
+                <mxCell id="61" value="order.release.other.#" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="3" target="52" edge="1">
                     <mxGeometry x="0.4054" relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="395" y="650"/>
@@ -64,10 +64,10 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3" value="order-event-exchange" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+                <mxCell id="3" value="order-event-exchange" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
                     <mxGeometry x="340" y="250" width="110" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="order.create.order&lt;br&gt;内容：订单实体&lt;br&gt;OrderEntity" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#b0e3e6;strokeColor=#0e8088;" edge="1" parent="1" source="8" target="3">
+                <mxCell id="10" value="order.create.order&lt;br&gt;内容：订单实体&lt;br&gt;OrderEntity" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" source="8" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="300" y="160"/>
@@ -75,13 +75,13 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8" value="创建订单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-                    <mxGeometry x="180" y="140" width="70" height="40" as="geometry"/>
+                <mxCell id="8" value="订单待付款" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="140" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. 校验令牌(幂等)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. 创建订单(重新查一遍数据库里的订单项)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3. 校验价格(前端传递的价格和后端计算的价格)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;4. 保存订单和订单项&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;5. 调用远程服务锁库存&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;6. 发送消息到MQ&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                <mxCell id="12" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. 校验令牌(幂等)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. 创建订单(重新查一遍数据库里的订单项)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3. 校验价格(前端传递的价格和后端计算的价格)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;4. 保存订单和订单项&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;5. 调用远程服务锁库存&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;6. 发送消息到MQ&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="180" y="20" width="270" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="order.release.order" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=75;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="13" target="3">
+                <mxCell id="17" value="order.release.order" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=75;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="13" target="3" edge="1">
                     <mxGeometry x="-0.2374" relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="600" y="130"/>
@@ -90,19 +90,19 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="13" value="order.delay.queue&lt;br&gt;30 min" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+                <mxCell id="13" value="order.delay.queue&lt;br&gt;30 min" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
                     <mxGeometry x="540" y="152.5" width="120" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="1. x-dead-letter-exchange：order-event-exchange&lt;br&gt;2. x-dead-letter-routing-key：order.release.order&lt;br&gt;3. x-message-ttl：30 * 60 * 1000" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                <mxCell id="16" value="1. x-dead-letter-exchange：order-event-exchange&lt;br&gt;2. x-dead-letter-routing-key：order.release.order&lt;br&gt;3. x-message-ttl：30 * 60 * 1000" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="680" y="137.5" width="280" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="20">
+                <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="18" target="20" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="order.release.order.queue" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                <mxCell id="18" value="order.release.order.queue" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="580" y="262.5" width="150" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="order.release.other&lt;br&gt;OrderTo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="20" target="3">
+                <mxCell id="23" value="order.release.other&lt;br&gt;OrderTo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="20" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="825" y="230"/>
@@ -110,13 +110,13 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="20" value="监听并释放订单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="20" value="监听并释放订单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="770" y="260" width="110" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="1. 查询根据订单号到数据库查询订单，如果订单状态为未支付，则关闭订单（订单状态改为&lt;b&gt;已取消&lt;/b&gt;）&lt;br&gt;2. 发送消息到MQ提醒&lt;b&gt;释放其他资源&lt;/b&gt;(优惠券和库存)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                <mxCell id="22" value="1. 查询根据订单号到数据库查询订单，如果订单状态为未支付，则关闭订单（订单状态改为&lt;b&gt;已取消&lt;/b&gt;）&lt;br&gt;2. 发送消息到MQ提醒&lt;b&gt;释放其他资源&lt;/b&gt;(优惠券和库存)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="770" y="310" width="280" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="order.release.order" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.667;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="24" target="3">
+                <mxCell id="26" value="order.release.order" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.667;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="24" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="300" y="350"/>
@@ -124,358 +124,358 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="24" value="订单主动取消" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="24" value="订单主动取消" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="170" y="330" width="90" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="27" target="30">
+                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="27" target="30" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="order.release.coupon.queue" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                <mxCell id="27" value="order.release.coupon.queue" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="580" y="380" width="160" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="监听并释放优惠券" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="30" value="监听并释放优惠券" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="770" y="377.5" width="110" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" value="order.finish" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=75;entryPerimeter=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="32" target="3">
+                <mxCell id="35" value="order.finish" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=75;entryPerimeter=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="32" target="3" edge="1">
                     <mxGeometry x="-0.4043" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="32" value="订单支付成功" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="32" value="订单支付成功" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="170" y="430" width="90" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. 保存交易流水信息&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;2. 修改&lt;b&gt;订单状态&lt;/b&gt;为&lt;b&gt;已支付&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3. 给支付宝异步通知返回success&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                <mxCell id="34" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. 保存交易流水信息&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;2. 修改&lt;b&gt;订单状态&lt;/b&gt;为&lt;b&gt;已支付&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3. 给支付宝异步通知返回success&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="110" y="480" width="190" height="65" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="36" target="38">
+                <mxCell id="39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="36" target="38" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="order.finish.user.queue" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                <mxCell id="36" value="order.finish.user.queue" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="580" y="495" width="160" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" value="监听给用户加积分" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="38" value="监听给用户加积分" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="770" y="492.5" width="110" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="40" target="42">
+                <mxCell id="43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="40" target="42" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="40" value="order.finish.ware.queue" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                <mxCell id="40" value="order.finish.ware.queue" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="580" y="550" width="160" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" value="库存检查是否需要拆单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="42" value="库存检查是否需要拆单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="770" y="547.5" width="130" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="44" target="57">
+                <mxCell id="59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="44" target="57" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="44" target="45">
+                <mxCell id="60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="44" target="45" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" value="库存服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                <mxCell id="44" value="库存服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="40" y="710" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" value="stock.locked&lt;br&gt;StockLockedTo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=75;entryPerimeter=0;fillColor=#6a00ff;strokeColor=#3700CC;" edge="1" parent="1" source="45" target="46">
+                <mxCell id="47" value="stock.locked&lt;br&gt;StockLockedTo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=75;entryPerimeter=0;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" source="45" target="46" edge="1">
                     <mxGeometry x="-0.1351" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="45" value="库存锁定" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="45" value="库存锁定" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="170" y="787.5" width="90" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="50" value="stock.locked" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#6a00ff;strokeColor=#3700CC;" edge="1" parent="1" source="46" target="49">
+                <mxCell id="50" value="stock.locked" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" source="46" target="49" edge="1">
                     <mxGeometry x="0.1111" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="53" value="stock.release.#" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="46" target="52">
+                <mxCell id="53" value="stock.release.#" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" source="46" target="52" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" value="stock-event-exchange" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+                <mxCell id="46" value="stock-event-exchange" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
                     <mxGeometry x="340" y="680" width="110" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="51" value="延时时间到，放入到解锁队列&lt;br&gt;stock.release" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="49" target="46">
+                <mxCell id="51" value="延时时间到，放入到解锁队列&lt;br&gt;stock.release" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" source="49" target="46" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="49" value="stock.delay.queue&lt;br&gt;50 min" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+                <mxCell id="49" value="stock.delay.queue&lt;br&gt;50 min" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
                     <mxGeometry x="540" y="790" width="120" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="52" target="54">
+                <mxCell id="56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="52" target="54" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="52" value="stock.release.stock.queue" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                <mxCell id="52" value="stock.release.stock.queue" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="580" y="692.5" width="160" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="54" target="69">
+                <mxCell id="71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="54" target="69" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="54" target="99">
+                <mxCell id="100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="54" target="99" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" value="监听解锁库存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="54" value="监听解锁库存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="770" y="690" width="130" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="58" value="stock.release" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="57" target="46">
+                <mxCell id="58" value="stock.release" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" source="57" target="46" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" value="库存解锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="57" value="库存解锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="170" y="690" width="90" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="62" value="1. 每个sku先查找对应的有库存的仓库列表&lt;br&gt;2. 遍历每个sku，得到仓库列表后遍历每个仓库，对遍历到的仓库进行尝试锁定库存&lt;br&gt;3. 存在一个sku所有仓库锁定库存都失败，抛出异常，事务回滚，返回code!=0&lt;br&gt;4. 每锁成功一个sku即发送一个信息到MQ中，当所有sku仓库都锁定库存成功时返回成功" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                <mxCell id="62" value="1. 每个sku先查找对应的有库存的仓库列表&lt;br&gt;2. 遍历每个sku，得到仓库列表后遍历每个仓库，对遍历到的仓库进行尝试锁定库存&lt;br&gt;3. 存在一个sku所有仓库锁定库存都失败，抛出异常，事务回滚，返回code!=0&lt;br&gt;4. 每锁成功一个sku即发送一个信息到MQ中，当所有sku仓库都锁定库存成功时返回成功" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="90" y="840" width="250" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="63" value="这个延时队列自动解锁的意义是：下订单业务执行&lt;b&gt;锁库存成功&lt;/b&gt;了，但&lt;b&gt;远程调用其他服务失败&lt;/b&gt;了，&lt;b&gt;订单业务回滚但库存服务无法回滚&lt;/b&gt;，这样就会造成下订单失败但库存扣减的情况，故需要这个机制&lt;b&gt;进行补偿实现最终一致&lt;/b&gt;。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;align=left;" vertex="1" parent="1">
+                <mxCell id="63" value="这个延时队列自动解锁的意义是：下订单业务执行&lt;b&gt;锁库存成功&lt;/b&gt;了，但&lt;b&gt;远程调用其他服务失败&lt;/b&gt;了，&lt;b&gt;订单业务回滚但库存服务无法回滚&lt;/b&gt;，这样就会造成下订单失败但库存扣减的情况，故需要这个机制&lt;b&gt;进行补偿实现最终一致&lt;/b&gt;。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="460" y="840" width="250" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" value="1. 每个sku先查找对应的有库存的仓库列表&lt;br&gt;2. 遍历每个sku，得到仓库列表后遍历每个仓库，对遍历到的仓库进行尝试锁定库存&lt;br&gt;3. 存在一个sku所有仓库锁定库存都失败，抛出异常，事务回滚，返回code!=0&lt;br&gt;4. 每锁成功一个sku即发送一个信息到MQ中，当所有sku仓库都锁定库存成功时返回成功" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                <mxCell id="65" value="1. 每个sku先查找对应的有库存的仓库列表&lt;br&gt;2. 遍历每个sku，得到仓库列表后遍历每个仓库，对遍历到的仓库进行尝试锁定库存&lt;br&gt;3. 存在一个sku所有仓库锁定库存都失败，抛出异常，事务回滚，返回code!=0&lt;br&gt;4. 每锁成功一个sku即发送一个信息到MQ中，当所有sku仓库都锁定库存成功时返回成功" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="960" y="570" width="250" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="67" value="&lt;span&gt;工作单号和工作单详情&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+                <mxCell id="67" value="&lt;span&gt;工作单号和工作单详情&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="290" y="740" width="70" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="68" value="&lt;span&gt;内容和&lt;br&gt;OrderEntry&lt;br&gt;一样&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+                <mxCell id="68" value="&lt;span&gt;内容和&lt;br&gt;OrderEntry&lt;br&gt;一样&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="827" y="190" width="93" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="69" target="72">
+                <mxCell id="98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="69" target="72" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="69" value="StockLockedTo消息&lt;br&gt;延时50min情况" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="69" value="StockLockedTo消息&lt;br&gt;延时50min情况" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="830" y="748.75" width="110" height="41.25" as="geometry"/>
                 </mxCell>
-                <mxCell id="109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="99" target="101">
+                <mxCell id="109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="99" target="101" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="99" value="OrderTo消息&lt;br&gt;订单关单时发来的消息&lt;br&gt;30min" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="99" value="OrderTo消息&lt;br&gt;订单关单时发来的消息&lt;br&gt;30min" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="830" y="1090" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="72" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                <mxCell id="72" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
                     <mxGeometry x="990" y="690" width="390" height="372.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="73" value="根据工作单详情id查询详情记录" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="1">
+                <mxCell id="73" value="根据工作单详情id查询详情记录" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="1090" y="701.25" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="75" value="详情记录存在?" style="rhombus;whiteSpace=wrap;html=1;comic=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="75" value="详情记录存在?" style="rhombus;whiteSpace=wrap;html=1;comic=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="1095" y="762.5" width="110" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="76" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="73" target="75">
+                <mxCell id="76" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="73" target="75" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="77" value="无需解锁，返回" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                <mxCell id="77" value="无需解锁，返回" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="1241" y="767.5" width="99" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="78" value="不存在" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="75" target="77">
+                <mxCell id="78" value="不存在" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="75" target="77" edge="1">
                     <mxGeometry x="-0.1667" y="20" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="79" value="这种情况即数据库中没有对应的详情记录信息，表示&lt;b&gt;库存锁定事务失败&lt;/b&gt;回滚了，因而，进而无需处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                <mxCell id="79" value="这种情况即数据库中没有对应的详情记录信息，表示&lt;b&gt;库存锁定事务失败&lt;/b&gt;回滚了，因而，进而无需处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="1350" y="762.5" width="250" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="80" value="查询订单" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="1">
+                <mxCell id="80" value="查询订单" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="1100.5" y="832.5" width="99" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="81" value="存在" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="75" target="80">
+                <mxCell id="81" value="存在" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="75" target="80" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="82" value="存在表示锁库存成功，此时需查看订单状态判断是否解锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                <mxCell id="82" value="存在表示锁库存成功，此时需查看订单状态判断是否解锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="1210" y="817.5" width="160" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="83" value="抛出异常" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                <mxCell id="83" value="抛出异常" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="1001.5" y="872.5" width="58.5" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="84" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;订单远程&lt;br&gt;查询失败&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="80" target="83">
+                <mxCell id="84" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;订单远程&lt;br&gt;查询失败&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="80" target="83" edge="1">
                     <mxGeometry x="-0.1444" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="85" value="消息reject+requeue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=center;" vertex="1" parent="1">
+                <mxCell id="85" value="消息reject+requeue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=center;" parent="1" vertex="1">
                     <mxGeometry x="990.5" y="802.5" width="110" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="86" value="订单存在?" style="rhombus;whiteSpace=wrap;html=1;comic=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="86" value="订单存在?" style="rhombus;whiteSpace=wrap;html=1;comic=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="1095" y="892.5" width="110" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="87" value="获取订单成功" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="80" target="86">
+                <mxCell id="87" value="获取订单成功" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="80" target="86" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="88" value="库存未解锁时&lt;br&gt;解锁库存，返回" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                <mxCell id="88" value="库存未解锁时&lt;br&gt;解锁库存，返回" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="1270" y="957.5" width="90" height="42.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="89" value="不存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="86" target="88">
+                <mxCell id="89" value="不存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="86" target="88" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="92" value="已取消" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="90" target="88">
+                <mxCell id="92" value="已取消" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="90" target="88" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="90" value="订单状态为已取消?" style="rhombus;whiteSpace=wrap;html=1;comic=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="90" value="订单状态为已取消?" style="rhombus;whiteSpace=wrap;html=1;comic=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="1095" y="952.5" width="110" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="91" value="存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="86" target="90">
+                <mxCell id="91" value="存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="86" target="90" edge="1">
                     <mxGeometry y="20" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="93" value="不能解锁，返回" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                <mxCell id="93" value="不能解锁，返回" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="1105" y="1022.5" width="90" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="94" value="其他状态" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="90" target="93">
+                <mxCell id="94" value="其他状态" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="90" target="93" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="95" value="订单不存在表示下订单事务回滚了，因而要解锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                <mxCell id="95" value="订单不存在表示下订单事务回滚了，因而要解锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="1330" y="892.5" width="260" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="96" value="状态为已取消即订单超时取消，需要解锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                <mxCell id="96" value="状态为已取消即订单超时取消，需要解锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="1370" y="958.75" width="230" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="108" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="108" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="990" y="1080" width="320" height="200" as="geometry"/>
                 </mxCell>
-                <mxCell id="101" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="108">
+                <mxCell id="101" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="108" vertex="1">
                     <mxGeometry width="320" height="200" as="geometry"/>
                 </mxCell>
-                <mxCell id="102" value="获取订单号&lt;br&gt;根据订单号得到对应库存工作单" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="108">
+                <mxCell id="102" value="获取订单号&lt;br&gt;根据订单号得到对应库存工作单" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" parent="108" vertex="1">
                     <mxGeometry x="45" y="10" width="120" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="103" value="工作单号获取多个工作单详情项" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="108">
+                <mxCell id="103" value="工作单号获取多个工作单详情项" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" parent="108" vertex="1">
                     <mxGeometry x="45" y="80" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="108" source="102" target="103">
+                <mxCell id="104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="108" source="102" target="103" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="105" value="这里还需要保证工作单详情是已锁定的" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="108">
+                <mxCell id="105" value="这里还需要保证工作单详情是已锁定的" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" parent="108" vertex="1">
                     <mxGeometry x="190.5" y="80" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="106" value="sku库存解锁&lt;br&gt;更新工作单详情状态为已解锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="108">
+                <mxCell id="106" value="sku库存解锁&lt;br&gt;更新工作单详情状态为已解锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" parent="108" vertex="1">
                     <mxGeometry x="17.5" y="140" width="175" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="108" source="103" target="106">
+                <mxCell id="107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="108" source="103" target="106" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="110" value="保证消息的可靠性" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;" vertex="1" parent="1">
+                <mxCell id="110" value="保证消息的可靠性" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="353" y="1120" width="121" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="115" style="rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="111" target="112">
+                <mxCell id="115" style="rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="111" target="112" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="116" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="111" target="113">
+                <mxCell id="116" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="111" target="113" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="117" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="111" target="114">
+                <mxCell id="117" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="111" target="114" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="111" value="消息不可靠的因素" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                <mxCell id="111" value="消息不可靠的因素" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="260" y="1240" width="121" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="112" value="消息丢失" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                <mxCell id="112" value="消息丢失" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="490" y="1180" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="113" value="消息重复" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                <mxCell id="113" value="消息重复" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="490" y="1240" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="114" value="消息积压" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                <mxCell id="114" value="消息积压" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="490" y="1310" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="122" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="119" target="120">
+                <mxCell id="122" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="119" target="120" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="130" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="119" target="129">
+                <mxCell id="130" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="119" target="129" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="135" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="119" target="134">
+                <mxCell id="135" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="119" target="134" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="119" value="消息丢失" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                <mxCell id="119" value="消息丢失" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="1530" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="124" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="120" target="123">
+                <mxCell id="124" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="120" target="123" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="128" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="120" target="127">
+                <mxCell id="128" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="120" target="127" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="120" value="做好消息记录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;" vertex="1" parent="1">
+                <mxCell id="120" value="做好消息记录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="154.5" y="1440" width="101" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="126" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="123" target="125">
+                <mxCell id="126" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="123" target="125" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="123" value="数据库表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;" vertex="1" parent="1">
+                <mxCell id="123" value="数据库表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="310" y="1395" width="77" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="125" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220805172902567.png;imageBorder=default;" vertex="1" parent="1">
+                <mxCell id="125" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220805172902567.png;imageBorder=default;" parent="1" vertex="1">
                     <mxGeometry x="440" y="1350" width="480" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="127" value="每个消息发送后在数据库中做好记录，包括&lt;b&gt;消息的状态信息&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                <mxCell id="127" value="每个消息发送后在数据库中做好记录，包括&lt;b&gt;消息的状态信息&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="310" y="1460" width="120" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="133" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="129" target="132">
+                <mxCell id="133" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="129" target="132" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="129" value="重试机制" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;" vertex="1" parent="1">
+                <mxCell id="129" value="重试机制" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="154.5" y="1530" width="81" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="132" value="设置&lt;b&gt;定时任务定期扫描消息表&lt;/b&gt;，将&lt;b&gt;发送失败的消息重复发送一次&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                <mxCell id="132" value="设置&lt;b&gt;定时任务定期扫描消息表&lt;/b&gt;，将&lt;b&gt;发送失败的消息重复发送一次&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="310" y="1520" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="137" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="134" target="136">
+                <mxCell id="137" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="134" target="136" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="134" value="总结" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;" vertex="1" parent="1">
+                <mxCell id="134" value="总结" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="154.5" y="1610" width="65.5" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="136" value="① 消息的publisher和consumer两端都需要有消息确认机制：&lt;br&gt;1) &lt;b&gt;publisher&lt;/b&gt;采用回调机制进行确认，当投递到队列失败时修改数据库记录状态为错误抵达(定期重发)&lt;br&gt;2) &lt;b&gt;consumer&lt;/b&gt;改为使用手动ack的机制(消费失败重新入队)&lt;br&gt;② 数据库做好记录，定期扫描重发失败消息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                <mxCell id="136" value="① 消息的publisher和consumer两端都需要有消息确认机制：&lt;br&gt;1) &lt;b&gt;publisher&lt;/b&gt;采用回调机制进行确认，当投递到队列失败时修改数据库记录状态为错误抵达(定期重发)&lt;br&gt;2) &lt;b&gt;consumer&lt;/b&gt;改为使用手动ack的机制(消费失败重新入队)&lt;br&gt;② 数据库做好记录，定期扫描重发失败消息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="280" y="1580" width="330" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="141" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="138" target="140">
+                <mxCell id="141" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="138" target="140" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="147" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="138" target="144">
+                <mxCell id="147" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="138" target="144" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="149" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="138" target="148">
+                <mxCell id="149" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="138" target="148" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="138" value="消息重复" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                <mxCell id="138" value="消息重复" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="1743" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="143" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="140" target="142">
+                <mxCell id="143" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="140" target="142" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="140" value="消费者的&lt;b&gt;业务消费接口&lt;/b&gt;应该设计为&lt;b&gt;幂等性的&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                <mxCell id="140" value="消费者的&lt;b&gt;业务消费接口&lt;/b&gt;应该设计为&lt;b&gt;幂等性的&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="185.5" y="1694" width="154.5" height="36" as="geometry"/>
                 </mxCell>
-                <mxCell id="142" value="最主要的方案" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                <mxCell id="142" value="最主要的方案" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="381" y="1697" width="90" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="146" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="144" target="145">
+                <mxCell id="146" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="144" target="145" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="144" value="db防重表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                <mxCell id="144" value="db防重表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="185.5" y="1743" width="80" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="145" value="发送消息每一个都有业务的唯 一标识，处理过就不用处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                <mxCell id="145" value="发送消息每一个都有业务的唯 一标识，处理过就不用处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="343" y="1740" width="166" height="37" as="geometry"/>
                 </mxCell>
-                <mxCell id="151" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="148" target="150">
+                <mxCell id="151" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="148" target="150" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="148" value="消息的redelivered字段" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                <mxCell id="148" value="消息的redelivered字段" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="185.5" y="1793.5" width="134.5" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="150" value="rabbitMQ的每一个消息都有redelivered字段，可以获取是否 是被重新投递过来的，而不是第一次投递过来的" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                <mxCell id="150" value="rabbitMQ的每一个消息都有redelivered字段，可以获取是否 是被重新投递过来的，而不是第一次投递过来的" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="343" y="1783.5" width="217" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="155" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="152" target="154">
+                <mxCell id="155" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="152" target="154" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="158" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="152" target="157">
+                <mxCell id="158" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="152" target="157" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="152" value="消息积压" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                <mxCell id="152" value="消息积压" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="1920" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="154" value="&lt;b&gt;上线更多的消费者&lt;/b&gt;，进行正常消费" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                <mxCell id="154" value="&lt;b&gt;上线更多的消费者&lt;/b&gt;，进行正常消费" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="185.5" y="1884" width="194.5" height="36" as="geometry"/>
                 </mxCell>
-                <mxCell id="157" value="专门的队列消费服务：&lt;br&gt;1. 将消息先&lt;b&gt;批量&lt;/b&gt;取出来，&lt;b&gt;记录数据库&lt;/b&gt;&lt;br&gt;2. &lt;b&gt;离线处理&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=left;" vertex="1" parent="1">
+                <mxCell id="157" value="专门的队列消费服务：&lt;br&gt;1. 将消息先&lt;b&gt;批量&lt;/b&gt;取出来，&lt;b&gt;记录数据库&lt;/b&gt;&lt;br&gt;2. &lt;b&gt;离线处理&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="186.5" y="1940" width="203.5" height="60" as="geometry"/>
                 </mxCell>
             </root>
