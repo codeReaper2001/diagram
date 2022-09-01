@@ -1,532 +1,538 @@
 <mxfile host="65bd71144e">
     <diagram id="rKVFKqwcTnC4YxvwfFjj" name="第 1 页">
-        <mxGraphModel dx="937" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="922" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="140" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="140" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="229" y="1850" width="370" height="460" as="geometry"/>
                 </mxCell>
-                <mxCell id="144" value="线程1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="144" value="线程1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="290" y="1870" width="76" height="420" as="geometry"/>
                 </mxCell>
-                <mxCell id="145" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="144">
+                <mxCell id="145" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="144" vertex="1">
                     <mxGeometry x="33" y="271.7" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="146" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="144">
+                <mxCell id="146" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="144" vertex="1">
                     <mxGeometry x="33" y="315.7" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="147" value="缓存失效" style="endArrow=none;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=center;verticalAlign=bottom;endFill=0;sketch=0;" edge="1" parent="144">
+                <mxCell id="147" value="缓存失效" style="endArrow=none;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=center;verticalAlign=bottom;endFill=0;sketch=0;" parent="144" edge="1">
                     <mxGeometry y="3" relative="1" as="geometry">
                         <mxPoint x="-36" y="60" as="sourcePoint"/>
                         <mxPoint x="254" y="60" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="168" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="144">
+                <mxCell id="168" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="144" vertex="1">
                     <mxGeometry x="33" y="230" width="10" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="170" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.lock;comic=0;" vertex="1" parent="144">
+                <mxCell id="170" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.lock;comic=0;" parent="144" vertex="1">
                     <mxGeometry x="-10" y="232.5" width="23.4" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="90" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="90" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="229" y="1060" width="370" height="330" as="geometry"/>
                 </mxCell>
-                <mxCell id="94" value="线程2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="94" value="线程2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="440" y="1080" width="76" height="290" as="geometry"/>
                 </mxCell>
-                <mxCell id="107" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="94">
+                <mxCell id="107" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="94" vertex="1">
                     <mxGeometry x="33" y="80" width="10" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="108" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="94">
+                <mxCell id="108" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="94" vertex="1">
                     <mxGeometry x="33" y="219.29999999999995" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="38" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="229" y="400" width="370" height="330" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="线程1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="4" value="线程1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="290" y="420" width="76" height="290" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4">
+                <mxCell id="22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="4" vertex="1">
                     <mxGeometry x="33" y="60" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4">
+                <mxCell id="36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="4" vertex="1">
                     <mxGeometry x="33" y="230.00000000000003" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="线程2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="20" value="线程2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="440" y="420" width="76" height="290" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="20">
+                <mxCell id="27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="20" vertex="1">
                     <mxGeometry x="33" y="110" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" vertex="1" parent="20">
+                <mxCell id="31" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" parent="20" vertex="1">
                     <mxGeometry x="-20" y="180" width="34.05" height="28.6" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="20">
+                <mxCell id="32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="20" vertex="1">
                     <mxGeometry x="33" y="168.60000000000002" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="存在问题的几种方案" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                <mxCell id="2" value="存在问题的几种方案" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="354" y="30" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="38">
+                <mxCell id="39" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3" target="38" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="220" y="580" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3" value="先更新数据库&lt;br&gt;后更新缓存" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="3" value="先更新数据库&lt;br&gt;后更新缓存" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="40" y="545" width="90" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="更新数据库&lt;br&gt;x=1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="25" value="更新数据库&lt;br&gt;x=1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="324" y="480" width="90" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;comic=0;" vertex="1" parent="1">
+                <mxCell id="26" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;comic=0;" parent="1" vertex="1">
                     <mxGeometry x="280" y="484.75" width="30" height="30.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="更新数据库&lt;br&gt;x=2" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="28" value="更新数据库&lt;br&gt;x=2" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="490" y="530" width="64" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;comic=0;" vertex="1" parent="1">
+                <mxCell id="29" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;comic=0;" parent="1" vertex="1">
                     <mxGeometry x="430" y="534.75" width="30" height="30.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="更新缓存&lt;br&gt;x=2" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="34" value="更新缓存&lt;br&gt;x=2" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="490" y="590" width="64" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" value="更新缓存&lt;br&gt;x=1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="37" value="更新缓存&lt;br&gt;x=1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="337" y="654.3" width="64" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="35" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="270" y="660" width="34.05" height="28.6" as="geometry"/>
                 </mxCell>
-                <mxCell id="70" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="40" target="41">
+                <mxCell id="70" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="40" target="41" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="40" value="先更新缓存&lt;br&gt;后更新数据库" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="40" value="先更新缓存&lt;br&gt;后更新数据库" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="40" y="215" width="90" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="41" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="41" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="229" y="90" width="370" height="290" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" value="线程1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="54" value="线程1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="290" y="110" width="76" height="260" as="geometry"/>
                 </mxCell>
-                <mxCell id="55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="54">
+                <mxCell id="55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="54" vertex="1">
                     <mxGeometry x="33" y="60" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="56" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="54">
+                <mxCell id="56" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="54" vertex="1">
                     <mxGeometry x="33" y="140.00000000000003" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" value="线程2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="57" value="线程2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="440" y="110" width="76" height="260" as="geometry"/>
                 </mxCell>
-                <mxCell id="60" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="57">
+                <mxCell id="60" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="57" vertex="1">
                     <mxGeometry x="33" y="190.00000000000003" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="61" value="先更新缓存&lt;br&gt;x=1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="61" value="先更新缓存&lt;br&gt;x=1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="337" y="180" width="64" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="62" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;comic=0;" vertex="1" parent="1">
+                <mxCell id="62" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;comic=0;" parent="1" vertex="1">
                     <mxGeometry x="280" y="260" width="30" height="30.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" value="读取内容&lt;br&gt;x=1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="65" value="读取内容&lt;br&gt;x=1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="480" y="300" width="64" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="66" value="更新数据库&lt;br&gt;事务回滚&lt;br&gt;x=5" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="66" value="更新数据库&lt;br&gt;事务回滚&lt;br&gt;x=5" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="337" y="250.5" width="64" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="67" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="67" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="275.95" y="180" width="34.05" height="28.6" as="geometry"/>
                 </mxCell>
-                <mxCell id="59" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="59" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="420" y="311.4" width="34.05" height="28.6" as="geometry"/>
                 </mxCell>
-                <mxCell id="69" value="假设原x=5" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                <mxCell id="69" value="假设原x=5" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="610" y="230" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="72" target="73" parent="1">
+                <mxCell id="71" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="72" target="73" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="72" value="先删缓存&lt;br&gt;后更新数据库" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="72" value="先删缓存&lt;br&gt;后更新数据库" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="40" y="875" width="90" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="73" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="73" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="229" y="750" width="370" height="290" as="geometry"/>
                 </mxCell>
-                <mxCell id="74" value="线程1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="74" value="线程1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="290" y="770" width="76" height="260" as="geometry"/>
                 </mxCell>
-                <mxCell id="75" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="74">
+                <mxCell id="75" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="74" vertex="1">
                     <mxGeometry x="33" y="60" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="76" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="74">
+                <mxCell id="76" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="74" vertex="1">
                     <mxGeometry x="33" y="200.00000000000003" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="77" value="线程2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="77" value="线程2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="440" y="770" width="76" height="260" as="geometry"/>
                 </mxCell>
-                <mxCell id="78" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="77">
+                <mxCell id="78" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="77" vertex="1">
                     <mxGeometry x="33" y="105" width="10" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="86" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="77">
+                <mxCell id="86" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="77" vertex="1">
                     <mxGeometry x="33" y="150" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="79" value="先删除缓存" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="79" value="先删除缓存" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="337" y="840" width="64" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="80" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;comic=0;" vertex="1" parent="1">
+                <mxCell id="80" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;comic=0;" parent="1" vertex="1">
                     <mxGeometry x="280" y="980" width="30" height="30.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="81" value="读取内容&lt;br&gt;redis中无数据" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="81" value="读取内容&lt;br&gt;redis中无数据" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="490" y="875" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="82" value="更新数据库&lt;br&gt;x=1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="82" value="更新数据库&lt;br&gt;x=1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="337" y="970.5" width="64" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="83" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="83" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="275.95" y="840" width="34.05" height="28.6" as="geometry"/>
                 </mxCell>
-                <mxCell id="84" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="84" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="420" y="886.4" width="34.05" height="28.6" as="geometry"/>
                 </mxCell>
-                <mxCell id="85" value="假设原x=5" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                <mxCell id="85" value="假设原x=5" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="610" y="890" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="87" value="查找数据库后写入缓存x=5" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="87" value="查找数据库后写入缓存x=5" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="490" y="920" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="105" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="88" target="90">
+                <mxCell id="105" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="88" target="90" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="88" value="先更新数据库&lt;br&gt;后删缓存" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="88" value="先更新数据库&lt;br&gt;后删缓存" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="40" y="1205" width="90" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="91" value="线程1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="91" value="线程1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="290" y="1080" width="76" height="290" as="geometry"/>
                 </mxCell>
-                <mxCell id="92" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="91">
+                <mxCell id="92" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="91" vertex="1">
                     <mxGeometry x="33" y="130" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="93" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="91">
+                <mxCell id="93" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="91" vertex="1">
                     <mxGeometry x="33" y="175" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="106" value="缓存失效" style="endArrow=none;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=center;verticalAlign=bottom;endFill=0;sketch=0;" edge="1" parent="91">
+                <mxCell id="106" value="缓存失效" style="endArrow=none;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=center;verticalAlign=bottom;endFill=0;sketch=0;" parent="91" edge="1">
                     <mxGeometry y="3" relative="1" as="geometry">
                         <mxPoint x="-36" y="60" as="sourcePoint"/>
                         <mxPoint x="254" y="60" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="98" value="更新数据库&lt;br&gt;x=1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="98" value="更新数据库&lt;br&gt;x=1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="331" y="1210" width="70" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="99" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;comic=0;" vertex="1" parent="1">
+                <mxCell id="99" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;comic=0;" parent="1" vertex="1">
                     <mxGeometry x="280" y="1214.75" width="30" height="30.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="103" value="删除缓存" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="103" value="删除缓存" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="337" y="1259.3" width="64" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="104" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="104" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="277.97" y="1265" width="34.05" height="28.6" as="geometry"/>
                 </mxCell>
-                <mxCell id="109" value="读取内容&lt;br&gt;redis中无数据&lt;br&gt;查找数据库" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="109" value="读取内容&lt;br&gt;redis中无数据&lt;br&gt;查找数据库" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="490" y="1160" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="110" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="110" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="420" y="1171.4" width="34.05" height="28.6" as="geometry"/>
                 </mxCell>
-                <mxCell id="111" value="查找数据库后写入缓存x=5" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="111" value="查找数据库后写入缓存x=5" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="490" y="1299.3" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="112" value="假设原x=5" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                <mxCell id="112" value="假设原x=5" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="610" y="1139" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="113" value="写写并发问题" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                <mxCell id="113" value="写写并发问题" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="620" y="545" width="90" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="116" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="116" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="420" y="1310.7" width="34.05" height="28.6" as="geometry"/>
                 </mxCell>
-                <mxCell id="117" value="一般情况下线程2会比线程1先执行完，故此方案出现不一致的概率较低" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                <mxCell id="117" value="一般情况下线程2会比线程1先执行完，故此方案出现不一致的概率较低" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="610" y="1239.3" width="140" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="118" value="可采用的方案" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                <mxCell id="118" value="可采用的方案" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="354" y="1450" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="136" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="119" target="120">
+                <mxCell id="136" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="119" target="120" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="119" value="先更新数据库&lt;br&gt;后&lt;b&gt;延时删缓存&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="119" value="先更新数据库&lt;br&gt;后&lt;b&gt;延时删缓存&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="40" y="1645.25" width="90" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="120" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="120" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="229" y="1500" width="370" height="330" as="geometry"/>
                 </mxCell>
-                <mxCell id="121" value="线程2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="121" value="线程2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="440" y="1520" width="76" height="290" as="geometry"/>
                 </mxCell>
-                <mxCell id="122" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="121">
+                <mxCell id="122" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="121" vertex="1">
                     <mxGeometry x="33" y="80" width="10" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="123" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="121">
+                <mxCell id="123" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="121" vertex="1">
                     <mxGeometry x="33" y="179.99999999999994" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="124" value="线程1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="124" value="线程1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="290" y="1520" width="76" height="290" as="geometry"/>
                 </mxCell>
-                <mxCell id="125" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="124">
+                <mxCell id="125" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="124" vertex="1">
                     <mxGeometry x="33" y="130" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="126" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="124">
+                <mxCell id="126" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="124" vertex="1">
                     <mxGeometry x="33" y="234" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="127" value="缓存失效" style="endArrow=none;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=center;verticalAlign=bottom;endFill=0;sketch=0;" edge="1" parent="124">
+                <mxCell id="127" value="缓存失效" style="endArrow=none;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=center;verticalAlign=bottom;endFill=0;sketch=0;" parent="124" edge="1">
                     <mxGeometry y="3" relative="1" as="geometry">
                         <mxPoint x="-36" y="60" as="sourcePoint"/>
                         <mxPoint x="254" y="60" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="128" value="更新数据库&lt;br&gt;x=1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="128" value="更新数据库&lt;br&gt;x=1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="331" y="1650" width="70" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="129" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;comic=0;" vertex="1" parent="1">
+                <mxCell id="129" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;comic=0;" parent="1" vertex="1">
                     <mxGeometry x="280" y="1654.75" width="30" height="30.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="130" value="删除缓存" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="130" value="删除缓存" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="337" y="1758.3" width="64" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="131" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="131" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="277.97" y="1764" width="34.05" height="28.6" as="geometry"/>
                 </mxCell>
-                <mxCell id="132" value="读取内容&lt;br&gt;redis中无数据&lt;br&gt;查找数据库" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="132" value="读取内容&lt;br&gt;redis中无数据&lt;br&gt;查找数据库" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="490" y="1600" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="133" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="133" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="420" y="1611.4" width="34.05" height="28.6" as="geometry"/>
                 </mxCell>
-                <mxCell id="134" value="查找数据库后写入缓存x=5" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="134" value="查找数据库后写入缓存x=5" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="490" y="1700" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="135" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="135" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="420" y="1711.4" width="34.05" height="28.6" as="geometry"/>
                 </mxCell>
-                <mxCell id="137" value="等待一段时间" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="137" value="等待一段时间" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="292" y="1705.7" width="76" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="138" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;可以满足大部分场景的一致性需求，但仍有缺点：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;① 延时时间不好确定&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;② 等待睡眠时线程占用内存资源&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                <mxCell id="138" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;可以满足大部分场景的一致性需求，但仍有缺点：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;① 延时时间不好确定&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;② 等待睡眠时线程占用内存资源&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="620" y="1622.88" width="150" height="84.75" as="geometry"/>
                 </mxCell>
-                <mxCell id="157" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="139" target="140">
+                <mxCell id="157" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="139" target="140" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="139" value="加分布式读写锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="139" value="加分布式读写锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="40" y="2060" width="90" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="141" value="线程2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="141" value="线程2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="440" y="1870" width="76" height="420" as="geometry"/>
                 </mxCell>
-                <mxCell id="142" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="141">
+                <mxCell id="142" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="141" vertex="1">
                     <mxGeometry x="33" y="120" width="10" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="143" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="141">
+                <mxCell id="143" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="141" vertex="1">
                     <mxGeometry x="33" y="159.99999999999994" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="158" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="141">
+                <mxCell id="158" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="141" vertex="1">
                     <mxGeometry x="33" y="80" width="10" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="166" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="141">
+                <mxCell id="166" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="141" vertex="1">
                     <mxGeometry x="33" y="209" width="10" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="171" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="141">
+                <mxCell id="171" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="141" vertex="1">
                     <mxGeometry x="-116.97999999999999" y="360" width="10" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="148" value="更新数据库&lt;br&gt;x=1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="148" value="更新数据库&lt;br&gt;x=1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="340" y="2141.7" width="70" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="149" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;comic=0;" vertex="1" parent="1">
+                <mxCell id="149" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;comic=0;" parent="1" vertex="1">
                     <mxGeometry x="275.95" y="2146.45" width="30" height="30.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="150" value="删除缓存" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="150" value="删除缓存" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="343" y="2190" width="64" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="151" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="151" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="273.92" y="2195.7" width="34.05" height="28.6" as="geometry"/>
                 </mxCell>
-                <mxCell id="152" value="读取内容&lt;br&gt;redis中无数据&lt;br&gt;查找数据库" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="152" value="读取内容&lt;br&gt;redis中无数据&lt;br&gt;查找数据库" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="490" y="1990" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="153" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="153" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="420" y="2001.4" width="34.05" height="28.6" as="geometry"/>
                 </mxCell>
-                <mxCell id="154" value="查找数据库后写入缓存x=5" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="154" value="查找数据库后写入缓存x=5" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="490" y="2035.25" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="155" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="155" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="420" y="2041.4" width="34.05" height="28.6" as="geometry"/>
                 </mxCell>
-                <mxCell id="160" value="获取读锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="160" value="获取读锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="490" y="1950" width="80" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="163" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.lock;comic=0;" vertex="1" parent="1">
+                <mxCell id="163" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.lock;comic=0;" parent="1" vertex="1">
                     <mxGeometry x="425.33" y="1955" width="23.4" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="164" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.lock_unlocked;comic=0;" vertex="1" parent="1">
+                <mxCell id="164" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.lock_unlocked;comic=0;" parent="1" vertex="1">
                     <mxGeometry x="425.93" y="2084" width="22.2" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="167" value="解锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="167" value="解锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="505" y="2084" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="169" value="获取写锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="169" value="获取写锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="331" y="2100" width="80" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="172" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.lock_unlocked;comic=0;" vertex="1" parent="1">
+                <mxCell id="172" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.lock_unlocked;comic=0;" parent="1" vertex="1">
                     <mxGeometry x="275.95000000000005" y="2235" width="22.2" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="173" value="解锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="173" value="解锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="355.02" y="2235" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="174" value="&lt;div style=&quot;text-align: left&quot;&gt;适合读多写少的业务场景&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                <mxCell id="174" value="&lt;div style=&quot;text-align: left&quot;&gt;适合读多写少的业务场景&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="620" y="2066" width="150" height="34" as="geometry"/>
                 </mxCell>
-                <mxCell id="175" value="&lt;div style=&quot;text-align: left&quot;&gt;读读并发，读写互斥&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;" vertex="1" parent="1">
+                <mxCell id="175" value="&lt;div style=&quot;text-align: left&quot;&gt;读读并发，读写互斥&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="620" y="2026" width="120" height="34" as="geometry"/>
                 </mxCell>
-                <mxCell id="178" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="176" target="177">
+                <mxCell id="178" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="176" target="177" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="181" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="176" target="179">
+                <mxCell id="181" style="edgeStyle=none;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="176" target="179" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="176" value="先更新数据库&lt;br&gt;后更新缓存&lt;br&gt;结合Canal" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="176" value="先更新数据库&lt;br&gt;后更新缓存&lt;br&gt;结合Canal" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="40" y="2400" width="90" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="177" value="1. 读操作：先读缓存，若缓存Miss则读数据库并用SETNX写缓存（更新缓存优先级较低）&lt;br&gt;2. 写操作：写数据库，后用SET更新缓存&lt;br&gt;3. 使用Canal订阅binlog，用最终的数据SETEX刷新缓存" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                <mxCell id="177" value="1. 读操作：先读缓存，若缓存Miss则读数据库并用SETNX写缓存（更新缓存优先级较低）&lt;br&gt;2. 写操作：写数据库，后用SET更新缓存&lt;br&gt;3. 使用Canal订阅binlog，用最终的数据SETEX刷新缓存" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="229" y="2338" width="337.98" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="198" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="179" target="182">
+                <mxCell id="198" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="179" target="182" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="232" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="179" target="215">
+                <mxCell id="232" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="179" target="215" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="179" value="案例" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+                <mxCell id="179" value="案例" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
                     <mxGeometry x="60" y="2500" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="182" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="182" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="210" y="2430" width="370" height="330" as="geometry"/>
                 </mxCell>
-                <mxCell id="183" value="线程2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="183" value="线程2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="421" y="2450" width="76" height="290" as="geometry"/>
                 </mxCell>
-                <mxCell id="184" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="183">
+                <mxCell id="184" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="183" vertex="1">
                     <mxGeometry x="33" y="80" width="10" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="185" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="183">
+                <mxCell id="185" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="183" vertex="1">
                     <mxGeometry x="33" y="219.29999999999995" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="186" value="线程1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="186" value="线程1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="271" y="2450" width="76" height="290" as="geometry"/>
                 </mxCell>
-                <mxCell id="187" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="186">
+                <mxCell id="187" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="186" vertex="1">
                     <mxGeometry x="33" y="130" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="188" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="186">
+                <mxCell id="188" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="186" vertex="1">
                     <mxGeometry x="33" y="175" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="189" value="缓存失效" style="endArrow=none;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=center;verticalAlign=bottom;endFill=0;sketch=0;" edge="1" parent="186">
+                <mxCell id="189" value="缓存失效" style="endArrow=none;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=center;verticalAlign=bottom;endFill=0;sketch=0;" parent="186" edge="1">
                     <mxGeometry y="3" relative="1" as="geometry">
                         <mxPoint x="-36" y="60" as="sourcePoint"/>
                         <mxPoint x="254" y="60" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="190" value="更新数据库&lt;br&gt;x=1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="190" value="更新数据库&lt;br&gt;x=1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="324" y="2580" width="70" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="191" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;comic=0;" vertex="1" parent="1">
+                <mxCell id="191" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;comic=0;" parent="1" vertex="1">
                     <mxGeometry x="261" y="2584.75" width="30" height="30.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="192" value="SET更新缓存&lt;br&gt;x=1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="192" value="SET更新缓存&lt;br&gt;x=1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="318" y="2629.3" width="82" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="193" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="193" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="258.97" y="2635" width="34.05" height="28.6" as="geometry"/>
                 </mxCell>
-                <mxCell id="194" value="读取内容&lt;br&gt;redis中无数据&lt;br&gt;查找数据库" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="194" value="读取内容&lt;br&gt;redis中无数据&lt;br&gt;查找数据库" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="471" y="2530" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="195" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="195" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="401" y="2541.4" width="34.05" height="28.6" as="geometry"/>
                 </mxCell>
-                <mxCell id="196" value="SETNX尝试更新缓存，更新失败" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="196" value="SETNX尝试更新缓存，更新失败" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="471" y="2663.6000000000004" width="69" height="50.7" as="geometry"/>
                 </mxCell>
-                <mxCell id="197" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="197" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="401" y="2680.7" width="34.05" height="28.6" as="geometry"/>
                 </mxCell>
-                <mxCell id="231" style="sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="215" target="230">
+                <mxCell id="231" style="sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="215" target="230" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="215" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="215" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="210" y="2780" width="370" height="330" as="geometry"/>
                 </mxCell>
-                <mxCell id="216" value="线程1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="216" value="线程1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="271" y="2800" width="76" height="290" as="geometry"/>
                 </mxCell>
-                <mxCell id="217" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="216">
+                <mxCell id="217" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="216" vertex="1">
                     <mxGeometry x="33" y="60" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="218" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="216">
+                <mxCell id="218" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="216" vertex="1">
                     <mxGeometry x="33" y="230.00000000000003" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="219" value="线程2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="219" value="线程2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="421" y="2800" width="76" height="290" as="geometry"/>
                 </mxCell>
-                <mxCell id="220" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="219">
+                <mxCell id="220" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="219" vertex="1">
                     <mxGeometry x="33" y="110" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="221" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" vertex="1" parent="219">
+                <mxCell id="221" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" parent="219" vertex="1">
                     <mxGeometry x="-20" y="180" width="34.05" height="28.6" as="geometry"/>
                 </mxCell>
-                <mxCell id="222" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="219">
+                <mxCell id="222" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="219" vertex="1">
                     <mxGeometry x="33" y="168.60000000000002" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="223" value="更新数据库&lt;br&gt;x=1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="223" value="更新数据库&lt;br&gt;x=1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="311" y="2860" width="90" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="224" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;comic=0;" vertex="1" parent="1">
+                <mxCell id="224" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;comic=0;" parent="1" vertex="1">
                     <mxGeometry x="261" y="2864.75" width="30" height="30.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="225" value="更新数据库&lt;br&gt;x=2" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="225" value="更新数据库&lt;br&gt;x=2" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="476" y="2910" width="64" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="226" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;comic=0;" vertex="1" parent="1">
+                <mxCell id="226" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;comic=0;" parent="1" vertex="1">
                     <mxGeometry x="411" y="2914.75" width="30" height="30.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="227" value="SET更新缓存&lt;br&gt;x=2" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="227" value="SET更新缓存&lt;br&gt;x=2" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="471" y="2970" width="79" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="228" value="SET更新缓存&lt;br&gt;x=1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="228" value="SET更新缓存&lt;br&gt;x=1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="318" y="3034.3" width="82" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="229" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="229" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;comic=0;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="251" y="3040" width="34.05" height="28.6" as="geometry"/>
                 </mxCell>
-                <mxCell id="230" value="由于Canal的存在，因此可以在消费Canal端用最终的数据SETEX刷新缓存" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                <mxCell id="230" value="由于Canal的存在，因此可以在消费Canal端用最终的数据SETEX刷新缓存" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="610" y="2920" width="240" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="233" value="缺点：引入了中间件，增加了系统的复杂性" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;align=left;" vertex="1" parent="1">
+                <mxCell id="233" value="缺点：引入了中间件，增加了系统的复杂性" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="610" y="2984.3" width="240" height="35.7" as="geometry"/>
                 </mxCell>
-                <mxCell id="236" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="234" target="235">
+                <mxCell id="236" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="234" target="235" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="234" value="添加版本号" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="234" value="添加版本号" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="40" y="3190" width="90" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="239" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="235" target="237">
+                <mxCell id="239" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="235" target="237" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="235" value="给表添加版本号字段&lt;br&gt;1. 读操作：先读缓存，若缓存Miss则读数据库并用SETNX写缓存（更新缓存优先级较低）&lt;br&gt;2. 写操作：写数据库，版本号+1(使用乐观锁)，然后查看redis中缓存对应数据，若该数据版本号&amp;lt;当前版本号，则更新缓存" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                <mxCell id="235" value="给表添加版本号字段&lt;br&gt;1. 读操作：先读缓存，若缓存Miss则读数据库并用SETNX写缓存（更新缓存优先级较低）&lt;br&gt;2. 写操作：写数据库，版本号+1(使用乐观锁)，然后查看redis中缓存对应数据，若该数据版本号&amp;lt;当前版本号，则更新缓存" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="197.01" y="3162.5" width="337.98" height="85" as="geometry"/>
                 </mxCell>
-                <mxCell id="237" value="优点：不需要引入中间件&lt;br&gt;缺点：使用乐观锁+自旋更新数据可能性能较低" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                <mxCell id="237" value="优点：不需要引入中间件&lt;br&gt;缺点：使用乐观锁+自旋更新数据可能性能较低" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="580" y="3180" width="260" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="241" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="240" target="152">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="240" value="&lt;div style=&quot;text-align: left&quot;&gt;这里缓存中无数据时最好加上&lt;b&gt;互斥锁&lt;/b&gt;查询数据库，防止缓存击穿&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="1970" width="150" height="49" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
