@@ -1,13 +1,13 @@
 <mxfile host="65bd71144e">
     <diagram id="tOnEFJTHXXiLS9WzeKoR" name="第 1 页">
-        <mxGraphModel dx="770" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1134" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="109" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                <mxCell id="109" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
                     <mxGeometry x="20" y="1379.5" width="670" height="230.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="108" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                <mxCell id="108" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
                     <mxGeometry x="19" y="1169" width="671" height="201" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11px&quot;&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;public class &lt;/span&gt;&lt;span style=&quot;color: #066555&quot;&gt;Main &lt;/span&gt;{&lt;br&gt;    &lt;span style=&quot;color: #0033b3&quot;&gt;public static void &lt;/span&gt;&lt;span style=&quot;color: #795e26&quot;&gt;main&lt;/span&gt;(&lt;span style=&quot;color: #066555&quot;&gt;String&lt;/span&gt;[] args) {&lt;br&gt;        &lt;span style=&quot;color: #066555&quot;&gt;Object &lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;obj &lt;/span&gt;= &lt;span style=&quot;color: #0033b3&quot;&gt;new &lt;/span&gt;&lt;span style=&quot;color: #795e26&quot;&gt;Object&lt;/span&gt;();&lt;br&gt;        &lt;span style=&quot;color: #0033b3&quot;&gt;int &lt;/span&gt;i = &lt;span style=&quot;color: #1750eb&quot;&gt;0&lt;/span&gt;;&lt;br&gt;        &lt;span style=&quot;color: #0033b3&quot;&gt;synchronized &lt;/span&gt;(&lt;span style=&quot;color: #000000&quot;&gt;obj&lt;/span&gt;) {&lt;br&gt;            i++;&lt;br&gt;        }&lt;br&gt;        &lt;span style=&quot;color: #066555&quot;&gt;System&lt;/span&gt;.&lt;span style=&quot;color: #871094 ; font-style: italic&quot;&gt;out&lt;/span&gt;.&lt;span style=&quot;color: #795e26&quot;&gt;println&lt;/span&gt;(i);&lt;br&gt;    }&lt;br&gt;}&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;" parent="1" vertex="1">
@@ -122,342 +122,347 @@
                 <mxCell id="41" value="monitorenter指令执行大致流程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;align=center;" parent="1" vertex="1">
                     <mxGeometry x="362" y="920" width="104" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" value="方法的访问标志上添加了ACC_SYNCHRONIZED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;sketch=1;" vertex="1" parent="1">
+                <mxCell id="44" value="方法的访问标志上添加了ACC_SYNCHRONIZED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="820" y="381" width="150" height="38" as="geometry"/>
                 </mxCell>
-                <mxCell id="51" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="48" target="50">
+                <mxCell id="51" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;" parent="1" source="48" target="50" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="48" value="monitorenter指令" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;align=center;" vertex="1" parent="1">
+                <mxCell id="48" value="monitorenter指令" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;align=center;" parent="1" vertex="1">
                     <mxGeometry x="198" y="985" width="104" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="55" value="否" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="50" target="101">
+                <mxCell id="55" value="否" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="50" target="101" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="360" y="1077.5" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="100" value="是" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="50" target="81">
+                <mxCell id="100" value="是" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="50" target="81" edge="1">
                     <mxGeometry x="-0.4817" y="10" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="50" value="锁对象的markword判断是否使用偏向锁" style="rhombus;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="50" value="锁对象的markword判断是否使用偏向锁" style="rhombus;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="192.5" y="1052.5" width="115" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="80" value="由于内部逻辑过于复杂，这里就只总结最简单的逻辑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=center;sketch=1;" vertex="1" parent="1">
+                <mxCell id="80" value="由于内部逻辑过于复杂，这里就只总结最简单的逻辑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=center;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="20" y="985" width="150" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="83" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="81" target="89">
+                <mxCell id="83" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="81" target="89" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="249" y="1184" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="81" value="添加偏向锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="81" value="添加偏向锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="198" y="1130" width="102" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="95" value="否" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="89" target="91">
+                <mxCell id="95" value="否" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="89" target="91" edge="1">
                     <mxGeometry x="0.0847" y="10" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="96" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="89" target="94">
+                <mxCell id="96" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="89" target="94" edge="1">
                     <mxGeometry x="-0.8204" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="89" value="markword线程id&lt;br&gt;是否是当前线程" style="rhombus;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="89" value="markword线程id&lt;br&gt;是否是当前线程" style="rhombus;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="192.5" y="1184" width="115" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="90" value="是" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="91" target="93">
+                <mxCell id="90" value="是" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="91" target="93" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="91" value="通过markword判断&lt;br&gt;是否为匿名偏向" style="rhombus;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="91" value="通过markword判断&lt;br&gt;是否为匿名偏向" style="rhombus;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="192.5" y="1253.5" width="115" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="92" value="cas&lt;br&gt;成功" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="93" target="94">
+                <mxCell id="92" value="cas&lt;br&gt;成功" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="93" target="94" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="115" value="cas失败" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="93" target="98">
+                <mxCell id="115" value="cas失败" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="93" target="98" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="93" value="构建新的markword&lt;br&gt;(当前线程id|分代年龄|101)&lt;br&gt;并使用cas设置到obj markword" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;" vertex="1" parent="1">
+                <mxCell id="93" value="构建新的markword&lt;br&gt;(当前线程id|分代年龄|101)&lt;br&gt;并使用cas设置到obj markword" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;" parent="1" vertex="1">
                     <mxGeometry x="362" y="1246.75" width="170" height="53.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="94" value="获取锁成功&lt;br&gt;返回" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                <mxCell id="94" value="获取锁成功&lt;br&gt;返回" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="584" y="1253.5" width="96" height="41" as="geometry"/>
                 </mxCell>
-                <mxCell id="97" value="匿名偏向状态即后面三位为101，但线程id为空" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;sketch=1;" vertex="1" parent="1">
+                <mxCell id="97" value="匿名偏向状态即后面三位为101，但线程id为空" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="27.5" y="1253" width="150" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="103" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="98" target="102">
+                <mxCell id="103" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="98" target="102" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="98" value="撤销偏向锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="98" value="撤销偏向锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="199" y="1330" width="102" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="101" value="尝试添加轻量级锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="101" value="尝试添加轻量级锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="363" y="1062.5" width="102" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="105" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="102" target="104">
+                <mxCell id="105" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="102" target="104" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="102" value="等待所有线程进入安全点" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;" vertex="1" parent="1">
+                <mxCell id="102" value="等待所有线程进入安全点" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;" parent="1" vertex="1">
                     <mxGeometry x="199" y="1397.25" width="102" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="107" value="否" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="104" target="106">
+                <mxCell id="107" value="否" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="104" target="106" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="114" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="104" target="113">
+                <mxCell id="114" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="104" target="113" edge="1">
                     <mxGeometry x="-0.7568" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="104" value="拥有偏向锁的线程&lt;br&gt;还在同步代码块中?" style="rhombus;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="104" value="拥有偏向锁的线程&lt;br&gt;还在同步代码块中?" style="rhombus;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="192.5" y="1460" width="115" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;fontSize=11;startArrow=none;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="106" target="118">
+                <mxCell id="196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;fontSize=11;startArrow=none;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="106" target="118" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="240" y="1630" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="106" value="设置markword结尾为001&lt;br&gt;即不可偏向" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;" vertex="1" parent="1">
+                <mxCell id="106" value="设置markword结尾为001&lt;br&gt;即不可偏向" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;" parent="1" vertex="1">
                     <mxGeometry x="170" y="1540" width="160" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="113" value="进入轻量级锁的升级流程&lt;br&gt;原拥有偏向锁的线程获得该轻量级锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="113" value="进入轻量级锁的升级流程&lt;br&gt;原拥有偏向锁的线程获得该轻量级锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="370" y="1540" width="200" height="43" as="geometry"/>
                 </mxCell>
-                <mxCell id="99" value="否" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="91" target="98">
+                <mxCell id="99" value="否" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="91" target="98" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="117" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                <mxCell id="117" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
                     <mxGeometry x="19" y="1623" width="581" height="260.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="121" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="118" target="120">
+                <mxCell id="121" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="118" target="120" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="118" value="添加轻量级锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="118" value="添加轻量级锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="184" y="1633" width="115" height="33" as="geometry"/>
                 </mxCell>
-                <mxCell id="129" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="119" target="128">
+                <mxCell id="129" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="119" target="128" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="119" value="将obj的markword写入到&lt;b&gt;LockRecord的header中&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;" vertex="1" parent="1">
+                <mxCell id="119" value="将obj的markword写入到&lt;b&gt;LockRecord的header中&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;" parent="1" vertex="1">
                     <mxGeometry x="171.37" y="1763" width="140.25" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="126" value="无锁" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="120" target="119">
+                <mxCell id="126" value="无锁" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="120" target="119" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="134" value="有锁" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="120" target="133">
+                <mxCell id="134" value="有锁" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="120" target="133" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="120" value="markword&lt;br&gt;判断是否无锁" style="rhombus;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="120" value="markword&lt;br&gt;判断是否无锁" style="rhombus;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="184" y="1683" width="115" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="124" value="slow_enter" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="118">
+                <mxCell id="124" value="slow_enter" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="118" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="139" y="1649.08" as="targetPoint"/>
                         <mxPoint x="89" y="1649.3300000000002" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="125" value="这里可以获得BasicLock&lt;br&gt;也就是LockRecord" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;sketch=1;" vertex="1" parent="1">
+                <mxCell id="125" value="这里可以获得BasicLock&lt;br&gt;也就是LockRecord" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="36.5" y="1683" width="132.5" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="127" value="&lt;div style=&quot;background-color: rgb(250 , 250 , 250) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 11px ; line-height: 22px&quot;&gt;&lt;div style=&quot;color: rgb(56 , 58 , 66)&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 22px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #a626a4&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #c18401&quot;&gt;BasicObjectLock&lt;/span&gt; &lt;span style=&quot;color: #e45649&quot;&gt;VALUE_OBJ_CLASS_SPEC&lt;/span&gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;friend&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #c18401&quot;&gt;VMStructs&lt;/span&gt;;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;span style=&quot;color: #a626a4&quot;&gt;private:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; BasicLock _lock;&lt;span style=&quot;color: #a0a1a7 ; font-style: italic&quot;&gt;&amp;nbsp; // the lock, must be double word aligned&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #e45649&quot;&gt;oop&lt;/span&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #e45649&quot;&gt;_obj&lt;/span&gt;;&lt;span style=&quot;color: #a0a1a7 ; font-style: italic&quot;&gt;&amp;nbsp; &amp;nbsp;// object holds the lock;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;};&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="127" value="&lt;div style=&quot;background-color: rgb(250 , 250 , 250) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 11px ; line-height: 22px&quot;&gt;&lt;div style=&quot;color: rgb(56 , 58 , 66)&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 22px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #a626a4&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #c18401&quot;&gt;BasicObjectLock&lt;/span&gt; &lt;span style=&quot;color: #e45649&quot;&gt;VALUE_OBJ_CLASS_SPEC&lt;/span&gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;friend&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #c18401&quot;&gt;VMStructs&lt;/span&gt;;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;span style=&quot;color: #a626a4&quot;&gt;private:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; BasicLock _lock;&lt;span style=&quot;color: #a0a1a7 ; font-style: italic&quot;&gt;&amp;nbsp; // the lock, must be double word aligned&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #e45649&quot;&gt;oop&lt;/span&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #e45649&quot;&gt;_obj&lt;/span&gt;;&lt;span style=&quot;color: #a0a1a7 ; font-style: italic&quot;&gt;&amp;nbsp; &amp;nbsp;// object holds the lock;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;};&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="619.6" y="1740" width="372" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="131" value="cas成功" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="128" target="130">
+                <mxCell id="131" value="cas成功" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="128" target="130" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="350" y="1841"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="128" value="cas设置obj的markword为&lt;br&gt;(LockRecord的指针|00)" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;" vertex="1" parent="1">
+                <mxCell id="197" value="cas失败，&lt;br&gt;表示锁竞争" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;rounded=0;sketch=1;" edge="1" parent="1" source="128" target="136">
+                    <mxGeometry x="0.6487" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="128" value="cas设置obj的markword为&lt;br&gt;(LockRecord的指针|00)" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;" parent="1" vertex="1">
                     <mxGeometry x="171.37" y="1820" width="140.25" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="130" value="获取锁成功&lt;br&gt;返回" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                <mxCell id="130" value="获取锁成功&lt;br&gt;返回" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="387" y="1819.5" width="96" height="41" as="geometry"/>
                 </mxCell>
-                <mxCell id="135" value="是" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="133" target="139">
+                <mxCell id="135" value="是" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="133" target="139" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="137" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="133" target="136">
+                <mxCell id="137" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="133" target="136" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="133" value="是否指向&lt;br&gt;当前线程栈帧" style="rhombus;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="133" value="是否指向&lt;br&gt;当前线程栈帧" style="rhombus;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="377.5" y="1683" width="115" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="136" value="膨胀成重量级锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="136" value="膨胀成重量级锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="481.25" y="1723" width="115" height="33" as="geometry"/>
                 </mxCell>
-                <mxCell id="138" value="&lt;div style=&quot;background-color: rgb(250 , 250 , 250) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 11px ; line-height: 22px&quot;&gt;&lt;div style=&quot;color: rgb(56 , 58 , 66)&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 22px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 22px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #a626a4&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #c18401&quot;&gt;BasicLock&lt;/span&gt; &lt;span style=&quot;color: #e45649&quot;&gt;VALUE_OBJ_CLASS_SPEC&lt;/span&gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;friend&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #c18401&quot;&gt;VMStructs&lt;/span&gt;;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;span style=&quot;color: #a626a4&quot;&gt;private:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;volatile&lt;/span&gt; markOop _displaced_header;&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="138" value="&lt;div style=&quot;background-color: rgb(250 , 250 , 250) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 11px ; line-height: 22px&quot;&gt;&lt;div style=&quot;color: rgb(56 , 58 , 66)&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 22px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 22px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #a626a4&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #c18401&quot;&gt;BasicLock&lt;/span&gt; &lt;span style=&quot;color: #e45649&quot;&gt;VALUE_OBJ_CLASS_SPEC&lt;/span&gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;friend&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #c18401&quot;&gt;VMStructs&lt;/span&gt;;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;span style=&quot;color: #a626a4&quot;&gt;private:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;volatile&lt;/span&gt; markOop _displaced_header;&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="619.6" y="1623" width="236.4" height="113" as="geometry"/>
                 </mxCell>
-                <mxCell id="140" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="139" target="130">
+                <mxCell id="140" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="139" target="130" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="139" value="锁重入，&lt;b&gt;header设置为null&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;" vertex="1" parent="1">
+                <mxCell id="139" value="锁重入，&lt;b&gt;header设置为null&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;" parent="1" vertex="1">
                     <mxGeometry x="386.25" y="1763" width="96.75" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="143" value="添加&lt;br&gt;轻量级锁" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="141" target="142">
+                <mxCell id="143" value="添加&lt;br&gt;轻量级锁" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="141" target="142" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="141" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818171128812.png;imageBorder=default;" vertex="1" parent="1">
+                <mxCell id="141" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818171128812.png;imageBorder=default;" parent="1" vertex="1">
                     <mxGeometry x="20" y="1910" width="317.16" height="172" as="geometry"/>
                 </mxCell>
-                <mxCell id="145" value="cas设置到obj的markword成功" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="142" target="144">
+                <mxCell id="145" value="cas设置到obj的markword成功" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="142" target="144" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="149" value="失败" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="142" target="148">
+                <mxCell id="149" value="失败" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="142" target="148" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="142" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818171217579.png;imageBorder=default;" vertex="1" parent="1">
+                <mxCell id="142" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818171217579.png;imageBorder=default;" parent="1" vertex="1">
                     <mxGeometry x="406.33" y="1910" width="293.67" height="171.69" as="geometry"/>
                 </mxCell>
-                <mxCell id="147" value="锁重入" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="144" target="146">
+                <mxCell id="147" value="锁重入" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="144" target="146" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="144" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818171400829.png;imageBorder=default;" vertex="1" parent="1">
+                <mxCell id="144" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818171400829.png;imageBorder=default;" parent="1" vertex="1">
                     <mxGeometry x="130" y="2130" width="316.96" height="184.69" as="geometry"/>
                 </mxCell>
-                <mxCell id="146" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818171505858.png;imageBorder=default;" vertex="1" parent="1">
+                <mxCell id="146" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818171505858.png;imageBorder=default;" parent="1" vertex="1">
                     <mxGeometry x="131.23" y="2360" width="314.49" height="202" as="geometry"/>
                 </mxCell>
-                <mxCell id="148" value="膨胀成重量级锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="148" value="膨胀成重量级锁" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="495.66" y="2520" width="115" height="33" as="geometry"/>
                 </mxCell>
-                <mxCell id="150" value="轻量级锁&lt;b&gt;解锁操作&lt;/b&gt;：&lt;br&gt;① 栈中当前LockRecord的header为空，则直接弹出此LockRecord&lt;br&gt;② header不为空，则恢复obj的markword，后弹出LockRecord" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                <mxCell id="150" value="轻量级锁&lt;b&gt;解锁操作&lt;/b&gt;：&lt;br&gt;① 栈中当前LockRecord的header为空，则直接弹出此LockRecord&lt;br&gt;② header不为空，则恢复obj的markword，后弹出LockRecord" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="564.99" y="2130" width="217" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="156" value="锁膨胀" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="152" target="155">
+                <mxCell id="156" value="锁膨胀" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="152" target="155" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="152" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818172152058.png;imageBorder=default;" vertex="1" parent="1">
+                <mxCell id="152" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818172152058.png;imageBorder=default;" parent="1" vertex="1">
                     <mxGeometry x="44.99" y="2610" width="520" height="196" as="geometry"/>
                 </mxCell>
-                <mxCell id="153" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;① 获取markwork，判断为有锁，且指向的是其他线程栈帧的锁记录&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;② 锁膨胀&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                <mxCell id="153" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;① 获取markwork，判断为有锁，且指向的是其他线程栈帧的锁记录&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;② 锁膨胀&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="572" y="2683" width="188" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="159" value="Thread-0解锁" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="155" target="158">
+                <mxCell id="159" value="Thread-0解锁" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="155" target="158" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="280" y="3090" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="155" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818172338021.png;imageBorder=default;" vertex="1" parent="1">
+                <mxCell id="155" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818172338021.png;imageBorder=default;" parent="1" vertex="1">
                     <mxGeometry x="38" y="2850" width="534" height="197.17" as="geometry"/>
                 </mxCell>
-                <mxCell id="157" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;①为原拥有轻量级锁的线程申请ObjectMonitor对象&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;② obj的markword改为(monitor的地址|10)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;③ 当前线程进入队列阻塞等待锁释放（&lt;b&gt;EnterI&lt;/b&gt;）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                <mxCell id="157" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;① 为原拥有轻量级锁的线程申请ObjectMonitor对象&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;② obj的markword改为(monitor的地址|10)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;③ 当前线程进入队列阻塞等待锁释放（&lt;b&gt;EnterI&lt;/b&gt;）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="584" y="2870" width="276" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="158" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;① cas试图恢复obj的markword，失败&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;② 进入到ObjectMonitor的解锁流程&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; 1) owner设置为NULL&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; 2) 根据策略唤醒同步队列的后继线程&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                <mxCell id="158" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;① cas试图恢复obj的markword，失败&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;② 进入到ObjectMonitor的解锁流程&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; 1) owner设置为NULL&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; 2) 根据策略唤醒同步队列的后继线程&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="195" y="3100" width="218.63" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="162" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="160" target="161">
+                <mxCell id="162" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="160" target="161" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="165" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="160" target="163">
+                <mxCell id="165" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="160" target="163" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="166" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="160" target="164">
+                <mxCell id="166" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="160" target="164" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="160" value="总结" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;" vertex="1" parent="1">
+                <mxCell id="160" value="总结" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;" parent="1" vertex="1">
                     <mxGeometry x="38" y="3375" width="52" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="169" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="161" target="168">
+                <mxCell id="169" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="161" target="168" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="161" value="偏向锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=center;" vertex="1" parent="1">
+                <mxCell id="161" value="偏向锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=center;" parent="1" vertex="1">
                     <mxGeometry x="156" y="3260" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="176" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" edge="1" parent="1" source="163" target="175">
+                <mxCell id="176" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" parent="1" source="163" target="175" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="163" value="轻量级锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=center;" vertex="1" parent="1">
+                <mxCell id="163" value="轻量级锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=center;" parent="1" vertex="1">
                     <mxGeometry x="156" y="3375" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="190" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" edge="1" parent="1" source="164" target="189">
+                <mxCell id="190" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" parent="1" source="164" target="189" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="164" value="重量级锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=center;" vertex="1" parent="1">
+                <mxCell id="164" value="重量级锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=center;" parent="1" vertex="1">
                     <mxGeometry x="156" y="3497" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="167" value="应用场景" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;align=center;" vertex="1" parent="1">
+                <mxCell id="167" value="应用场景" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;align=center;" parent="1" vertex="1">
                     <mxGeometry x="337.16" y="3210" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="193" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" edge="1" parent="1" source="168" target="170">
+                <mxCell id="193" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" parent="1" source="168" target="170" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="168" value="反复执行同一段synchronized代码块的&lt;b&gt;线程一直是同一个&lt;/b&gt;，省去反复加锁解锁的开销" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;sketch=1;" vertex="1" parent="1">
+                <mxCell id="168" value="反复执行同一段synchronized代码块的&lt;b&gt;线程一直是同一个&lt;/b&gt;，省去反复加锁解锁的开销" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="257.28000000000003" y="3255" width="238.38" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="174" value="对比" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=classic;startFill=1;" edge="1" parent="1" source="170" target="171">
+                <mxCell id="174" value="对比" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=classic;startFill=1;" parent="1" source="170" target="171" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="170" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818173954190.png;imageBorder=default;" vertex="1" parent="1">
+                <mxCell id="170" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818173954190.png;imageBorder=default;" parent="1" vertex="1">
                     <mxGeometry x="533" y="3122.98" width="327.72" height="155.04" as="geometry"/>
                 </mxCell>
-                <mxCell id="171" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818174047932.png;imageBorder=default;" vertex="1" parent="1">
+                <mxCell id="171" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818174047932.png;imageBorder=default;" parent="1" vertex="1">
                     <mxGeometry x="911.15" y="3080" width="328.92" height="241" as="geometry"/>
                 </mxCell>
-                <mxCell id="172" value="偏向锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;align=center;sketch=0;" vertex="1" parent="1">
+                <mxCell id="172" value="偏向锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;align=center;sketch=0;" parent="1" vertex="1">
                     <mxGeometry x="533" y="3102.98" width="78.15" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="173" value="轻量级锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;align=center;sketch=0;" vertex="1" parent="1">
+                <mxCell id="173" value="轻量级锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;align=center;sketch=0;" parent="1" vertex="1">
                     <mxGeometry x="911.1500000000001" y="3060" width="78.15" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="188" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" edge="1" parent="1" source="175" target="177">
+                <mxCell id="188" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" parent="1" source="175" target="177" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="175" value="一段synchronized代码块被多个线程穿插执行，相互之间其实是没有冲突的" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;sketch=1;" vertex="1" parent="1">
+                <mxCell id="175" value="一段synchronized代码块被多个线程穿插执行，相互之间其实是没有冲突的" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=center;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="257.28000000000003" y="3370" width="238.38" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="187" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="187" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="535" y="3330" width="430" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="177" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;align=center;sketch=0;" vertex="1" parent="187">
+                <mxCell id="177" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;align=center;sketch=0;" parent="187" vertex="1">
                     <mxGeometry width="430" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="178" value="同步代码块" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="187">
+                <mxCell id="178" value="同步代码块" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="187" vertex="1">
                     <mxGeometry x="71.5" y="18.019999999999982" width="70" height="21.98" as="geometry"/>
                 </mxCell>
-                <mxCell id="180" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" edge="1" parent="187" source="179" target="178">
+                <mxCell id="180" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" parent="187" source="179" target="178" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="179" value="线程1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="187">
+                <mxCell id="179" value="线程1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="187" vertex="1">
                     <mxGeometry x="8.5" y="18.019999999999982" width="44.99" height="21.98" as="geometry"/>
                 </mxCell>
-                <mxCell id="181" value="同步代码块" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="187">
+                <mxCell id="181" value="同步代码块" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="187" vertex="1">
                     <mxGeometry x="210" y="46.039999999999964" width="70" height="21.98" as="geometry"/>
                 </mxCell>
-                <mxCell id="182" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" edge="1" source="183" target="181" parent="187">
+                <mxCell id="182" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" parent="187" source="183" target="181" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="183" value="线程2" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="187">
+                <mxCell id="183" value="线程2" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="187" vertex="1">
                     <mxGeometry x="147" y="46.039999999999964" width="44.99" height="21.98" as="geometry"/>
                 </mxCell>
-                <mxCell id="184" value="同步代码块" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="187">
+                <mxCell id="184" value="同步代码块" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="187" vertex="1">
                     <mxGeometry x="348.15" y="80" width="70" height="21.98" as="geometry"/>
                 </mxCell>
-                <mxCell id="185" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" edge="1" source="186" target="184" parent="187">
+                <mxCell id="185" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" parent="187" source="186" target="184" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="186" value="线程3" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="187">
+                <mxCell id="186" value="线程3" style="rounded=0;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="187" vertex="1">
                     <mxGeometry x="285.15" y="80" width="44.99" height="21.98" as="geometry"/>
                 </mxCell>
-                <mxCell id="192" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" edge="1" parent="1" source="189" target="191">
+                <mxCell id="192" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;" parent="1" source="189" target="191" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="189" value="多个线程同时要执行synchronized代码块的内容时使用&lt;br&gt;优化点：&lt;b&gt;自旋优化&lt;/b&gt;，各个没拿到锁的线程不会直接挂起，而是多次自旋尝试获取锁，&lt;b&gt;多次获取都失败后才挂起&lt;/b&gt;等待" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" vertex="1" parent="1">
+                <mxCell id="189" value="多个线程同时要执行synchronized代码块的内容时使用&lt;br&gt;优化点：&lt;b&gt;自旋优化&lt;/b&gt;，各个没拿到锁的线程不会直接挂起，而是多次自旋尝试获取锁，&lt;b&gt;多次获取都失败后才挂起&lt;/b&gt;等待" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="257.28" y="3471" width="238.38" height="82" as="geometry"/>
                 </mxCell>
-                <mxCell id="191" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=0;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818174757731.png;imageBorder=default;" vertex="1" parent="1">
+                <mxCell id="191" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=0;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220818174757731.png;imageBorder=default;" parent="1" vertex="1">
                     <mxGeometry x="530" y="3460" width="520" height="323" as="geometry"/>
                 </mxCell>
-                <mxCell id="194" value="只有&lt;b&gt;线程挂起和线程唤醒&lt;/b&gt;操作会真正会进行系统调用(有用户态和内核态切换的开销)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=left;sketch=1;" vertex="1" parent="1">
+                <mxCell id="194" value="只有&lt;b&gt;线程挂起和线程唤醒&lt;/b&gt;操作会真正会进行系统调用(有用户态和内核态切换的开销)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=left;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="257.28" y="3560" width="238.38" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;dashed=1;" edge="1" parent="1" source="113" target="118">
+                <mxCell id="195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;dashed=1;" parent="1" source="113" target="118" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>
