@@ -1,13 +1,13 @@
 <mxfile host="65bd71144e">
     <diagram id="2hPQVOYOipwQLmy5uQ9p" name="第 1 页">
-        <mxGraphModel dx="968" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1362" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="146" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#6262FC;" edge="1" parent="1" source="143" target="145">
+                <mxCell id="146" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#6262FC;" parent="1" source="143" target="145" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="143" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                <mxCell id="143" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="445" y="979.25" width="400" height="85.75" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" parent="1" source="2" target="4" edge="1">
@@ -257,7 +257,7 @@
                 <mxCell id="116" value="原因：&lt;br&gt;CPU缓存行通常为64字节&lt;br&gt;redisObject占用16字节&lt;br&gt;sdshdr8除去字符串占用：1+1+1+1(填入字符串后还需尾部还需填一个'\0')=4字节&lt;br&gt;那么64-16-4=44，即还剩下44字节，如果使用这44字节直接存放字符串则可以充分利用CPU缓存，提高读取性能" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;sketch=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="230" y="831.53" width="249" height="118.47" as="geometry"/>
                 </mxCell>
-                <mxCell id="144" style="sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#6262FC;" edge="1" parent="1" source="117" target="143">
+                <mxCell id="144" style="sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#6262FC;" parent="1" source="117" target="143" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="117" value="其余情况" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=center;" parent="1" vertex="1">
@@ -317,10 +317,10 @@
                         <mxPoint x="780" y="827.5" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="135" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#6262FC;" edge="1" parent="1" source="122" target="123">
+                <mxCell id="135" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#6262FC;" parent="1" source="122" target="123" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="137" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="137" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="455" y="991.25" width="200" height="57.5" as="geometry"/>
                 </mxCell>
                 <mxCell id="119" value="&lt;b&gt;redisObject&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;fontSize=11;strokeColor=#b85450;fillColor=#f8cecc;" parent="137" vertex="1">
@@ -335,37 +335,37 @@
                 <mxCell id="122" value="&lt;b&gt;ptr&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;fontSize=11;strokeColor=#b85450;fillColor=#f8cecc;" parent="137" vertex="1">
                     <mxGeometry x="150" y="25" width="50" height="32.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="123" value="&lt;b&gt;SDS&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;fontSize=11;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+                <mxCell id="123" value="&lt;b&gt;SDS&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;fontSize=11;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
                     <mxGeometry x="685.5" y="991.25" width="150" height="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="124" value="&lt;b&gt;len&lt;br&gt;100&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;fontSize=11;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+                <mxCell id="124" value="&lt;b&gt;len&lt;br&gt;80&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;fontSize=11;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
                     <mxGeometry x="685.5" y="1016.25" width="50" height="32.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="125" value="&lt;b&gt;alloc&lt;br&gt;80&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;fontSize=11;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+                <mxCell id="125" value="&lt;b&gt;alloc&lt;br&gt;100&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;fontSize=11;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
                     <mxGeometry x="735.5" y="1016.25" width="50" height="32.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="126" value="&lt;b&gt;buf&lt;br&gt;...&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;fontSize=11;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+                <mxCell id="126" value="&lt;b&gt;buf&lt;br&gt;...&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=0;sketch=0;fontSize=11;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
                     <mxGeometry x="785.5" y="1016.25" width="50" height="32.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="145" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=0;sketch=1;fontSize=11;fontColor=#6262FC;strokeColor=default;fillColor=default;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220808232545936.png;" vertex="1" parent="1">
+                <mxCell id="145" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=0;sketch=1;fontSize=11;fontColor=#6262FC;strokeColor=default;fillColor=default;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220808232545936.png;" parent="1" vertex="1">
                     <mxGeometry x="890" y="996.45" width="544.77" height="51.34" as="geometry"/>
                 </mxCell>
-                <mxCell id="149" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#6262FC;" edge="1" parent="1" source="147" target="148">
+                <mxCell id="149" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#6262FC;" parent="1" source="147" target="148" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="147" value="当对一个原来的embStr进行append后，该字符串会被转换为raw" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;sketch=1;align=center;" vertex="1" parent="1">
+                <mxCell id="147" value="当对一个原来的embStr进行append后，该字符串会被转换为raw" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;sketch=1;align=center;" parent="1" vertex="1">
                     <mxGeometry x="190" y="1074" width="190" height="45" as="geometry"/>
                 </mxCell>
-                <mxCell id="151" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#6262FC;" edge="1" parent="1" source="148" target="150">
+                <mxCell id="151" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#6262FC;" parent="1" source="148" target="150" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="148" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=0;sketch=1;fontSize=11;fontColor=#6262FC;strokeColor=default;fillColor=default;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220808232936114.png;imageBorder=default;" vertex="1" parent="1">
+                <mxCell id="148" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=0;sketch=1;fontSize=11;fontColor=#6262FC;strokeColor=default;fillColor=default;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220808232936114.png;imageBorder=default;" parent="1" vertex="1">
                     <mxGeometry x="444.78999999999996" y="1074" width="210.21" height="95" as="geometry"/>
                 </mxCell>
-                <mxCell id="150" value="如果继续使用raw的话，那么每次进行append时都需要重新分配redisObject+SDS的内存空间，比较浪费" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                <mxCell id="150" value="如果继续使用embStr的话，那么每次进行append时都需要重新分配redisObject+SDS的内存空间，比较浪费" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="710" y="1096" width="230" height="51" as="geometry"/>
                 </mxCell>
-                <mxCell id="152" value="使用embStr的优点：&lt;br&gt;① 充分利用CPU缓存行&lt;br&gt;② 删除字符串只需free一次，而raw需要free redisObject+SDS 两次" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                <mxCell id="152" value="使用embStr的优点：&lt;br&gt;① 充分利用CPU缓存行&lt;br&gt;② 删除字符串只需free一次，而raw需要free redisObject+SDS 两次" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="493" y="831.53" width="217" height="70" as="geometry"/>
                 </mxCell>
             </root>
