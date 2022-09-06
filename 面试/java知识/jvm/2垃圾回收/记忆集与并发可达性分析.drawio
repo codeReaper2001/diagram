@@ -1,363 +1,363 @@
 <mxfile host="65bd71144e">
     <diagram id="Qv38kvuvmVRTPhoSaVy-" name="第 1 页">
-        <mxGraphModel dx="926" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1150" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="43" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="3" target="4">
+                <mxCell id="43" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="3" target="4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="45" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="3" target="44">
+                <mxCell id="45" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="3" target="44" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="3" target="46">
+                <mxCell id="47" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="3" target="46" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="75" style="rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="3" target="73">
+                <mxCell id="75" style="rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="3" target="73" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="79" style="edgeStyle=none;rounded=0;sketch=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="80" target="78">
+                <mxCell id="79" style="edgeStyle=none;rounded=0;sketch=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="80" target="78" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="83" y="950" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="81" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="3" target="80">
+                <mxCell id="81" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="3" target="80" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="卡表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                <mxCell id="3" value="卡表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="670" width="86" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="堆内存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;verticalAlign=top;" vertex="1" parent="1">
+                <mxCell id="4" value="堆内存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="180" y="470" width="370" height="290" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="新生代" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;verticalAlign=top;" vertex="1" parent="1">
+                <mxCell id="7" value="新生代" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="200" y="500" width="160" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="老年代" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;verticalAlign=top;" vertex="1" parent="1">
+                <mxCell id="8" value="老年代" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="370" y="500" width="170" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="obj1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                <mxCell id="10" value="obj1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="250" y="540" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="1">
+                <mxCell id="11" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" parent="1" vertex="1">
                     <mxGeometry x="380" y="520" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="1">
+                <mxCell id="12" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" parent="1" vertex="1">
                     <mxGeometry x="430" y="520" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="1">
+                <mxCell id="13" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" parent="1" vertex="1">
                     <mxGeometry x="480" y="520" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="1">
+                <mxCell id="14" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" parent="1" vertex="1">
                     <mxGeometry x="380" y="550" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="1">
+                <mxCell id="15" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" parent="1" vertex="1">
                     <mxGeometry x="430" y="550" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="1">
+                <mxCell id="16" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" parent="1" vertex="1">
                     <mxGeometry x="480" y="550" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="引用" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="17" target="10">
+                <mxCell id="18" value="引用" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" parent="1" source="17" target="10" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="obj2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                <mxCell id="17" value="obj2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="390" y="520" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                <mxCell id="19" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
                     <mxGeometry x="310" y="570" width="50" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="" style="endArrow=none;dashed=1;html=1;sketch=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="20" target="19">
+                <mxCell id="26" value="" style="endArrow=none;dashed=1;html=1;sketch=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="20" target="19" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="120" y="790" as="sourcePoint"/>
                         <mxPoint x="170" y="740" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="27" value="" style="endArrow=none;dashed=1;html=1;sketch=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="20" target="7">
+                <mxCell id="27" value="" style="endArrow=none;dashed=1;html=1;sketch=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="20" target="7" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="270" y="620" as="sourcePoint"/>
                         <mxPoint x="320" y="600" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="32" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="32" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="340" y="610" width="190" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="32">
+                <mxCell id="20" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="32" vertex="1">
                     <mxGeometry width="190" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="32">
+                <mxCell id="21" value="1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" parent="32" vertex="1">
                     <mxGeometry x="10" y="10" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="0~511" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="32">
+                <mxCell id="22" value="0~511" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" parent="32" vertex="1">
                     <mxGeometry x="70" y="10" width="110" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="0" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="32">
+                <mxCell id="23" value="0" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" parent="32" vertex="1">
                     <mxGeometry x="10" y="50" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="512~1023" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="32">
+                <mxCell id="24" value="512~1023" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" parent="32" vertex="1">
                     <mxGeometry x="70" y="50" width="110" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="0" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="32">
+                <mxCell id="29" value="0" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" parent="32" vertex="1">
                     <mxGeometry x="10" y="100" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="n~n+512" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="32">
+                <mxCell id="30" value="n~n+512" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" parent="32" vertex="1">
                     <mxGeometry x="70" y="100" width="110" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="&lt;font color=&quot;#6262fc&quot; style=&quot;font-size: 13px&quot;&gt;...&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;comic=1;align=left;sketch=1;" vertex="1" parent="32">
+                <mxCell id="31" value="&lt;font color=&quot;#6262fc&quot; style=&quot;font-size: 13px&quot;&gt;...&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;comic=1;align=left;sketch=1;" parent="32" vertex="1">
                     <mxGeometry x="60" y="79" width="30" height="21" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" value="&lt;font color=&quot;#6262fc&quot; style=&quot;font-size: 11px&quot;&gt;数字表示新生代的对象被老年代是否被老年代的对应卡区域内的对象所引用&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;comic=1;align=left;sketch=1;" vertex="1" parent="1">
+                <mxCell id="42" value="&lt;font color=&quot;#6262fc&quot; style=&quot;font-size: 11px&quot;&gt;数字表示新生代的对象被老年代是否被老年代的对应卡区域内的对象所引用&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;comic=1;align=left;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="210" y="650" width="120" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" value="当新生代中的对象被老年代某对象引用时，对应卡表项即更新为1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                <mxCell id="44" value="当新生代中的对象被老年代某对象引用时，对应卡表项即更新为1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="180" y="780" width="200" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="49" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="46" target="48">
+                <mxCell id="49" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="46" target="48" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" value="作用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                <mxCell id="46" value="作用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="180" y="840" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="48" value="在进行新生代的垃圾收集时，需要&lt;b&gt;将脏卡内的对象也加入到GCRoot&lt;/b&gt;进行可达性分析，后再进行收集" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                <mxCell id="48" value="在进行新生代的垃圾收集时，需要&lt;b&gt;将脏卡内的对象也加入到GCRoot&lt;/b&gt;进行可达性分析，后再进行收集" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="270" y="830" width="190" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" style="edgeStyle=none;sketch=1;html=1;exitX=0.07;exitY=1.006;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;exitPerimeter=0;" edge="1" parent="1" source="50" target="56">
+                <mxCell id="57" style="edgeStyle=none;sketch=1;html=1;exitX=0.07;exitY=1.006;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;exitPerimeter=0;" parent="1" source="50" target="56" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="50" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220829233131222.png;imageBorder=default;" vertex="1" parent="1">
+                <mxCell id="50" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220829233131222.png;imageBorder=default;" parent="1" vertex="1">
                     <mxGeometry x="169.12" y="40" width="360.88" height="220" as="geometry"/>
                 </mxCell>
-                <mxCell id="52" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="51" target="50">
+                <mxCell id="52" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="51" target="50" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="51" value="跨代引用时可达性分析的问题" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                <mxCell id="51" value="跨代引用时可达性分析的问题" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="130" width="90" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" style="edgeStyle=none;sketch=1;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+                <mxCell id="54" style="edgeStyle=none;sketch=1;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="333" y="173" as="targetPoint"/>
                         <mxPoint x="393" y="173" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="53" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;此时如果直接根据GCRoot标记其直接关联的新生代对象，那么假设某个新生代中的对象：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;① 没有被其他新生代对象引用&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;② 被老年代对象引用&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;那么它就会在扫描后分析为不可达，进而被错误回收掉&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                <mxCell id="53" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;此时如果直接根据GCRoot标记其直接关联的新生代对象，那么假设某个新生代中的对象：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;① 没有被其他新生代对象引用&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;② 被老年代对象引用&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;那么它就会在扫描后分析为不可达，进而被错误回收掉&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="570" y="120" width="210" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="61" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="55" target="60">
+                <mxCell id="61" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="55" target="60" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="55" target="64">
+                <mxCell id="65" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="55" target="64" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="55" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div&gt;某个新生代中的对象：&lt;/div&gt;&lt;div&gt;① 没有被其他新生代对象引用&lt;/div&gt;&lt;div&gt;② 被老年代对象引用&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                <mxCell id="55" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div&gt;某个新生代中的对象：&lt;/div&gt;&lt;div&gt;① 没有被其他新生代对象引用&lt;/div&gt;&lt;div&gt;② 被老年代对象引用&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="264.56" y="303.75" width="170" height="57.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="59" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="56" target="55">
+                <mxCell id="59" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="56" target="55" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="56" value="场景" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                <mxCell id="56" value="场景" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="169.12" y="320" width="49.12" height="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="63" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="60" target="62">
+                <mxCell id="63" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="60" target="62" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="60" value="只从GCRoot&lt;b&gt;直接关联&lt;/b&gt;的新生代对象向下扫描" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                <mxCell id="60" value="只从GCRoot&lt;b&gt;直接关联&lt;/b&gt;的新生代对象向下扫描" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="470" y="278.75" width="130" height="41.25" as="geometry"/>
                 </mxCell>
-                <mxCell id="62" value="在扫描后分析为不可达，进而&lt;b&gt;被错误地回收掉&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" vertex="1" parent="1">
+                <mxCell id="62" value="在扫描后分析为不可达，进而&lt;b&gt;被错误地回收掉&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="630" y="278.75" width="140" height="41.25" as="geometry"/>
                 </mxCell>
-                <mxCell id="67" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="64" target="66">
+                <mxCell id="67" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="64" target="66" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="630" y="360" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="64" value="连老年代也扫描一次" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                <mxCell id="64" value="连老年代也扫描一次" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="470" y="345" width="130" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="66" value="YGC效率太低" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" vertex="1" parent="1">
+                <mxCell id="66" value="YGC效率太低" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="630" y="344.37" width="90" height="30.63" as="geometry"/>
                 </mxCell>
-                <mxCell id="70" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="68" target="69">
+                <mxCell id="70" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="68" target="69" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" value="记忆集中的&lt;br&gt;一种实现" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;rounded=0;" edge="1" parent="1" source="68" target="3">
+                <mxCell id="71" value="记忆集中的&lt;br&gt;一种实现" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;rounded=0;" parent="1" source="68" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="68" value="需要维护老年代中对新生代对象有引用关系的对象集合（记忆集）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                <mxCell id="68" value="需要维护老年代中对新生代对象有引用关系的对象集合（记忆集）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="264.56" y="400" width="186" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="69" value="这样就只需要&lt;b&gt;额外以记忆集的对象为开始节点&lt;/b&gt;进行扫描了" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;sketch=1;" vertex="1" parent="1">
+                <mxCell id="69" value="这样就只需要&lt;b&gt;额外以记忆集的对象为开始节点&lt;/b&gt;进行扫描了" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="480.56" y="400" width="186" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="72" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220829234225451.png;imageBorder=default;" vertex="1" parent="1">
+                <mxCell id="72" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220829234225451.png;imageBorder=default;" parent="1" vertex="1">
                     <mxGeometry x="270" y="890" width="520" height="91" as="geometry"/>
                 </mxCell>
-                <mxCell id="74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="73" target="72">
+                <mxCell id="74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="73" target="72" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="73" value="记忆集精度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                <mxCell id="73" value="记忆集精度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="170" y="920.5" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="76" value="这里的精度为卡精度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                <mxCell id="76" value="这里的精度为卡精度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="666.56" y="951" width="125" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="83" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="78" target="82">
+                <mxCell id="83" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="78" target="82" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="87" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="78" target="86">
+                <mxCell id="87" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="78" target="86" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="78" value="写屏障" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                <mxCell id="78" value="写屏障" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="1022" width="86" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="80" value="如何维护？" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;" vertex="1" parent="1">
+                <mxCell id="80" value="如何维护？" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="860" width="86" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="85" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="82" target="84">
+                <mxCell id="85" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="82" target="84" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="82" value="写屏障可以看作在虚拟机层面对&lt;b&gt;“引用类型字段赋值”&lt;/b&gt;这个动作的&lt;b&gt;AOP切面&lt;/b&gt;，在引用对象赋值时会产生一个&lt;b&gt;环形通知&lt;/b&gt;，供程序&lt;b&gt;执行额外的动作&lt;/b&gt;，也就是说赋值的前后都在写屏障的覆盖范畴内。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" vertex="1" parent="1">
+                <mxCell id="82" value="写屏障可以看作在虚拟机层面对&lt;b&gt;“引用类型字段赋值”&lt;/b&gt;这个动作的&lt;b&gt;AOP切面&lt;/b&gt;，在引用对象赋值时会产生一个&lt;b&gt;环形通知&lt;/b&gt;，供程序&lt;b&gt;执行额外的动作&lt;/b&gt;，也就是说赋值的前后都在写屏障的覆盖范畴内。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="178.56" y="1012" width="341.44" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="84" value="赋值操作前后可以插入自定义行为，例如这里可以在赋值后维护卡表信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=left;sketch=1;" vertex="1" parent="1">
+                <mxCell id="84" value="赋值操作前后可以插入自定义行为，例如这里可以在赋值后维护卡表信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=left;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="550" y="1022" width="220" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="89" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="86" target="88">
+                <mxCell id="89" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="86" target="88" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="86" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220829234737200.png;imageBorder=default;" vertex="1" parent="1">
+                <mxCell id="86" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220829234737200.png;imageBorder=default;" parent="1" vertex="1">
                     <mxGeometry x="178.56" y="1091" width="340" height="78.41" as="geometry"/>
                 </mxCell>
-                <mxCell id="88" value="即这里在赋值操作后检查是否跨代引用，如果是老年代跨代引用则&lt;b&gt;将卡表中该卡对应的值置一&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" vertex="1" parent="1">
+                <mxCell id="88" value="即这里在赋值操作后检查是否跨代引用，如果是老年代跨代引用则&lt;b&gt;将卡表中该卡对应的值置一&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="540" y="1105.7" width="260" height="49" as="geometry"/>
                 </mxCell>
-                <mxCell id="90" value="老年代被切成多个卡页，大小为512B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                <mxCell id="90" value="老年代被切成多个卡页，大小为512B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="560" y="525" width="140" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="93" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="91" target="92">
+                <mxCell id="93" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="91" target="92" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="109" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="91" target="106">
+                <mxCell id="109" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="91" target="106" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="118" style="rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="91" target="117">
+                <mxCell id="118" style="rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="91" target="117" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="91" value="并发的&lt;br&gt;可达性分析" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                <mxCell id="91" value="并发的&lt;br&gt;可达性分析" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="1380" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="97" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="92" target="94">
+                <mxCell id="97" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="92" target="94" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="98" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="92" target="95">
+                <mxCell id="98" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="92" target="95" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="99" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="92" target="96">
+                <mxCell id="99" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="92" target="96" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="92" value="三色标记法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;" vertex="1" parent="1">
+                <mxCell id="92" value="三色标记法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="160" y="1264" width="80" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="101" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="94" target="100">
+                <mxCell id="101" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="94" target="100" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="94" value="白色" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                <mxCell id="94" value="白色" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="280" y="1209.5" width="55.44" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="103" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="95" target="102">
+                <mxCell id="103" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="95" target="102" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="95" value="黑色" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                <mxCell id="95" value="黑色" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="280" y="1264" width="55.44" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="105" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="96" target="104">
+                <mxCell id="105" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="96" target="104" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="96" value="灰色" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                <mxCell id="96" value="灰色" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="280" y="1319.5" width="55.44" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="100" value="对象尚未被垃圾收集器访问过&lt;br&gt;① 开始时对象都是白色&lt;br&gt;② 标记后仍是白色的对象被回收" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" vertex="1" parent="1">
+                <mxCell id="100" value="对象尚未被垃圾收集器访问过&lt;br&gt;① 开始时对象都是白色&lt;br&gt;② 标记后仍是白色的对象被回收" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="360" y="1200" width="210" height="49" as="geometry"/>
                 </mxCell>
-                <mxCell id="102" value="已经被垃圾收集器访问过，且这个对象的&lt;b&gt;所有引用&lt;/b&gt;都已经扫描过" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" vertex="1" parent="1">
+                <mxCell id="102" value="已经被垃圾收集器访问过，且这个对象的&lt;b&gt;所有引用&lt;/b&gt;都已经扫描过" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="360" y="1259.5" width="210" height="39" as="geometry"/>
                 </mxCell>
-                <mxCell id="104" value="对象已经被垃圾收集器访问过，但这个对象上&lt;b&gt;至少存在一个引用还没有被扫描过&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" vertex="1" parent="1">
+                <mxCell id="104" value="对象已经被垃圾收集器访问过，但这个对象上&lt;b&gt;至少存在一个引用还没有被扫描过&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="360" y="1312.25" width="230" height="44.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="108" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="106" target="107">
+                <mxCell id="108" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="106" target="107" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="106" value="&lt;b&gt;并发标记&lt;/b&gt;可能的结果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;" vertex="1" parent="1">
+                <mxCell id="106" value="&lt;b&gt;并发标记&lt;/b&gt;可能的结果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="160" y="1380" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="107" target="110">
+                <mxCell id="111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="107" target="110" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="107" value="① 把原本消亡的对象错误标记为存活（产生浮动垃圾）&lt;br&gt;② 把存活的对象没有被标记-&amp;gt;&lt;b&gt;被错误回收&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" vertex="1" parent="1">
+                <mxCell id="107" value="① 把原本消亡的对象错误标记为存活（产生浮动垃圾）&lt;br&gt;② 把存活的对象没有被标记-&amp;gt;&lt;b&gt;被错误回收&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="280" y="1380" width="300" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="110" target="112">
+                <mxCell id="113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="110" target="112" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="110" value="对象消失条件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                <mxCell id="110" value="对象消失条件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="161.13999999999996" y="1460" width="87.72" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="115" style="rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="112" target="116">
+                <mxCell id="115" style="rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="112" target="116" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="590" y="1475" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="112" value="① 插入了黑色对象到白色对象的新引用 &amp;amp;&amp;amp;&lt;br&gt;② 删除了所有灰色对象到该白色对象的引用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" vertex="1" parent="1">
-                    <mxGeometry x="290" y="1455.25" width="240" height="39.5" as="geometry"/>
+                <mxCell id="112" value="① 插入了黑色对象到白色对象的新引用 &amp;amp;&amp;amp;&lt;br&gt;② 删除了所有灰色对象到该白色对象的&lt;b&gt;直接或间接引用&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="1455.25" width="300" height="39.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="116" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/2/23/1707266cd4d9d2fb~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp;imageBorder=default;" vertex="1" parent="1">
-                    <mxGeometry x="610" y="1312.2499999999998" width="260" height="187.72" as="geometry"/>
+                <mxCell id="116" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=11;image=https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/2/23/1707266cd4d9d2fb~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp;imageBorder=default;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="1312.2499999999998" width="260" height="187.72" as="geometry"/>
                 </mxCell>
-                <mxCell id="121" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="117" target="119">
+                <mxCell id="121" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="117" target="119" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="122" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="117" target="120">
+                <mxCell id="122" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="117" target="120" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="281.14" y="1585" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="117" value="解决方案" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;" vertex="1" parent="1">
+                <mxCell id="117" value="解决方案" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="160" y="1570" width="80" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="124" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="119" target="123">
+                <mxCell id="124" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="119" target="123" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="119" value="增量更新" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                <mxCell id="119" value="增量更新" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="281.14" y="1540" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="128" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="120" target="127">
+                <mxCell id="128" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="120" target="127" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="120" value="原始快照" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                <mxCell id="120" value="原始快照" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="281.14" y="1614.75" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="126" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="123" target="125">
+                <mxCell id="126" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="123" target="125" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="123" value="破坏条件①，当黑色对象插入新的指向白色对象的引用关系时，将这个引用记录下来，再将这些记录过的引用关系中的&lt;b&gt;黑色对象为根&lt;/b&gt;，&lt;b&gt;重新扫描一次&lt;/b&gt;。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" vertex="1" parent="1">
+                <mxCell id="123" value="破坏条件①，当黑色对象插入新的指向白色对象的引用关系时，将这个引用记录下来，再将这些记录过的引用关系中的&lt;b&gt;黑色对象为根&lt;/b&gt;，&lt;b&gt;重新扫描一次&lt;/b&gt;。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="370" y="1527.88" width="290" height="54.75" as="geometry"/>
                 </mxCell>
-                <mxCell id="125" value="相当于黑色对象&lt;b&gt;变回灰色&lt;/b&gt;，再次扫描" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=left;sketch=1;" vertex="1" parent="1">
+                <mxCell id="125" value="相当于黑色对象&lt;b&gt;变回灰色&lt;/b&gt;，再次扫描" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=left;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="680" y="1540.5" width="200" height="29.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="130" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="127" target="129">
+                <mxCell id="130" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="127" target="129" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="127" value="破坏条件②，当灰色对象要删除指向白色对象的引用关系时，就将这个要删除的引用记录下来，在并发扫描结束之后，再将这些记录过的引用关系中的灰色对象为根，重新扫描 一次。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" vertex="1" parent="1">
+                <mxCell id="127" value="破坏条件②，当灰色对象要删除指向白色对象的引用关系时，就将这个要删除的引用记录下来，在并发扫描结束之后，再将这些记录过的引用关系中的灰色对象为根，重新扫描 一次。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="370" y="1594.75" width="290" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="129" value="相当于按开始的&lt;b&gt;快照&lt;/b&gt;扫描" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=left;sketch=1;" vertex="1" parent="1">
+                <mxCell id="129" value="相当于按开始的&lt;b&gt;快照&lt;/b&gt;扫描" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=left;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="680" y="1614.75" width="140" height="29.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="133" value="一般使用写前屏障" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;align=center;sketch=1;" vertex="1" parent="1">
+                <mxCell id="133" value="一般使用写前屏障" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;align=center;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="840" y="1614.75" width="110" height="29.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="134" value="一般使用写后屏障" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;align=center;sketch=1;" vertex="1" parent="1">
+                <mxCell id="134" value="一般使用写后屏障" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;align=center;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="890" y="1540" width="110" height="29.5" as="geometry"/>
                 </mxCell>
             </root>
