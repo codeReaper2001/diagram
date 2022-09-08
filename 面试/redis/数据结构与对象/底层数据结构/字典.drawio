@@ -1,0 +1,368 @@
+<mxfile host="65bd71144e">
+    <diagram id="oKSlKXKJzPJb3fbGCKRN" name="第 1 页">
+        <mxGraphModel dx="935" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="46" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="720" width="823" height="303.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curved=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;curved=1;" edge="1" parent="1" source="2" target="76">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="2" target="79">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;curved=1;" edge="1" parent="1" source="2" target="89">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="字典&lt;br&gt;dict" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="580" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="3" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="3" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="相关数据结构源码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="345" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="5" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="单个哈希表dictht" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="304" y="345" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="7" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="最外层dict结构" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="304" y="115" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="8" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="dict包含&lt;br&gt;两个哈希表" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=0.901;exitY=1.007;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;exitPerimeter=0;rounded=0;" edge="1" parent="1" source="8" target="15">
+                    <mxGeometry x="0.1005" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="85" style="sketch=1;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="8" target="84">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;div style=&quot;color: rgb(56 , 58 , 66) ; background-color: rgb(250 , 250 , 250) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 22px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #a626a4&quot;&gt;typedef&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;struct&lt;/span&gt; &lt;span style=&quot;color: #c18401&quot;&gt;dict&lt;/span&gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #c18401&quot;&gt;dictType&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e45649&quot;&gt;type&lt;/span&gt;;&lt;span style=&quot;color: rgb(160 , 161 , 167) ; font-style: italic&quot;&gt;// 类型特定函数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e45649&quot;&gt;privdata&lt;/span&gt;;&lt;span style=&quot;color: rgb(160 , 161 , 167) ; font-style: italic&quot;&gt;// 私有数据&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #c18401&quot;&gt;dictht&lt;/span&gt; &lt;span style=&quot;color: #e45649&quot;&gt;ht&lt;/span&gt;[&lt;span style=&quot;color: #986801&quot;&gt;2&lt;/span&gt;];&lt;span style=&quot;color: rgb(160 , 161 , 167) ; font-style: italic&quot;&gt;// 哈希表&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(160 , 161 , 167) ; font-style: italic&quot;&gt;// rehash 索引&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #a0a1a7 ; font-style: italic&quot;&gt;// 当 rehash 不在进行时，值为 -1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;int&lt;/span&gt; &lt;span style=&quot;color: #e45649&quot;&gt;rehashidx&lt;/span&gt;;&lt;span style=&quot;color: #a0a1a7 ; font-style: italic&quot;&gt; /* rehashing not in progress if rehashidx == -1 */&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #a0a1a7 ; font-style: italic&quot;&gt;// 目前正在运行的安全迭代器的数量&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;int&lt;/span&gt; &lt;span style=&quot;color: #e45649&quot;&gt;iterators&lt;/span&gt;;&lt;span style=&quot;color: #a0a1a7 ; font-style: italic&quot;&gt; /* number of iterators currently running */&lt;/span&gt;&lt;/div&gt;&lt;div&gt;} &lt;span style=&quot;color: #c18401&quot;&gt;dict&lt;/span&gt;;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="18.5" width="460" height="223" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="一个dict其实内部对应了两个哈希表，用于实现&lt;b&gt;渐进式rehash&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="960" y="100" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="13" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="哈希表节点 Entry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="304" y="569.5" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;div style=&quot;color: rgb(56 , 58 , 66) ; background-color: rgb(250 , 250 , 250) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 22px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 22px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #a0a1a7 ; font-style: italic&quot;&gt;/*&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(160 , 161 , 167) ; font-style: italic&quot;&gt;哈希表&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #a0a1a7 ; font-style: italic&quot;&gt;&amp;nbsp;*&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(160 , 161 , 167) ; font-style: italic&quot;&gt;每个字典都使用两个哈希表，从而实现渐进式 rehash 。&lt;/span&gt;&lt;span style=&quot;color: rgb(160 , 161 , 167) ; font-style: italic&quot;&gt;*/&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #a626a4&quot;&gt;typedef&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;struct&lt;/span&gt; &lt;span style=&quot;color: #c18401&quot;&gt;dictht&lt;/span&gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #c18401&quot;&gt;dictEntry&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;**&lt;/span&gt;&lt;span style=&quot;color: #e45649&quot;&gt;table&lt;/span&gt;;&lt;span style=&quot;color: rgb(160 , 161 , 167) ; font-style: italic&quot;&gt;// 哈希表数组&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;unsigned&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;long&lt;/span&gt; &lt;span style=&quot;color: #e45649&quot;&gt;size&lt;/span&gt;;&lt;span style=&quot;color: rgb(160 , 161 , 167) ; font-style: italic&quot;&gt;// 哈希表大小&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #a0a1a7 ; font-style: italic&quot;&gt;// 哈希表大小掩码，用于计算索引值&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;unsigned&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;long&lt;/span&gt; &lt;span style=&quot;color: #e45649&quot;&gt;sizemask&lt;/span&gt;;&lt;span style=&quot;color: rgb(160 , 161 , 167) ; font-style: italic&quot;&gt;// 总是等于 size - 1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;unsigned&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;long&lt;/span&gt; &lt;span style=&quot;color: #e45649&quot;&gt;used&lt;/span&gt;;&lt;span style=&quot;color: rgb(160 , 161 , 167) ; font-style: italic&quot;&gt;// 该哈希表已有节点的数量&lt;/span&gt;&lt;/div&gt;&lt;div&gt;} &lt;span style=&quot;color: #c18401&quot;&gt;dictht&lt;/span&gt;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="260" width="340" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;div style=&quot;color: rgb(56 , 58 , 66) ; background-color: rgb(250 , 250 , 250) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 22px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 22px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 22px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #a0a1a7 ; font-style: italic&quot;&gt;/*&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(160 , 161 , 167) ; font-style: italic&quot;&gt;哈希表节点&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(160 , 161 , 167) ; font-style: italic&quot;&gt;*/&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #a626a4&quot;&gt;typedef&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;struct&lt;/span&gt; &lt;span style=&quot;color: #c18401&quot;&gt;dictEntry&lt;/span&gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e45649&quot;&gt;key&lt;/span&gt;;&lt;span style=&quot;color: rgb(160 , 161 , 167) ; font-style: italic&quot;&gt;// 键&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;union&lt;/span&gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e45649&quot;&gt;val&lt;/span&gt;;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #c18401&quot;&gt;uint64_t&lt;/span&gt; &lt;span style=&quot;color: #e45649&quot;&gt;u64&lt;/span&gt;;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #c18401&quot;&gt;int64_t&lt;/span&gt; &lt;span style=&quot;color: #e45649&quot;&gt;s64&lt;/span&gt;;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; } &lt;span style=&quot;color: #e45649&quot;&gt;v&lt;/span&gt;;&amp;nbsp;&lt;span style=&quot;color: rgb(160 , 161 , 167) ; font-style: italic&quot;&gt;// 值&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;struct&lt;/span&gt; &lt;span style=&quot;color: #c18401&quot;&gt;dictEntry&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e45649&quot;&gt;next&lt;/span&gt;;&lt;span style=&quot;color: rgb(160 , 161 , 167) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-style: italic&quot;&gt;// 指向下个哈希表节点，形成链表&lt;/span&gt;&lt;/div&gt;&lt;div&gt;} &lt;span style=&quot;color: #c18401&quot;&gt;dictEntry&lt;/span&gt;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="472" width="370" height="225" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="ht[0]" style="rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="24" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="ht[1]" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="24" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="28" target="38">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="40" target="47">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="43" target="64">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="32" target="45">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="563" y="920.75" as="sourcePoint"/>
+                        <mxPoint x="623" y="920.75" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="NULL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;sketch=1;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="603" y="906.25" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="48" target="52">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="49" target="61">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="883" y="826.25" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="redisObject" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=0;" vertex="1" parent="1">
+                    <mxGeometry x="883" y="761.25" width="160" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="encoding ..." style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="1">
+                    <mxGeometry x="883" y="786.25" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="&#10;&#10;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;ptr&lt;/span&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="1">
+                    <mxGeometry x="963" y="786.25" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="57">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1043" y="801.25" as="sourcePoint"/>
+                        <mxPoint x="1073" y="799.25" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;sketch=1;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="1063" y="783.75" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;sketch=1;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="883" y="816.25" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" target="63" parent="1" source="47">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="833" y="748.75" as="sourcePoint"/>
+                        <mxPoint x="903" y="748.25" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="NULL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;sketch=1;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="883" y="733.75" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" style="edgeStyle=none;rounded=0;sketch=1;html=1;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="69" parent="1" source="64">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="843" y="883.75" as="sourcePoint"/>
+                        <mxPoint x="903" y="870.75" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="NULL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;sketch=1;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="883" y="856.25" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="753" y="736.25" width="80" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="key" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="70">
+                    <mxGeometry y="25" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="v" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="70">
+                    <mxGeometry y="50" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="dictEntry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=0;" vertex="1" parent="70">
+                    <mxGeometry width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="753" y="858.75" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="key" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="71">
+                    <mxGeometry y="25" width="40" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="v" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="71">
+                    <mxGeometry x="40" y="25" width="40" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="dictEntry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=0;" vertex="1" parent="71">
+                    <mxGeometry width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="623" y="758.75" width="80" height="125" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="0" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="72">
+                    <mxGeometry y="25" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="dictEntry*[4]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=0;" vertex="1" parent="72">
+                    <mxGeometry width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="1" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="72">
+                    <mxGeometry y="50" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="2" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="72">
+                    <mxGeometry y="75" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="3" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="72">
+                    <mxGeometry y="100" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="473" y="733.75" width="80" height="125" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="table" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="73">
+                    <mxGeometry y="25" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="dictht" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=0;" vertex="1" parent="73">
+                    <mxGeometry width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="size 4" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="73">
+                    <mxGeometry y="50" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="sizemask 3" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="73">
+                    <mxGeometry y="75" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="used 2" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="73">
+                    <mxGeometry y="100" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="473" y="883.75" width="80" height="125" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="table" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="74">
+                    <mxGeometry y="25" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="dictht" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=0;" vertex="1" parent="74">
+                    <mxGeometry width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="size 0" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="74">
+                    <mxGeometry y="50" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="sizemask 0" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="74">
+                    <mxGeometry y="75" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="used 0" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="74">
+                    <mxGeometry y="100" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="313" y="743.75" width="80" height="125" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="type" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="75">
+                    <mxGeometry y="25" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="dict" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=0;" vertex="1" parent="75">
+                    <mxGeometry width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="privdata" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="75">
+                    <mxGeometry y="50" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="ht" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="75">
+                    <mxGeometry y="75" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="rehashidx" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" vertex="1" parent="75">
+                    <mxGeometry y="100" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="76" target="46">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="字典结构&lt;br&gt;示意图" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="850.62" width="90" height="41.25" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="79" target="81">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="什么地方使用到字典数据结构?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="1066.56" width="90" height="41.25" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="① &lt;b&gt;数据库本身&lt;/b&gt;使用了字典作为它内部的底层数据结构，即我们&lt;b&gt;读写一个键值对&lt;/b&gt;时，底层操作的对象就是一个字典&lt;br&gt;② 字典是哈希对象的底层数据结构之一：&lt;b&gt;hash类型&lt;/b&gt;选用的数据结构有：&lt;b&gt;压缩列表ziplist、字典dict&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="1049.9999999999998" width="320" height="74.38" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="&lt;div style=&quot;color: rgb(56 , 58 , 66) ; background-color: rgb(250 , 250 , 250) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 22px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 22px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #a0a1a7 ; font-style: italic&quot;&gt;/*&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(160 , 161 , 167) ; font-style: italic&quot;&gt;字典类型特定函数&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(160 , 161 , 167) ; font-style: italic&quot;&gt;*/&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #a626a4&quot;&gt;typedef&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;struct&lt;/span&gt; &lt;span style=&quot;color: #c18401&quot;&gt;dictType&lt;/span&gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;unsigned&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;int&lt;/span&gt; (&lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e45649&quot;&gt;hashFunction&lt;/span&gt;)(&lt;span style=&quot;color: #a626a4&quot;&gt;const&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;key);&lt;span style=&quot;color: rgb(160 , 161 , 167) ; font-style: italic&quot;&gt;// 计算哈希值的函数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;(&lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e45649&quot;&gt;keyDup&lt;/span&gt;)(&lt;span style=&quot;color: #a626a4&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;privdata, &lt;span style=&quot;color: #a626a4&quot;&gt;const&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;key);&lt;span style=&quot;color: rgb(160 , 161 , 167) ; font-style: italic&quot;&gt;// 复制键的函数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;(&lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e45649&quot;&gt;valDup&lt;/span&gt;)(&lt;span style=&quot;color: #a626a4&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;privdata, &lt;span style=&quot;color: #a626a4&quot;&gt;const&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;obj);&lt;span style=&quot;color: rgb(160 , 161 , 167) ; font-style: italic&quot;&gt;// 复制值的函数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #a0a1a7 ; font-style: italic&quot;&gt;// 对比键的函数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;int&lt;/span&gt; (&lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e45649&quot;&gt;keyCompare&lt;/span&gt;)(&lt;span style=&quot;color: #a626a4&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;privdata, &lt;span style=&quot;color: #a626a4&quot;&gt;const&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;key1, &lt;span style=&quot;color: #a626a4&quot;&gt;const&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;key2);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;void&lt;/span&gt; (&lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e45649&quot;&gt;keyDestructor&lt;/span&gt;)(&lt;span style=&quot;color: #a626a4&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;privdata, &lt;span style=&quot;color: #a626a4&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;key);&lt;span style=&quot;color: rgb(160 , 161 , 167) ; font-style: italic&quot;&gt;// 销毁键的函数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;void&lt;/span&gt; (&lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e45649&quot;&gt;valDestructor&lt;/span&gt;)(&lt;span style=&quot;color: #a626a4&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;privdata, &lt;span style=&quot;color: #a626a4&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt;obj);&amp;nbsp;&lt;span style=&quot;color: rgb(160 , 161 , 167) ; font-style: italic&quot;&gt;// 销毁值的函数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;} &lt;span style=&quot;color: #c18401&quot;&gt;dictType&lt;/span&gt;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="963" y="230" width="496" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;rounded=0;" edge="1" parent="1" source="84" target="83">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="type字段" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="960" y="180" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="用于实现字典的多态" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="1241" y="190" width="120" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="使用&lt;b&gt;链地址法&lt;/b&gt;解决哈希冲突" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="840" y="680" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="89" target="91">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="89" target="93">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="rehash" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="1349.37" width="90" height="31.25" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="91" target="96">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="91" target="106">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="直接rehash" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="308" y="1219.38" width="90" height="31.25" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="93" target="110">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="渐进式rehash" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="308" y="1534.38" width="90" height="31.25" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="1140.01" width="480" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="97" target="99">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="为ht[1]分配空间" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="1160.01" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="① 扩展操作：大小为第一个&amp;gt;=&amp;nbsp;&lt;b&gt;ht[0].used * 2&amp;nbsp;&lt;/b&gt;的 2&lt;sup&gt;n&amp;nbsp;&lt;/sup&gt;的空间&lt;br&gt;② 收缩操作：大小为第一个&amp;gt;=&amp;nbsp;&lt;b&gt;ht[0].used&amp;nbsp;&lt;/b&gt;的 2&lt;sup&gt;n&amp;nbsp;&lt;/sup&gt;的空间" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="1154.22" width="320" height="41.57" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="99" target="102">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="将保存在ht[0]中的所有键值对rehash到ht[1]上面" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="1210.01" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="遍历ht[0]上的所有桶的所有桶元素，重新映射到ht[1]上" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="1215.01" width="300" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="释放ht[0].table&lt;br&gt;将ht[1]的内容赋值到ht[0]中" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="446" y="1270.01" width="147" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="相当于做了一个交换操作，最后清空ht[1]的内容" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="605" y="1270.01" width="150" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="106" target="108">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="时机" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="1349.37" width="60" height="31.25" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="&lt;div&gt;1) 服务器目前&lt;b&gt;没有在执行&lt;/b&gt;BGSAVE命令或者BGREWRITEAOF命令，并且哈希表的负载因子&lt;b&gt;大于等于1&lt;/b&gt;&lt;/div&gt;&lt;div&gt;2) 服务器目前&lt;b&gt;正在执行&lt;/b&gt;BGSAVE命令或者BGREWRITEAOF命令，并且哈希表的负载因子&lt;b&gt;大于等于5&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="1340" width="550" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="110" target="119">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="1400" width="210" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="111" target="112">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="为ht[1]分配空间" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="492.75" y="1409.99" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="112" target="114">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="设置dict的&lt;b&gt;rehashidx&lt;/b&gt;字段为0，表示rehash工作开始" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="467" y="1459.99" width="150.5" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="114" target="116">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="在rehash期间，对字典进行增删改查时会顺带：&lt;br&gt;① 将rehashidx桶上的所有键值对rehash到ht[1]中&lt;br&gt;② rehashidx++" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#b0e3e6;strokeColor=#0e8088;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="457" y="1519.99" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="rehash完成：&lt;br&gt;① 释放ht[0].table&lt;br&gt;② 将ht[1]的内容赋值到ht[0]中&lt;br&gt;③ rehashidx = 0" style="rounded=0;whiteSpace=wrap;html=1;comic=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="458" y="1619.99" width="169.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="由于在rehash时需要&lt;b&gt;同时维护ht[0]和ht[1]两个哈希表&lt;/b&gt;，所以&lt;b&gt;增删改查都需要在两个表中进行&lt;/b&gt;，例如：&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;查找一个键的时候，若在ht[0]中查找不到，还需要在ht[1]中再次查找" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="1517.82" width="300" height="64.37" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
