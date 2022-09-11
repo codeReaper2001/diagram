@@ -1,0 +1,70 @@
+<mxfile host="65bd71144e">
+    <diagram id="98Qh3YMKrBMSAT9gCnW-" name="第 1 页">
+        <mxGraphModel dx="955" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;sketch=1;" edge="1" parent="1" source="2" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="List对象" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="140" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="ziplist" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="90" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="linkedlist" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="222.5" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220912070115202.png;imageBorder=default;sketch=1;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="46.24" width="446.13" height="117.53" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220912070201345.png;imageBorder=default;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="180" width="520" height="115" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="11" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="注：字符串对象是唯一一种会被其他类型对象嵌套的对象" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="310" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;sketch=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220912070652473.png;imageBorder=default;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="350" width="444.64" height="59" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="void* value" style="sketch=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="630" y="280" as="sourcePoint"/>
+                        <mxPoint x="690" y="420" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="这里的实现方式是&lt;b&gt;redis 3.0 &lt;/b&gt;的实现方式，在后面的版本中List对象只使用唯一一种数据结构&lt;b&gt;quicklist&lt;/b&gt;进行实现了" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="420" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="16" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="常用命令" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="552.5" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="① LPUSH RPUSH 两端添加元素&lt;br&gt;② LPOP RPOP 两端弹出元素&lt;br&gt;③ LLEN 获取队列元素数量&lt;br&gt;④ LRANGE 获取队列片段&lt;br&gt;⑤ LRAM 删除列表指定值&lt;br&gt;⑥ LINDEX LSET 读写下标内容&lt;br&gt;⑦&amp;nbsp;LTRIM 删除指定索引范围外元素&lt;br&gt;⑧ LINSERT 指定元素前\后插入新元素&lt;br&gt;⑨ RPOPLPUSH 元素转移到另一列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="500" width="210" height="135" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="参考资料：&lt;br&gt;https://blog.csdn.net/jungeCSND/article/details/125099951" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="548.75" width="320" height="37.5" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
