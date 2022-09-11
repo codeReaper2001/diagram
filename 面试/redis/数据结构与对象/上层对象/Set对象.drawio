@@ -79,13 +79,13 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="19" value="常用命令" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;comic=1;" vertex="1" parent="1">
-                    <mxGeometry x="160" y="552.5" width="80" height="30" as="geometry"/>
+                    <mxGeometry x="160" y="495" width="80" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="①&amp;nbsp;SADD SREM 添加/删除元素&lt;br&gt;② SMEMBERS 获取集合所有元素&lt;br&gt;③ SISMEMBER 判断元素是否在集合中&lt;br&gt;④ SINTER SUNION SDIFF&amp;nbsp;集合运算：交集 并集 差集&lt;br&gt;⑤ SCARD 集合元素数量&lt;br&gt;⑥ SRANDMEMBER 随机获取一个元素" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;sketch=1;" vertex="1" parent="1">
-                    <mxGeometry x="270" y="517.5" width="300" height="100" as="geometry"/>
+                    <mxGeometry x="270" y="460" width="300" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="参考资料：&lt;br&gt;https://blog.csdn.net/jungeCSND/article/details/125102156" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;align=left;sketch=1;" vertex="1" parent="1">
-                    <mxGeometry x="580" y="543.75" width="320" height="47.5" as="geometry"/>
+                    <mxGeometry x="580" y="486.25" width="320" height="47.5" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
