@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Ffb0f-CPwvfEkKuO-_Lf" name="第 1 页">
-        <mxGraphModel dx="1157" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1150" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -436,7 +436,7 @@
                 <mxCell id="132" style="edgeStyle=none;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="130" target="129" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="130" value="hash^(n-1)求桶下标" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#FFFFFF;" parent="1" vertex="1">
+                <mxCell id="130" value="hash&amp;amp;(n-1)求桶下标" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="209.06" y="1470" width="115.63" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="133" value="新建一个Node节点放入桶中" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#FFFFFF;" parent="1" vertex="1">
@@ -981,7 +981,7 @@
                 <mxCell id="324" value="返回oldValue" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="394.47999999999996" y="2003" width="70.35" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="325" value="&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;font color=&quot;#cc0066&quot;&gt;右移16位的原因：&lt;br&gt;① 通常情况下size不会很大，那么往往是低16位参与哈希运算&lt;br&gt;② 因此这里让高位也参与进来，使最终映射到的idx更加分散&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#A87ED8;align=left;" vertex="1" parent="1">
+                <mxCell id="325" value="&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;font color=&quot;#cc0066&quot;&gt;右移16位的原因：&lt;br&gt;① 通常情况下size不会很大，那么往往是低16位参与哈希运算&lt;br&gt;② 因此这里让高位也参与进来，使最终映射到的idx更加分散&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#A87ED8;align=left;" parent="1" vertex="1">
                     <mxGeometry x="510" y="1260" width="160" height="70" as="geometry"/>
                 </mxCell>
             </root>
