@@ -1,0 +1,520 @@
+<mxfile host="65bd71144e">
+    <diagram id="trp5rTzJEJnS6RR4Y5fL" name="第 1 页">
+        <mxGraphModel dx="1161" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curved=1;" edge="1" parent="1" source="2" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="2" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="2" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0066;" edge="1" parent="1" source="2" target="116">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="主从复制" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="150" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="26">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="270" y="150" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="作用" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="155" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#CC0066;curved=1;" edge="1" parent="1" source="8" target="38">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#CC0066;" edge="1" parent="1" source="8" target="40">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="8" target="110">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="旧版实现" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="352" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="20" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="在Redis中，用户可以通过执行SLAVEOF命令或者设置slaveof选项，让一个服务器去复制另一个服务器" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="45" width="290" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="21" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="概念" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="50" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220927104223630.png;imageBorder=default;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="580" y="31" width="220.71" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="26" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="数据冗余" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="110" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="数据热备份，除了持久化之外的数据备份方式" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="110" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="30" target="32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="故障恢复" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="155" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="主节点出现问题时可以有从节点提供服务，实现快速故障恢复" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="150" width="250" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="34" target="36">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="负载均衡" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="205" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="配合读写分离，可以由&lt;b&gt;主节点提供写服务&lt;/b&gt;，&lt;b&gt;从节点提供读服务&lt;/b&gt;。读多写少的情况下可以提高并发量" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="200" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#CC0066;" edge="1" parent="1" source="38" target="46">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="380" y="301" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="同步" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="301.5" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="40" target="103">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="命令传播" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="504" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="380" y="252" width="380" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="49">
+                    <mxGeometry width="380" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontColor=#CC0066;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220927111104952.png;imageBorder=default;" vertex="1" parent="49">
+                    <mxGeometry x="170" y="13.5" width="197.84" height="102" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;font color=&quot;#6262fc&quot; style=&quot;font-size: 12px&quot;&gt;① 接收到SYNC命令后在后台生成RDB文件，并吧从现在开始执行的写命令放入缓冲区中&lt;br&gt;② BGSAVE执行完成后发送RDB文件到从服务器&lt;br&gt;③ 将缓冲区的写命令发送给从服务器&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;comic=1;align=left;sketch=1;" vertex="1" parent="49">
+                    <mxGeometry y="6" width="170" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="&lt;font color=&quot;#000000&quot;&gt;案例&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0066;" edge="1" parent="1" source="44" target="101">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="进行修改" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="103" target="106">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=12;fontColor=#000000;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220927113053777.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="384.84" y="420" width="220.32" height="198" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="890" y="7" width="430" height="620" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="104">
+                    <mxGeometry width="430" height="620" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="主服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="104">
+                    <mxGeometry x="30" y="11" width="100" height="580" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="51">
+                    <mxGeometry x="46" y="70.4" width="10" height="69.6" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="51">
+                    <mxGeometry x="56" y="91.5" width="10" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="服务器启动" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.067;entryY=0.444;sketch=0;fontSize=12;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="70" parent="51" source="52">
+                    <mxGeometry x="0.0534" relative="1" as="geometry">
+                        <mxPoint x="430" y="191.5" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="98" y="82"/>
+                            <mxPoint x="98" y="109"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="75" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="51">
+                    <mxGeometry x="46" y="160" width="10" height="69.6" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="51">
+                    <mxGeometry x="56" y="181.1" width="10" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="SET k1 v1&lt;br&gt;SET k2 v2&lt;br&gt;SET k3 v3" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.067;entryY=0.444;sketch=0;fontSize=12;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="75" target="76" parent="51">
+                    <mxGeometry x="0.0534" relative="1" as="geometry">
+                        <mxPoint x="430" y="281.1" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="98" y="171.6"/>
+                            <mxPoint x="98" y="198.6"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="78" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="51">
+                    <mxGeometry x="46" y="250" width="10" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="51">
+                    <mxGeometry x="56" y="300" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="执行BGSAVE命令&lt;br&gt;创建RDB文件" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.067;entryY=0.444;sketch=0;fontSize=12;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="83" parent="51" source="78">
+                    <mxGeometry x="0.0534" relative="1" as="geometry">
+                        <mxPoint x="100" y="260" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="92" y="290"/>
+                            <mxPoint x="92" y="313"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="87" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="51">
+                    <mxGeometry x="56" y="350" width="10" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="SET k4 v4&lt;br&gt;SET k5 v5&lt;br&gt;写到写命令缓冲区" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.067;entryY=0.444;sketch=0;fontSize=12;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="87" parent="51" source="78">
+                    <mxGeometry x="0.0534" relative="1" as="geometry">
+                        <mxPoint x="106" y="310" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="98" y="340"/>
+                            <mxPoint x="98" y="367"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="从服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;comic=0;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="104">
+                    <mxGeometry x="249" y="11" width="100" height="580" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="54">
+                    <mxGeometry x="45" y="70.4" width="10" height="69.6" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="54">
+                    <mxGeometry x="55" y="91.5" width="10" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="服务器启动" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.067;entryY=0.444;sketch=0;fontSize=12;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="72" target="73" parent="54">
+                    <mxGeometry x="0.0534" relative="1" as="geometry">
+                        <mxPoint x="432" y="191.5" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="100" y="82"/>
+                            <mxPoint x="100" y="109"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="89" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="54">
+                    <mxGeometry x="45" y="420.4" width="10" height="69.6" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="54">
+                    <mxGeometry x="55" y="445" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="同步k1 k2 k3" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.067;entryY=0.444;sketch=0;fontSize=12;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="91" parent="54" source="89">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="111" y="370" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="91" y="441"/>
+                            <mxPoint x="91" y="458"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="93" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="54">
+                    <mxGeometry x="45.5" y="500.14" width="10" height="69.6" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;comic=0;sketch=0;fontSize=12;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="54">
+                    <mxGeometry x="55.5" y="524.74" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="同步k4 k5" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.067;entryY=0.444;sketch=0;fontSize=12;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="93" target="94" parent="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="111.5" y="449.74" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="91.5" y="520.74"/>
+                            <mxPoint x="91.5" y="537.74"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="79" value="发送SYNC命令" style="html=1;verticalAlign=bottom;endArrow=block;sketch=0;fontSize=12;entryX=0.967;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="78" parent="104">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="298.5" y="261.68000000000006" as="sourcePoint"/>
+                        <mxPoint x="90" y="241" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="90" value="发送RDB文件" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;sketch=0;fontSize=12;entryX=-0.103;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="89" parent="104" source="51">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="158" y="431.00059999999985" as="sourcePoint"/>
+                        <mxPoint x="304" y="441.4" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="96" value="发送写缓冲区命令" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;sketch=0;fontSize=12;entryX=-0.103;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="93" parent="104">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="80" y="511.0008" as="sourcePoint"/>
+                        <mxPoint x="304.5" y="521.14" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="109" value="命令传播&lt;br&gt;同步" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="106" target="108">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=12;fontColor=#000000;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220927113146082.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="350.56" y="660" width="288.88" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=12;fontColor=#000000;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220927113237079.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="660" width="271.15" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="110" target="112">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="&lt;font color=&quot;#000000&quot;&gt;改进&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0066;dashed=1;" edge="1" parent="1" source="110" target="116">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="缺陷" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="880" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0066;" edge="1" parent="1" source="112" target="114">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="&lt;b&gt;断线重连复制效率低&lt;/b&gt;：可能&lt;font color=&quot;#cc0066&quot;&gt;断线比较短的时间&lt;/font&gt;，中间只有一部分的写命令需要同步，但重连后需要重新走&amp;lt;同步&amp;gt;的过程，需要重新生成RDB文件并执行，效率很低" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="862.5" width="250" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="关键：断线重连需要传输的数据往往比整个数据库的数据少得多，此时都选择重新执行RDB不合理" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="871.25" width="250" height="47.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" style="sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="116" target="119">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="260" y="1005"/>
+                            <mxPoint x="260" y="965"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="122" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="116" target="121">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0066;" edge="1" parent="1" source="116" target="137">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="166" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0066;" edge="1" parent="1" source="116" target="165">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="新版实现" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="990" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="Redis从2.8版本开始，使用PSYNC命令代替SYNC命令来执行赋值时的同步操作，可以实现&lt;b&gt;部分重同步&lt;/b&gt;的特性" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="940" width="250" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="121" target="123">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="121" target="126">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="两种模式" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="280.56" y="1040" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="123" target="128">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="完整重同步" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="1010" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="132" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="126" target="131">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="部分重同步" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="1067.5" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="处理&lt;b&gt;初次复制&lt;/b&gt;，和SYNC命令执行的过程一样，先生成RDB文件并发送，后发送写缓冲区的命令" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="480.71" y="1005" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0066;" edge="1" parent="1" source="131" target="134">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="131" value="处理&lt;b&gt;断线重连时同步&lt;/b&gt;，条件成立时，主服务器将主从服务器&lt;font color=&quot;#cc0066&quot;&gt;连接断开期间执行的写命令发送给从服务器&lt;/font&gt;，从服务器只需要接收和执行这些写命令，即可完成同步" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="480.71" y="1055" width="320" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=12;fontColor=#CC0066;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220927163418112.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="730.75" width="520" height="398" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0066;" edge="1" parent="1" source="134" target="133">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="134" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=12;fontColor=#CC0066;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220927163445438.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="827" y="1036.25" width="191.94" height="92.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="141" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0066;" edge="1" parent="1" source="137" target="139">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="142" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0066;" edge="1" parent="1" source="137" target="140">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0066;" edge="1" parent="1" source="137" target="143">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="167" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0066;dashed=1;" edge="1" parent="1" source="137" target="165">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="实现组件" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="1309" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="146" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0066;" edge="1" parent="1" source="139" target="145">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="152" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0066;" edge="1" parent="1" source="139" target="151">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" value="复制偏移量" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="384.84" y="1240.0000000000002" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0066;" edge="1" parent="1" source="140" target="155">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="160" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0066;" edge="1" parent="1" source="140" target="159">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="主服务器的复制积压缓冲区" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="384.84" y="1437" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="164" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0066;" edge="1" parent="1" source="143" target="163">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" value="服务器运行ID" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="384.84" y="1620" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="148" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0066;" edge="1" parent="1" source="145" target="147">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="执行复制的双方，主服务器和从服务器会分别维护一个复制偏移量：&lt;br&gt;① 主服务器每次向从服务器传播N个字节数据时，将自己的偏移量+N&lt;br&gt;② 从服务器每次收到主服务器发送的N个字节数据时，将自己的偏移量+N" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="490.71" y="1170.1900000000003" width="399.29" height="51.25" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0066;" edge="1" parent="1" source="147" target="149">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="147" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=12;fontColor=#CC0066;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220927164316426.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="920" y="1140" width="200.15" height="111.63" as="geometry"/>
+                </mxCell>
+                <mxCell id="149" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=12;fontColor=#CC0066;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220927164407591.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="1150" y="1140" width="279.93" height="110.9" as="geometry"/>
+                </mxCell>
+                <mxCell id="154" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0066;" edge="1" parent="1" source="151" target="153">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="151" value="因此可以通过比较主服务器和从服务器的offset来判断两服务器数据是否同步" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="490.71" y="1304" width="219.29" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=12;fontColor=#CC0066;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220927164611927.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="750.71" y="1260" width="291.93" height="128" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0066;" edge="1" parent="1" source="155" target="157">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="155" value="是一个固定长度的先进先出队列，默认大小为1MB，相当于是&lt;b&gt;最近写命令的缓存&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="495.54999999999995" y="1432" width="279.29" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="162" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0066;" edge="1" parent="1" source="157" target="161">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=12;fontColor=#CC0066;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220927164959314.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="804" y="1400" width="436.13" height="104" as="geometry"/>
+                </mxCell>
+                <mxCell id="159" value="接收到PSYNC时判断：&lt;br&gt;① &lt;b&gt;复制积压缓冲区还包含offset+1之后的数据&lt;/b&gt;，则将此offset后面的内容发送到从服务器即可完成同步&lt;br&gt;② 不存在时执行生成RDB文件的完整重同步" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="495.55" y="1490" width="279.29" height="66" as="geometry"/>
+                </mxCell>
+                <mxCell id="161" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;comic=1;sketch=1;fontSize=12;fontColor=#CC0066;image=https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/img/image-20220927165350005.png;imageBorder=default;" vertex="1" parent="1">
+                    <mxGeometry x="1260" y="1379.5" width="307.76" height="145" as="geometry"/>
+                </mxCell>
+                <mxCell id="163" value="① 每个Redis服务器运行后都会有自己的运行ID&lt;br&gt;② 当从服务器和主服务器初次复制时，主服务器会将自己的ID发送给从服务器保存&lt;br&gt;③ 从服务器断线重连时会将原来复制的主服务器ID发送给主服务器&lt;br&gt;&amp;nbsp; &amp;nbsp; 3.1 主服务器收到后判断是否为自己，如果是则尝试能否部分重同步&lt;br&gt;&amp;nbsp; &amp;nbsp; 3.2 否则直接进行完整重同步" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="501.07" y="1573.13" width="279.29" height="123.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="165" target="168">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="165" value="实现原理" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+                    <mxGeometry x="280.56" y="1895" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="193" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="400" y="1710" width="360" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="168" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="193">
+                    <mxGeometry width="360" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="169" value="从服务器收到客户端SLAVEOF命令" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="193">
+                    <mxGeometry x="101.07" y="8" width="106" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="170" value="是否是第一次复制?" style="rhombus;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="193">
+                    <mxGeometry x="96.10000000000002" y="60" width="115.93" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="171" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0066;" edge="1" parent="193" source="169" target="170">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="172" value="向主服务器发送PSYNC ? -1" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="193">
+                    <mxGeometry x="36" y="120" width="106" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="173" value="&lt;font color=&quot;#000000&quot;&gt;是&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0066;rounded=0;" edge="1" parent="193" source="170" target="172">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="174" value="向主服务器发送&lt;br&gt;PSYNC &amp;lt;runid&amp;gt; &amp;lt;offset&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="193">
+                    <mxGeometry x="165.19000000000005" y="120" width="140" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="175" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="193" source="170" target="174">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="178" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="193">
+                    <mxGeometry x="20" y="170" width="322.42" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="179" value="判断是否是&lt;br&gt;自己的runid" style="rhombus;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="193">
+                    <mxGeometry x="177.23000000000002" y="183" width="115.93" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="177" style="rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="193" source="174" target="179">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="235.19499999999994" y="170" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="180" value="返回+FULLRESYNC&lt;br&gt;&amp;lt;runid&amp;gt; &amp;lt;offset&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="193">
+                    <mxGeometry x="30" y="234" width="118" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="183" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="193" source="179" target="180">
+                    <mxGeometry x="-0.0152" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="182" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="193" source="172" target="180">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="186" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="193" source="184" target="180">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="184" value="判断offset+1是否在复制积压缓冲区内" style="rhombus;whiteSpace=wrap;html=1;comic=1;sketch=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="193">
+                    <mxGeometry x="177.23000000000002" y="230" width="115.93" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="185" style="edgeStyle=none;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="193" source="179" target="184">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="187" value="返回+CONTINUE" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="193">
+                    <mxGeometry x="182.19000000000005" y="290" width="106" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="193" source="184" target="187">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="189" value="执行完整重同步" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="193">
+                    <mxGeometry x="30" y="360" width="118" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="193" source="180" target="189">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="191" value="执行部分重同步" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="193">
+                    <mxGeometry x="176.19000000000005" y="360" width="118" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="193" source="187" target="191">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
