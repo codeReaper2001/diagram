@@ -245,7 +245,7 @@
                 <mxCell id="94" value="主从Reactor多线程" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="354" y="1360" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="95" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;Reactor主线程" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;align=left;verticalAlign=top;" parent="1" vertex="1">
+                <mxCell id="95" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;Reactor主线程" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fillColor=#CC0066;strokeColor=#6c8ebf;align=left;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="175" y="1430" width="455" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="96" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" parent="1" source="97" target="103" edge="1">
