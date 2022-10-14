@@ -1,58 +1,58 @@
 <mxfile host="65bd71144e">
     <diagram id="n6WrAIdGyaaOm3XGXZGq" name="第 1 页">
-        <mxGraphModel dx="1344" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1134" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="B+树结构" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                <mxCell id="2" value="B+树结构" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="354" y="40" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="数据库(innoDB)中的B+树结构其实指的是&lt;b&gt;各个数据页&lt;/b&gt;是由B+树这样的结构组织起来的" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                <mxCell id="3" value="数据库(innoDB)中的B+树结构其实指的是&lt;b&gt;各个数据页&lt;/b&gt;是由B+树这样的结构组织起来的" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="50" y="110" width="160" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="7">
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4" target="7" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" edge="1" parent="1" source="4" target="11">
+                <mxCell id="12" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" parent="1" source="4" target="11" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img-blog.csdnimg.cn/img_convert/243b1466779a9e107ae3ef0155604a17.png;sketch=1;imageBorder=default;" vertex="1" parent="1">
+                <mxCell id="4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img-blog.csdnimg.cn/img_convert/243b1466779a9e107ae3ef0155604a17.png;sketch=1;imageBorder=default;" parent="1" vertex="1">
                     <mxGeometry x="160" y="200" width="279.19" height="340" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="4">
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5" target="4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="数据页结构" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="5" value="数据页结构" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="40" y="350" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img-blog.csdnimg.cn/img_convert/fabd6dadd61a0aa342d7107213955a72.png;sketch=1;imageBorder=default;" vertex="1" parent="1">
+                <mxCell id="7" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img-blog.csdnimg.cn/img_convert/fabd6dadd61a0aa342d7107213955a72.png;sketch=1;imageBorder=default;" parent="1" vertex="1">
                     <mxGeometry x="480" y="238.75" width="420" height="262.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="&lt;font style=&quot;font-size: 10px&quot; color=&quot;#6262fc&quot;&gt;用户记录部分主要存储我们看到的表记录&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="9" value="&lt;font style=&quot;font-size: 12px&quot; color=&quot;#6262fc&quot;&gt;用户记录部分主要存储我们看到的表记录&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="900" y="370" width="130" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="&lt;font style=&quot;font-size: 10px&quot; color=&quot;#6262fc&quot;&gt;页目录可以在当前页中快速定位到一条记录&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="10" value="&lt;div&gt;&lt;span style=&quot;color: rgb(98 , 98 , 252)&quot;&gt;页目录可以在当前页中快速定位到一条记录&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;align=center;" parent="1" vertex="1">
                     <mxGeometry x="900" y="436" width="130" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" edge="1" parent="1" source="11" target="14">
+                <mxCell id="15" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" parent="1" source="11" target="14" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img-blog.csdnimg.cn/img_convert/557d17e05ce90f18591c2305871af665.png;sketch=1;imageBorder=default;" vertex="1" parent="1">
+                <mxCell id="11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img-blog.csdnimg.cn/img_convert/557d17e05ce90f18591c2305871af665.png;sketch=1;imageBorder=default;" parent="1" vertex="1">
                     <mxGeometry x="39.59" y="585" width="520" height="207" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="文件头存有数据页的前后页指针，各个数据页连成一个双向链表" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                <mxCell id="14" value="文件头存有数据页的前后页指针，各个数据页连成一个双向链表" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="630" y="664.25" width="190" height="48.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" edge="1" parent="1" source="16" target="17">
+                <mxCell id="18" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" parent="1" source="16" target="17" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="数据页内部结构" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="16" value="数据页内部结构" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="40" y="1070" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;rounded=0;" edge="1" parent="1" source="17" target="21">
+                <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;rounded=0;" parent="1" source="17" target="21" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" edge="1" parent="1" source="17" target="28">
+                <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" parent="1" source="17" target="28" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="670" y="1090"/>
@@ -60,148 +60,148 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="43" style="edgeStyle=none;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" edge="1" parent="1" source="17" target="42">
+                <mxCell id="43" style="edgeStyle=none;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" parent="1" source="17" target="42" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img-blog.csdnimg.cn/img_convert/261011d237bec993821aa198b97ae8ce.png;sketch=1;imageBorder=default;" vertex="1" parent="1">
+                <mxCell id="17" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img-blog.csdnimg.cn/img_convert/261011d237bec993821aa198b97ae8ce.png;sketch=1;imageBorder=default;" parent="1" vertex="1">
                     <mxGeometry x="190" y="830" width="457" height="520" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="数据页各条记录之间根据主键id从小到大连成一个单链表(每条记录有一个next指针)" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                <mxCell id="19" value="数据页各条记录之间根据主键id从小到大连成一个单链表(每条记录有一个next指针)" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="682.5" y="920" width="235" height="48.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="1">
+                <mxCell id="21" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" parent="1" vertex="1">
                     <mxGeometry x="680" y="860" width="260" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" edge="1" parent="1" source="23" target="34">
+                <mxCell id="35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" parent="1" source="23" target="34" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="n_owned" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                <mxCell id="23" value="n_owned" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="680" y="860" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="next" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" vertex="1" parent="1">
+                <mxCell id="24" value="next" style="rounded=0;whiteSpace=wrap;html=1;comic=1;" parent="1" vertex="1">
                     <mxGeometry x="740" y="860" width="40" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;fontColor=#6262FC;" edge="1" parent="1" source="25" target="19">
+                <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;fontColor=#6262FC;" parent="1" source="25" target="19" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="主键id" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                <mxCell id="25" value="主键id" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="780" y="860" width="40" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="行记录" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="26" value="行记录" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="820" y="860" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" edge="1" parent="1" source="28" target="30">
+                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" parent="1" source="28" target="30" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" edge="1" parent="1" source="28" target="33">
+                <mxCell id="38" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" parent="1" source="28" target="33" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="页目录定位" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=0;" vertex="1" parent="1">
+                <mxCell id="28" value="页目录定位" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=0;" parent="1" vertex="1">
                     <mxGeometry x="751.25" y="990" width="97.5" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" style="rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" edge="1" parent="1" source="30" target="32">
+                <mxCell id="36" style="rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" parent="1" source="30" target="32" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="由于各记录连成一个链表，如果直接从链表查找对应的纪录，时间复杂度为O(n)。因此，我们需要&lt;b&gt;页目录&lt;/b&gt;来提高搜索速度。" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                <mxCell id="30" value="由于各记录连成一个链表，如果直接从链表查找对应的纪录，时间复杂度为O(n)。因此，我们需要&lt;b&gt;页目录&lt;/b&gt;来提高搜索速度。" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="695.63" y="1060" width="208.75" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="40" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" edge="1" parent="1" source="32" target="39">
+                <mxCell id="40" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" parent="1" source="32" target="39" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="&lt;b&gt;目录构建&lt;/b&gt;：先对所有的数据项进行分组，每个分组对应一个页目录项，且&lt;b&gt;页目录项&lt;/b&gt;指向每个分组的&lt;b&gt;主键id最大的记录&lt;/b&gt;。&lt;br&gt;&lt;b&gt;目录查找&lt;/b&gt;：例如查找id=11&lt;br&gt;① 根据查找的id对目录项进行二分查找，定位到左图槽2&lt;br&gt;② 根据记录8的next指针可以得到记录11所在的分组&lt;br&gt;③ 在分组4中遍历得到记录11。" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" vertex="1" parent="1">
+                <mxCell id="32" value="&lt;b&gt;目录构建&lt;/b&gt;：先对所有的数据项进行分组，每个分组对应一个页目录项，且&lt;b&gt;页目录项&lt;/b&gt;指向每个分组的&lt;b&gt;主键id最大的记录&lt;/b&gt;。&lt;br&gt;&lt;b&gt;目录查找&lt;/b&gt;：例如查找id=11&lt;br&gt;① 根据查找的id对目录项进行二分查找，定位到左图槽2&lt;br&gt;② 根据记录8的next指针可以得到记录11所在的分组&lt;br&gt;③ 在分组4中遍历得到记录11。" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="687.81" y="1150" width="224.38" height="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="一个数据页可以看做是一本书，当我们希望寻找书中的某个内容时，肯定不会从头到尾地搜索希望找的内容，而是先找目录，将搜索范围缩小到一个模块，再在模块里面进行进一步的寻找。" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;align=left;" vertex="1" parent="1">
+                <mxCell id="33" value="一个数据页可以看做是一本书，当我们希望寻找书中的某个内容时，肯定不会从头到尾地搜索希望找的内容，而是先找目录，将搜索范围缩小到一个模块，再在模块里面进行进一步的寻找。" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="917.5" y="990" width="208.75" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="分组内id最大的记录的该值为&lt;b&gt;分组记录数&lt;/b&gt;，其余记录该值为0" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+                <mxCell id="34" value="分组内id最大的记录的该值为&lt;b&gt;分组记录数&lt;/b&gt;，其余记录该值为0" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="680" y="760" width="180" height="48.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" value="&lt;div&gt;&lt;div&gt;InnoDB的分组记录数规定：&lt;/div&gt;&lt;div&gt;① 第一个分组中的记录只能有 1 条记录；&lt;/div&gt;&lt;div&gt;② 最后一个分组中的记录条数范围只能在 1-8 条之间；&lt;/div&gt;&lt;div&gt;③ 剩下的分组中记录条数范围只能在 4-8 条之间。&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;align=left;" vertex="1" parent="1">
+                <mxCell id="39" value="&lt;div&gt;&lt;div&gt;InnoDB的分组记录数规定：&lt;/div&gt;&lt;div&gt;① 第一个分组中的记录只能有 1 条记录；&lt;/div&gt;&lt;div&gt;② 最后一个分组中的记录条数范围只能在 1-8 条之间；&lt;/div&gt;&lt;div&gt;③ 剩下的分组中记录条数范围只能在 4-8 条之间。&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="950" y="1175" width="224.38" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" edge="1" parent="1" source="41" target="45">
+                <mxCell id="47" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" parent="1" source="41" target="45" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="49" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" edge="1" parent="1" source="41" target="48">
+                <mxCell id="49" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" parent="1" source="41" target="48" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="59" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" edge="1" parent="1" source="41" target="58">
+                <mxCell id="59" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" parent="1" source="41" target="58" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="41" value="用B+树组织各个数据页" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="41" value="用B+树组织各个数据页" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="40" y="1606" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" value="从上图可以看到，数据都在一个页内时由于有了页目录的定位，可以在近似log(n)的时间内实现了页内数据的查找。&lt;br&gt;但一个页的大小只有16KB，当这个页满了则需要更多的数据页存放新插入的数据。" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;sketch=1;" vertex="1" parent="1">
+                <mxCell id="42" value="从上图可以看到，数据都在一个页内时由于有了页目录的定位，可以在近似log(n)的时间内实现了页内数据的查找。&lt;br&gt;但一个页的大小只有16KB，当这个页满了则需要更多的数据页存放新插入的数据。" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="322.75" y="1411" width="191.5" height="115" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" edge="1" parent="1" source="45" target="42">
+                <mxCell id="46" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" parent="1" source="45" target="42" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="45" value="存在的问题" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="45" value="存在的问题" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="190" y="1448.5" width="90" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" edge="1" parent="1" source="48" target="51">
+                <mxCell id="54" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" parent="1" source="48" target="51" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="55" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" edge="1" parent="1" source="48" target="53">
+                <mxCell id="55" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" parent="1" source="48" target="53" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="48" value="使用B+树的原因" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="48" value="使用B+树的原因" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="190" y="1606" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="50" value="&lt;b&gt;如果&lt;/b&gt;我们&lt;b&gt;不使用额外的数据结构&lt;/b&gt;，当前页文件头就已经有了前后页的指针，各个数据页连成一个&lt;b&gt;双向链表&lt;/b&gt;，并假设当前有100页用来存放数据。那么当我们需要查找的数据位于第100页时，则需要进行100次磁盘IO，这个效率是低的让人无法忍受的。" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;sketch=1;" vertex="1" parent="1">
+                <mxCell id="50" value="&lt;b&gt;如果&lt;/b&gt;我们&lt;b&gt;不使用额外的数据结构&lt;/b&gt;，当前页文件头就已经有了前后页的指针，各个数据页连成一个&lt;b&gt;双向链表&lt;/b&gt;，并假设当前有100页用来存放数据。那么当我们需要查找的数据位于第100页时，则需要进行100次磁盘IO，这个效率是低的让人无法忍受的。" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="501.5" y="1536" width="347.25" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="52" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" edge="1" parent="1" source="51" target="50">
+                <mxCell id="52" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" parent="1" source="51" target="50" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="51" value="不使用额外数据结构时" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                <mxCell id="51" value="不使用额外数据结构时" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
                     <mxGeometry x="322.75" y="1556" width="127.25" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" edge="1" parent="1" source="53" target="56">
+                <mxCell id="57" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" parent="1" source="53" target="56" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="53" value="B+树的优点" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                <mxCell id="53" value="B+树的优点" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
                     <mxGeometry x="322.75" y="1660" width="127.25" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="56" value="① &lt;b&gt;很少的磁盘IO&lt;/b&gt;：一个节点下可以有多个子节点，假设一个页16KB全部用于存储(主键, 页指针)的记录，并假设这个记录的大小为10B，那么这个节点管理的子节点个数为16*1024/10=1638，进而三层的B+树可管理的叶子节点数可达到1638*1638=268万，约为2000万条记录，即海量的数据也只需要2~3次磁盘IO即可&lt;br&gt;② &lt;b&gt;便于范围查询&lt;/b&gt;：由于保存实际数据的叶子节点连成双向队列，因此可以实现范围查询，例如查询id&amp;gt;=3的所有记录，只需要先定位到id=3的数据页，然后将此页后面的数据以及链表后面节点的数据都读取出来即可" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;sketch=1;" vertex="1" parent="1">
+                <mxCell id="56" value="① &lt;b&gt;很少的磁盘IO&lt;/b&gt;：一个节点下可以有多个子节点，假设一个页16KB全部用于存储(主键, 页指针)的记录，并假设这个记录的大小为10B，那么这个节点管理的子节点个数为16*1024/10=1638，进而三层的B+树可管理的叶子节点数可达到1638*1638=268万，约为2000万条记录，即海量的数据也只需要2~3次磁盘IO即可&lt;br&gt;② &lt;b&gt;便于范围查询&lt;/b&gt;：由于保存实际数据的叶子节点连成双向队列，因此可以实现范围查询，例如查询id&amp;gt;=3的所有记录，只需要先定位到id=3的数据页，然后将此页后面的数据以及链表后面节点的数据都读取出来即可" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="501.5" y="1626" width="448.5" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="61" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" edge="1" parent="1" source="58" target="60">
+                <mxCell id="61" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" parent="1" source="58" target="60" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="58" value="B+树的具体结构" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="58" value="B+树的具体结构" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="190" y="1900" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="60" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img-blog.csdnimg.cn/img_convert/7c635d682bd3cdc421bb9eea33a5a413.png;sketch=1;imageBorder=default;" vertex="1" parent="1">
+                <mxCell id="60" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img-blog.csdnimg.cn/img_convert/7c635d682bd3cdc421bb9eea33a5a413.png;sketch=1;imageBorder=default;" parent="1" vertex="1">
                     <mxGeometry x="330" y="1760" width="679.18" height="320" as="geometry"/>
                 </mxCell>
-                <mxCell id="62" value="&lt;font style=&quot;font-size: 10px&quot; color=&quot;#6262fc&quot;&gt;每个&lt;b&gt;非叶子节点页&lt;/b&gt;内部的记录内容为：&lt;br&gt;(对应页的最小记录id, 页地址)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="420" y="1840" width="180" height="30" as="geometry"/>
+                <mxCell id="62" value="&lt;font style=&quot;font-size: 12px&quot; color=&quot;#6262fc&quot;&gt;每个&lt;b&gt;非叶子节点页&lt;/b&gt;内部的记录内容为：&lt;br&gt;(对应页的最小记录id, 页地址)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="1840" width="210" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="63" value="&lt;font color=&quot;#6262fc&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;叶子节点页&lt;/b&gt;内部的记录为真正的表记录&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="334.25" y="1950" width="180" height="30" as="geometry"/>
+                <mxCell id="63" value="&lt;font color=&quot;#6262fc&quot; style=&quot;font-size: 12px&quot;&gt;&lt;span&gt;&lt;b&gt;叶子节点页&lt;/b&gt;内部的记录为真正的表记录&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=none;strokeColor=none;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="335.25" y="1940" width="135.75" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="66" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" edge="1" parent="1" source="64" target="65">
+                <mxCell id="66" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" parent="1" source="64" target="65" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="64" value="id为6的记录查询过程：&lt;br&gt;① 磁盘IO1，读取页38的内容，定位到其内部的id=1的记录 O(logn)&lt;br&gt;② 磁盘IO2，读取页30的内容，定位到其内部的id=5的记录 O(logn)&lt;br&gt;③ 磁盘IO3，读取页16的内容，定位到其内部的id=6的记录 O(logn)&lt;br&gt;总时间复杂度O(logn)" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;sketch=1;" vertex="1" parent="1">
+                <mxCell id="64" value="id为6的记录查询过程：&lt;br&gt;① 磁盘IO1，读取页38的内容，定位到其内部的id=1的记录 O(logn)&lt;br&gt;② 磁盘IO2，读取页30的内容，定位到其内部的id=5的记录 O(logn)&lt;br&gt;③ 磁盘IO3，读取页16的内容，定位到其内部的id=6的记录 O(logn)&lt;br&gt;总时间复杂度O(logn)" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="330" y="2100" width="370" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" value="如前面所说，一个页16KB可以存储1600多个(页节点最小记录id, 页目录)这样的记录，因此非叶子节点一般有上千个子节点，上图只是为了理解容易，才只为一个非叶子节点分配了3个子节点" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;sketch=1;" vertex="1" parent="1">
+                <mxCell id="65" value="如前面所说，一个页16KB可以存储1600多个(页节点最小记录id, 页目录)这样的记录，因此非叶子节点一般有上千个子节点，上图只是为了理解容易，才只为一个非叶子节点分配了3个子节点" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="730" y="2100" width="240" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="67" value="个人理解：&lt;br&gt;① 一个包含真正数据的数据页(叶子节点页)相当于一本书，其中包含了该书的目录，通过目录可以快速找到内容所在的模块，进而在模块中进一步顺序查找内容&lt;br&gt;② 内容一本书装不下，因此会有很多本书，如果一本一本书地查找显然是不现实地，此时就需要一个图书馆手册，其内部的记录就是(某书最小知识点id, 书籍位置)，同理，手册也是一本书，内部也有目录。我们使用图书馆手册，输入了要找的知识点的id，就可以定位到内部的一本书&lt;br&gt;③ 一个图书馆都装不下时，则需要多个图书馆存放更多的书籍，此时我们又需要一个《各图书馆最小知识点id-&amp;gt;图书馆》的定位手册，先定位到对应的图书馆，再按②进行处理" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;sketch=1;" vertex="1" parent="1">
+                <mxCell id="67" value="个人理解：&lt;br&gt;① 一个包含真正数据的数据页(叶子节点页)相当于一本书，其中包含了该书的目录，通过目录可以快速找到内容所在的模块，进而在模块中进一步顺序查找内容&lt;br&gt;② 内容一本书装不下，因此会有很多本书，如果一本一本书地查找显然是不现实地，此时就需要一个图书馆手册，其内部的记录就是(某书最小知识点id, 书籍位置)，同理，手册也是一本书，内部也有目录。我们使用图书馆手册，输入了要找的知识点的id，就可以定位到内部的一本书&lt;br&gt;③ 一个图书馆都装不下时，则需要多个图书馆存放更多的书籍，此时我们又需要一个《各图书馆最小知识点id-&amp;gt;图书馆》的定位手册，先定位到对应的图书馆，再按②进行处理" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="1020" y="1850" width="260" height="230" as="geometry"/>
                 </mxCell>
-                <mxCell id="70" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" edge="1" parent="1" source="68" target="69">
+                <mxCell id="70" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#6262FC;" parent="1" source="68" target="69" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="68" value="三层B+树可以存放多少记录" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="68" value="三层B+树可以存放多少记录" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="39.59" y="2235" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="69" value="假设B+树一个非叶子节点页可以存储1600个&amp;lt;id-&amp;gt;子节点&amp;gt;记录，即一个非叶子节点存在1600个子节点，则叶子节点数为：1600*1600=256万，假设每个记录的大小为1KB，则一个叶子节点的记录数为：16KB/1KB=16，故所有记录数为1600*1600*16=4096万" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;sketch=1;" vertex="1" parent="1">
+                <mxCell id="69" value="假设B+树一个非叶子节点页可以存储1600个&amp;lt;id-&amp;gt;子节点&amp;gt;记录，即一个非叶子节点存在1600个子节点，则叶子节点数为：1600*1600=256万，假设每个记录的大小为1KB，则一个叶子节点的记录数为：16KB/1KB=16，故所有记录数为1600*1600*16=4096万" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="220" y="2215" width="380" height="80" as="geometry"/>
                 </mxCell>
             </root>
