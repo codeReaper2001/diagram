@@ -25,7 +25,7 @@
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="140" y="158"/>
-                            <mxPoint x="140" y="785"/>
+                            <mxPoint x="140" y="765"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -185,16 +185,16 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="56" value="String#intern方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
-                    <mxGeometry x="160" y="770" width="80" height="30" as="geometry"/>
+                    <mxGeometry x="160" y="750" width="80" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="58" value="&lt;b&gt;默认&lt;/b&gt;情况下只有&lt;b&gt;字面量字符串才会进入串池&lt;/b&gt;，&lt;br&gt;而&lt;b&gt;普通字符串&lt;/b&gt;可以调用这个方法&lt;b&gt;将自己加入到串池&lt;/b&gt;中" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" parent="1" vertex="1">
-                    <mxGeometry x="350" y="710" width="290" height="50" as="geometry"/>
+                    <mxGeometry x="350" y="690" width="290" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="61" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="59" target="58" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="59" value="作用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
-                    <mxGeometry x="270" y="720" width="50" height="30" as="geometry"/>
+                    <mxGeometry x="270" y="700" width="50" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="65" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="62" target="64" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -203,34 +203,34 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="62" value="实现" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;" parent="1" vertex="1">
-                    <mxGeometry x="270" y="815" width="50" height="30" as="geometry"/>
+                    <mxGeometry x="270" y="795" width="50" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="72" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="64" target="70" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="64" value="jdk1.6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;" parent="1" vertex="1">
-                    <mxGeometry x="350" y="842.5" width="50" height="30" as="geometry"/>
+                    <mxGeometry x="350" y="827.5" width="50" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="69" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="66" target="68" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="66" value="jdk1.8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;comic=1;" parent="1" vertex="1">
-                    <mxGeometry x="350" y="780" width="50" height="30" as="geometry"/>
+                    <mxGeometry x="350" y="760" width="50" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="74" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="68" target="73" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="68" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;① 尝试将当前字符串加入串池（放入的是引用）&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;② 返回&lt;b&gt;串池中的字符串对象实例&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" parent="1" vertex="1">
-                    <mxGeometry x="430" y="775" width="260" height="40" as="geometry"/>
+                    <mxGeometry x="430" y="755" width="260" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="75" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="70" target="73" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="70" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;① 尝试将当前字符串加入串池（放入的是引用）&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;② 若串池没有则&lt;b&gt;复制得到一个新的String对象&lt;/b&gt;，将&lt;b&gt;此对象放入串池中&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;③ 返回串池中的字符串对象实例&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;sketch=1;" parent="1" vertex="1">
-                    <mxGeometry x="430" y="825" width="260" height="65" as="geometry"/>
+                    <mxGeometry x="430" y="810" width="260" height="65" as="geometry"/>
                 </mxCell>
                 <mxCell id="73" value="&lt;div style=&quot;text-align: left&quot;&gt;串池中无此字符串时&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;1.8放入的是&lt;b&gt;原对象&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;1.6放入的是&lt;b&gt;复制得到的新对象&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;sketch=1;" parent="1" vertex="1">
-                    <mxGeometry x="720" y="800" width="173" height="55.63" as="geometry"/>
+                    <mxGeometry x="723.61" y="782.18" width="173" height="55.63" as="geometry"/>
                 </mxCell>
                 <mxCell id="78" style="edgeStyle=none;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="76" target="77" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -320,7 +320,7 @@
                     <mxGeometry x="274" y="1630" width="156" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="107" value="&lt;font color=&quot;#6262fc&quot; style=&quot;font-size: 12px&quot;&gt;串池中不存在，先根据short数组创建String实例&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;comic=1;align=left;sketch=1;" parent="1" vertex="1">
-                    <mxGeometry x="274" y="1800" width="138" height="30" as="geometry"/>
+                    <mxGeometry x="274" y="1820" width="138" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="108" value="&lt;font color=&quot;#6262fc&quot; style=&quot;font-size: 12px&quot;&gt;添加字符串实例引用到串池中&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;comic=1;align=left;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="324.5" y="1980" width="165.5" height="20" as="geometry"/>
@@ -328,14 +328,14 @@
                 <mxCell id="109" value="&lt;div style=&quot;color: rgb(56 , 58 , 66) ; background-color: rgb(250 , 250 , 250) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 22px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #e45649&quot;&gt;oop&lt;/span&gt; &lt;span style=&quot;color: #c18401&quot;&gt;StringTable&lt;/span&gt;::&lt;span style=&quot;color: #4078f2&quot;&gt;lookup&lt;/span&gt;(&lt;span style=&quot;color: #a626a4&quot;&gt;int&lt;/span&gt; index, &lt;span style=&quot;color: #c18401&quot;&gt;jchar&lt;/span&gt;&lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt; name,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;int&lt;/span&gt; len, &lt;span style=&quot;color: #a626a4&quot;&gt;unsigned&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;int&lt;/span&gt; hash) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;int&lt;/span&gt; &lt;span style=&quot;color: #e45649&quot;&gt;count&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #986801&quot;&gt;0&lt;/span&gt;;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;for&lt;/span&gt; (&lt;span style=&quot;color: #c18401&quot;&gt;HashtableEntry&lt;/span&gt;&lt;span style=&quot;color: #a626a4&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #e45649&quot;&gt;oop&lt;/span&gt;, &lt;span style=&quot;color: #e45649&quot;&gt;mtSymbol&lt;/span&gt;&lt;span style=&quot;color: #a626a4&quot;&gt;&amp;gt;*&lt;/span&gt; &lt;span style=&quot;color: #e45649&quot;&gt;l&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #4078f2&quot;&gt;bucket&lt;/span&gt;(index); &lt;span style=&quot;color: #e45649&quot;&gt;l&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;!=&lt;/span&gt; &lt;span style=&quot;color: #4078f2&quot;&gt;NULL&lt;/span&gt;; &lt;span style=&quot;color: #e45649&quot;&gt;l&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #e45649&quot;&gt;l&lt;/span&gt;-&amp;gt;&lt;span style=&quot;color: #4078f2&quot;&gt;next&lt;/span&gt;()) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #e45649&quot;&gt;count&lt;/span&gt;&lt;span style=&quot;color: #a626a4&quot;&gt;++&lt;/span&gt;;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;if&lt;/span&gt; (&lt;span style=&quot;color: #e45649&quot;&gt;l&lt;/span&gt;-&amp;gt;&lt;span style=&quot;color: #4078f2&quot;&gt;hash&lt;/span&gt;() &lt;span style=&quot;color: #a626a4&quot;&gt;==&lt;/span&gt; hash) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;if&lt;/span&gt; (&lt;span style=&quot;color: #c18401&quot;&gt;java_lang_String&lt;/span&gt;::&lt;span style=&quot;color: #4078f2&quot;&gt;equals&lt;/span&gt;(&lt;span style=&quot;color: #e45649&quot;&gt;l&lt;/span&gt;-&amp;gt;&lt;span style=&quot;color: #4078f2&quot;&gt;literal&lt;/span&gt;(), name, len)) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;return&lt;/span&gt; &lt;span style=&quot;color: #e45649&quot;&gt;l&lt;/span&gt;-&amp;gt;&lt;span style=&quot;color: #4078f2&quot;&gt;literal&lt;/span&gt;();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #a0a1a7 ; font-style: italic&quot;&gt;&amp;nbsp; ...&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;return&lt;/span&gt; &lt;span style=&quot;color: #4078f2&quot;&gt;NULL&lt;/span&gt;;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="560" y="1470" width="563" height="310" as="geometry"/>
                 </mxCell>
-                <mxCell id="111" value="&lt;font color=&quot;#6262fc&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;根据下标获得桶，遍历桶的每个元素&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;comic=1;align=left;sketch=1;" parent="1" vertex="1">
-                    <mxGeometry x="760" y="1560" width="116" height="30" as="geometry"/>
+                <mxCell id="111" value="&lt;font color=&quot;#6262fc&quot; style=&quot;font-size: 12px&quot;&gt;根据下标获得桶，遍历桶的每个元素&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;comic=1;align=left;sketch=1;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="1560" width="130" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="112" value="&lt;div style=&quot;background-color: rgb(250 , 250 , 250) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 22px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 22px&quot;&gt;&lt;div style=&quot;color: rgb(56 , 58 , 66)&quot;&gt;&lt;span style=&quot;color: #e45649&quot;&gt;oop&lt;/span&gt; &lt;span style=&quot;color: #c18401&quot;&gt;StringTable&lt;/span&gt;::&lt;span style=&quot;color: #4078f2&quot;&gt;basic_add&lt;/span&gt;(&lt;span style=&quot;color: #a626a4&quot;&gt;int&lt;/span&gt; index_arg, &lt;span style=&quot;color: #c18401&quot;&gt;Handle&lt;/span&gt; string, &lt;span style=&quot;color: #c18401&quot;&gt;jchar&lt;/span&gt;&lt;span style=&quot;color: #a626a4&quot;&gt;*&lt;/span&gt; name,&lt;/div&gt;&lt;div style=&quot;color: rgb(56 , 58 , 66)&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;color: #a626a4&quot;&gt;int&lt;/span&gt; len, &lt;span style=&quot;color: #a626a4&quot;&gt;unsigned&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;int&lt;/span&gt; hashValue_arg, &lt;span style=&quot;color: #4078f2&quot;&gt;TRAPS&lt;/span&gt;) {&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#383a42&quot; style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &lt;/font&gt;&lt;font color=&quot;#4078f2&quot; style=&quot;font-size: 12px&quot;&gt;...&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(56 , 58 , 66)&quot;&gt;&amp;nbsp; &lt;span style=&quot;color: #c18401&quot;&gt;HashtableEntry&lt;/span&gt;&lt;span style=&quot;color: #a626a4&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #e45649&quot;&gt;oop&lt;/span&gt;, &lt;span style=&quot;color: #e45649&quot;&gt;mtSymbol&lt;/span&gt;&lt;span style=&quot;color: #a626a4&quot;&gt;&amp;gt;*&lt;/span&gt; &lt;span style=&quot;color: #e45649&quot;&gt;entry&lt;/span&gt; &lt;span style=&quot;color: #a626a4&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #4078f2&quot;&gt;new_entry&lt;/span&gt;(&lt;span style=&quot;color: #e45649&quot;&gt;hashValue&lt;/span&gt;, string());&lt;/div&gt;&lt;div style=&quot;color: rgb(56 , 58 , 66)&quot;&gt;&amp;nbsp; &lt;span style=&quot;color: #4078f2&quot;&gt;add_entry&lt;/span&gt;(&lt;span style=&quot;color: #e45649&quot;&gt;index&lt;/span&gt;, &lt;span style=&quot;color: #e45649&quot;&gt;entry&lt;/span&gt;);&lt;/div&gt;&lt;div style=&quot;color: rgb(56 , 58 , 66)&quot;&gt;&amp;nbsp; &lt;span style=&quot;color: #a626a4&quot;&gt;return&lt;/span&gt; string();&lt;/div&gt;&lt;div style=&quot;color: rgb(56 , 58 , 66)&quot;&gt;}&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="560" y="1790" width="480" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="113" value="&lt;font color=&quot;#6262fc&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;① 创建HashtableEntry&lt;br&gt;② 添加到串池中&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;comic=1;align=left;sketch=1;" parent="1" vertex="1">
-                    <mxGeometry x="748.5" y="1880" width="116" height="30" as="geometry"/>
+                <mxCell id="113" value="&lt;font color=&quot;#6262fc&quot; style=&quot;font-size: 12px&quot;&gt;&lt;span&gt;① 创建HashtableEntry&lt;br&gt;② 添加到串池中&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;comic=1;align=left;sketch=1;" parent="1" vertex="1">
+                    <mxGeometry x="748.5" y="1880" width="131.5" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
