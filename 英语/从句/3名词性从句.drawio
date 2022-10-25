@@ -243,19 +243,19 @@
                     <mxGeometry x="190" y="100" width="95.9" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="84" value="&lt;div style=&quot;text-align: left&quot;&gt;主语从句&lt;/div&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;" vertex="1" parent="1">
-                    <mxGeometry x="360" y="30" width="90" height="30" as="geometry"/>
+                    <mxGeometry x="360" y="20" width="90" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="85" value="&lt;div style=&quot;text-align: left&quot;&gt;宾语从句&lt;/div&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;" vertex="1" parent="1">
-                    <mxGeometry x="360" y="67" width="90" height="30" as="geometry"/>
+                    <mxGeometry x="360" y="60" width="90" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="86" value="&lt;div style=&quot;text-align: left&quot;&gt;主语补足语从句&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;（表语从句）&lt;/div&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;" vertex="1" parent="1">
-                    <mxGeometry x="360.84999999999997" y="142" width="120" height="40" as="geometry"/>
+                    <mxGeometry x="359.99999999999994" y="100" width="120" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="87" value="&lt;div style=&quot;text-align: left&quot;&gt;宾语补足语从句&lt;/div&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;" vertex="1" parent="1">
-                    <mxGeometry x="360.84999999999997" y="105" width="120" height="30" as="geometry"/>
+                    <mxGeometry x="358.53" y="190" width="120" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="88" value="&lt;div style=&quot;text-align: left&quot;&gt;同位语从句&lt;/div&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;" vertex="1" parent="1">
-                    <mxGeometry x="360.84999999999997" y="190" width="94.1" height="30" as="geometry"/>
+                    <mxGeometry x="358.53" y="150" width="94.1" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="93" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="91" target="92">
                     <mxGeometry relative="1" as="geometry"/>
