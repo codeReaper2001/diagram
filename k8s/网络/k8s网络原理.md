@@ -21,7 +21,7 @@ k8s对于任何网络实现均有以下要求:
 
 理想视图下，虚拟机中的网络通信可以看作其直接与ethernet网卡通信
 
-![image-20241231180240141](/Users/kumo/Library/Application Support/typora-user-images/image-20241231180240141.png)、
+![image-20241231180240141](https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/image/image-20241231180240141.png)、
 
 在Linux中，默认情况下，每一个运行的进程都在一个network namespace通信，**此namespace提供了一个逻辑网络栈，拥有其自己的路由表，防火墙规则（netfilter）和网络设备**。本质上，network namespace为此命名空间内所有进程提供了一个全新的网络栈。
 
@@ -77,7 +77,7 @@ default via 10.42.0.1 dev eth0
 
 默认情况下，Linux会将新创建的进程分配到根命名空间以提供其对外部网络的访问：
 
-![image-20241231180315730](/Users/kumo/Library/Application Support/typora-user-images/image-20241231180315730.png)
+![image-20241231180315730](https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/image/image-20241231180315730.png)
 
 ### Pod 网络模型
 
@@ -85,7 +85,7 @@ default via 10.42.0.1 dev eth0
 
 根据上述的分析，其实每个pod通过网络命名空间进行隔离，因此每个pod都是一套独立的逻辑网络栈，有自己的路由表、iptables和网络设备。
 
-![image-20241231180336049](/Users/kumo/Library/Application Support/typora-user-images/image-20241231180336049.png)
+![image-20241231180336049](https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/image/image-20241231180336049.png)
 
 ## Pod 到 Pod 网络
 
@@ -110,17 +110,17 @@ rsyncd-5d9dc67759-gg2dh                    1/1     Running   0          112m    
 
 从 Pod 的角度来看，它存在于自己的以太网命名空间中，需要与同一节点上的其他网络命名空间进行通信。幸运的是，可以使用 Linux[虚拟以太网设备](http://man7.org/linux/man-pages/man4/veth.4.html)或由两个虚拟接口组成的*veth*对连接命名 空间，这些虚拟接口可以分布在多个命名空间中。要连接 Pod 命名空间，我们可以将 veth 对的一侧分配给根网络命名空间，将另一侧分配给 Pod 的网络命名空间。每个 veth 对都像一条跳线一样工作，连接两侧并允许流量在它们之间流动。可以为机器上尽可能多的 Pod 复制此设置。下图显示了将虚拟机上的每个 Pod 连接到根命名空间的 veth 对。
 
-<img src="/Users/kumo/Library/Application Support/typora-user-images/image-20250109171344346.png" alt="image-20250109171344346"  />
+<img src="https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/image/image-20250109171344346.png" alt="image-20250109171344346"  />
 
 此时，我们已将 Pod 设置为各自拥有一个网络命名空间，以便它们相信自己拥有自己的以太网设备和 IP 地址，并且它们已连接到节点的根命名空间。现在，我们希望 Pod 通过根命名空间相互通信，为此我们使用*网桥*。
 
 Linux 以太网桥（bridge）是一种虚拟的第 2 层网络设备，用于将两个或多个网络段连接起来，以透明的方式将两个网络连接在一起。桥的工作原理是，通过检查经过它的数据包的目的地并决定是否将数据包传递到连接到桥的其他网络段，从而维护源和目的地之间的转发表。桥接代码通过查看网络中每个以太网设备独有的 MAC 地址来决定是桥接数据还是丢弃数据。
 
-![image-20250110115613456](/Users/kumo/Library/Application Support/typora-user-images/image-20250110115613456.png)、
+![image-20250110115613456](https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/image/image-20250110115613456.png)、
 
 ### Pod 到 Pod，同一节点
 
-![pod-to-pod-same-node](/Users/kumo/Downloads/pod-to-pod-same-node.gif)
+![pod-to-pod-same-node](https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/image/pod-to-pod-same-node.gif)
 
 首先进入到Pod的网络命名空间：
 
@@ -177,7 +177,7 @@ sysctl -p
 
 ### Pod 到 Pod，跨节点
 
-![pod-to-pod-different-nodes](/Users/kumo/Downloads/pod-to-pod-different-nodes.gif)
+![pod-to-pod-different-nodes](https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/image/pod-to-pod-different-nodes.gif)
 
 跨节点的情况其实也是类似的，此时我们假设目的PodIP为10.42.1.123，上述同一节点中Pod到Pod传递网络包的过程有几处地方有所不同：
 
@@ -221,7 +221,7 @@ Kubernetes 的最新版本 (1.11) 包含第二个集群内负载平衡选项：I
 
 ### Pod 到 Service
 
-![pod-to-service](/Users/kumo/Downloads/pod-to-service.gif)
+![pod-to-service](https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/image/pod-to-service.gif)
 
 从Pod到Service的网络过程和上面的Pod到Pod又会有些不一样的地方，例如我们这里的Service ClusterIP取10.43.199.175为例：
 
@@ -234,7 +234,7 @@ Kubernetes 的最新版本 (1.11) 包含第二个集群内负载平衡选项：I
 
 ### Service 到 Pod
 
-![service-to-pod](/Users/kumo/Downloads/service-to-pod.gif)
+![service-to-pod](https://codereaper-image-bed.oss-cn-shenzhen.aliyuncs.com/image/service-to-pod.gif)
 
 接收此数据包的 Pod 将做出响应，将源 IP 标识为其自己的 IP，将目标 IP 标识为最初发送数据包的 Pod (1)。进入节点后，数据包将流经 iptables，iptables 用于`conntrack`记住其先前做出的选择，并将数据包的源重写为服务的 IP，而不是 Pod 的 IP (2)。从这里，数据包通过网桥流向与 Pod 命名空间配对的虚拟以太网设备 (3)，然后流向我们之前看到的 Pod 的以太网设备 (4)。
 
